@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "design_only",
+  "mod_target": 1085,
+  "quest_target": 3000,
+  "mods": {
+    "Technik": 145,
+    "Bibliotheken": 135,
+    "Exploration": 115,
+    "Magie": 105,
+    "Quality of Life": 95,
+    "Bauen": 95,
+    "Worldgen": 75,
+    "Kampf & RPG": 75,
+    "Landwirtschaft": 65,
+    "Lager & Logistik": 55,
+    "Integration": 55,
+    "Performance": 35,
+    "Audio & Grafik": 35
+  },
+  "quests": {
+    "Einführung & Survival": 150,
+    "Technik & Maschinen": 500,
+    "Magie & Rituale": 350,
+    "Landwirtschaft & Ressourcen": 250,
+    "Erkundung & Dimensionen": 350,
+    "Kampf & Bosse": 250,
+    "Bauwesen & Logistik": 200,
+    "Automation Challenges": 300,
+    "Omega-Endgame": 350,
+    "Nebenquests & Geheimnisse": 300
+  }
+}

@@ -1,0 +1,43 @@
+id,age,title,category,type,scope,dependencies,target,condition,reward,status
+Q001,A01,Willkommen in Omega,Einführung & Survival,manual,team,,Codex,Freiwillige Orientierung lesen,Passender Komfort / Codex-Hinweis,design
+Q002,A01,Ein sicherer Anfang,Einführung & Survival,manual,team,Q001,Arbeitsbereich,Sichere Basis als freiwillige Aufgabe,Passender Komfort / Codex-Hinweis,design
+Q003,A01,Nahrung für morgen,Landwirtschaft & Ressourcen,item,team,Q001,Nahrungsreserve,Kleine erreichbare Anfangsreserve besitzen,Passender Komfort / Codex-Hinweis,design
+Q004,A01,Die erste Platte,Technik & Maschinen,item,team,Q002,Handverarbeitete Kupferplatte,Erste Handcharge ohne mechanische Presse,Passender Komfort / Codex-Hinweis,design
+Q005,A01,Primitive Core,Omega-Endgame,milestone,team,Q003|Q004,omega:primitive_core,Serverseitiger erster Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q006,A02,Wasser bewegt die Welt,Technik & Maschinen,item,team,Q005,Rotationsquelle,Wassergetriebene Mechanik aufbauen,Passender Komfort / Codex-Hinweis,design
+Q007,A02,Form statt Handarbeit,Technik & Maschinen,item,team,Q006,Mechanische Presse,Erste maschinelle Platte erhalten,Passender Komfort / Codex-Hinweis,design
+Q008,A02,Ein klarer Materialweg,Bauwesen & Logistik,manual,team,Q007,Eingang und Ausgang,Freiwillige Erklärung eines Materialflusses,Passender Komfort / Codex-Hinweis,design
+Q009,A02,Eine Linie die selbst läuft,Automation Challenges,delivery,team,Q007,120 Platten,MVP: 120 Platten atomar abgeben; kein Produktionsnachweis,Passender Komfort / Codex-Hinweis,design
+Q010,A02,Mechanical Core,Omega-Endgame,milestone,team,Q008|Q009,omega:mechanical_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q011,A03,Ein belastbares Stromnetz,Technik & Maschinen,item,team,Q010,Generator Kabel Speicher,Elektrisches Basissystem bauen,Passender Komfort / Codex-Hinweis,design
+Q012,A03,Infernal Expedition,Erkundung & Dimensionen,discovery,team,Q011,Nether / Infernal Essence,Hinreise Probe und sichere Rückkehr,Passender Komfort / Codex-Hinweis,design
+Q013,A03,Electrical Core,Omega-Endgame,milestone,team,Q012,omega:electrical_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q014,A04,Zwei Wege der Magie,Magie & Rituale,production,team,Q013,Arcane Binder / Runic Crystal,Zwei freigegebene Magiesysteme nachweisen,Passender Komfort / Codex-Hinweis,design
+Q015,A04,Ancient Titan,Kampf & Bosse,boss,team,Q014,Titan Mastery,Teilnahme und Sieg serverseitig bestätigen,Passender Komfort / Codex-Hinweis,design
+Q016,A04,Arcane Core,Omega-Endgame,milestone,team,Q015,omega:arcane_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q017,A05,Eine lebendige Lieferkette,Landwirtschaft & Ressourcen,production,team,Q016,Bio Matrix,Erneuerbare Farm und Bestäubung integrieren,Passender Komfort / Codex-Hinweis,design
+Q018,A05,Vom Erz zum Bauteil,Technik & Maschinen,production,team,Q016,Industrial Processor,Chemie und Verarbeitung verbinden,Passender Komfort / Codex-Hinweis,design
+Q019,A05,Industrial Core,Omega-Endgame,milestone,team,Q017|Q018,omega:industrial_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q020,A06,Wald Himmel Tiefe,Erkundung & Dimensionen,discovery,team,Q019,Forest Celestial Abyssal Essence,Drei verschiedene Dimensionsrollen nachweisen,Passender Komfort / Codex-Hinweis,design
+Q021,A06,Void Devourer,Kampf & Bosse,boss,team,Q020,Void Mastery,Sieg nach End-Expedition,Passender Komfort / Codex-Hinweis,design
+Q022,A06,Dimensional Core,Omega-Endgame,milestone,team,Q021,omega:dimensional_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q023,A07,Brennstoff hat Folgen,Technik & Maschinen,production,team,Q022,Isotope Kühlung Abfall,Geschlossene Betriebskette bauen,Passender Komfort / Codex-Hinweis,design
+Q024,A07,Kontrollierte Leistung,Automation Challenges,production,team,Q023,Reaktor-Lasttest,Betrieb und sichere Abschaltung nachweisen,Passender Komfort / Codex-Hinweis,design
+Q025,A07,Nuclear Core,Omega-Endgame,milestone,team,Q024,omega:nuclear_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q026,A08,Die Matrix vor dem Stern,Technik & Maschinen,item,team,Q025,Quantum Assembly Matrix Mk I,Maschine vor Omega-Technik bauen,Passender Komfort / Codex-Hinweis,design
+Q027,A08,Fünfzehn Minuten Versorgung,Automation Challenges,production,team,Q026,Drei Ressourcenströme,18000 aktive Ticks; maximal 1200 Ticks Stillstand,Passender Komfort / Codex-Hinweis,design
+Q028,A08,Quantum Core,Omega-Endgame,milestone,team,Q027,omega:quantum_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
+Q029,A09,Unter fremden Sternen,Erkundung & Dimensionen,discovery,team,Q028,Stellar Matter und Reise,Reise Rückkehr und Brennstoffkette,Passender Komfort / Codex-Hinweis,design
+Q030,A09,Astral Warden,Kampf & Bosse,boss,team,Q029,Warden Mastery,Sieg und stellaren Prozess freigeben,Passender Komfort / Codex-Hinweis,design
+Q031,A09,Galactic Core,Omega-Endgame,milestone,team,Q030,omega:galactic_core,Vor-Omega-Array erreichbar,Passender Komfort / Codex-Hinweis,design
+Q032,A10,Sechs Wege ein Stern,Omega-Endgame,milestone,team,Q031,omega:omega_star,Alle sechs Singularitäten und erste Star in Mk I,Passender Komfort / Codex-Hinweis,design
+Q033,A10,Omega Guardian,Kampf & Bosse,boss,team,Q032,Guardian Mastery,Arena nach erster Star; garantierter Nachweis,Passender Komfort / Codex-Hinweis,design
+Q034,A10,Omega Core,Omega-Endgame,milestone,team,Q033,omega:omega_core,Nach Star und Guardian-Sieg,Passender Komfort / Codex-Hinweis,design
+Q035,A11,Fabrik statt Einzelstück,Automation Challenges,production,team,Q034,Omega-Star-Linie,Wiederholbare Sternvorprodukte nachweisen,Passender Komfort / Codex-Hinweis,design
+Q036,A11,Transcendence Star,Omega-Endgame,milestone,team,Q035,omega:transcendence_star,Erste Transcendence Star herstellen,Passender Komfort / Codex-Hinweis,design
+Q037,A11,Transcendence Core,Omega-Endgame,milestone,team,Q036,omega:transcendence_core,Dauerhafte Freigabe nach Sternnachweis,Passender Komfort / Codex-Hinweis,design
+Q038,A12,Infinity Architect,Kampf & Bosse,boss,team,Q037,Architect Seal,Arena ohne Infinity Omega Star betreten und gewinnen,Passender Komfort / Codex-Hinweis,design
+Q039,A12,Infinity Omega Star,Omega-Endgame,milestone,team,Q038,omega:infinity_omega_star,Finalrezept in Infinity Forge,Passender Komfort / Codex-Hinweis,design
+Q040,A12,Infinity Core,Omega-Endgame,milestone,team,Q039,omega:infinity_core,Aktivierung und Infrastrukturtest,Passender Komfort / Codex-Hinweis,design
+Q041,A02,Frische Produktion,Automation Challenges,production,team,Q010,120 neue Platten,2400 aktive Ticks am Produktionsadapter; Altitems zählen nicht,Passender Komfort / Codex-Hinweis,design
+Q042,A12,Ein Denkmal der Reise,Nebenquests & Geheimnisse,manual,team,Q040,Freiwillige Trophäenausstellung,Optionaler kreativer Abschluss; kein Gate,Passender Komfort / Codex-Hinweis,design

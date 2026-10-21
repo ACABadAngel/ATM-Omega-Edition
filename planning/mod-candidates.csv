@@ -1,0 +1,52 @@
+id,name,category,role,admission_route,status,target_minecraft,target_loader,exact_version,source_url,license,redistribution,dependencies,side,test_evidence,fallback
+kubejs,KubeJS,Integration,"Rezepte, Tags, kleine Eventbrücken",native-first,candidate,1.21.1,NeoForge,,,,,,,,Omega-Core-Datenintegration
+ftb_quests,FTB Quests,Quality of Life,Questbuch und Aufgaben,native-first,candidate,1.21.1,NeoForge,,,,,,,,Eigenes Quest-Frontend nur bei begründetem Wechsel
+ftb_library,FTB Library,Bibliotheken,Abhängigkeit falls vom gewählten FTB-Build benötigt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Abhängigkeitsauflösung entscheidet
+ftb_teams,FTB Teams,Bibliotheken,Teamadapter falls vom gewählten FTB-Build benötigt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Versioniertes eigenes Teammodell
+rhino,Rhino,Bibliotheken,Scriptlaufzeit falls vom KubeJS-Build benötigt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Abhängigkeitsauflösung entscheidet
+create,Create,Technik,Mechanischer Einstieg,native-first,candidate,1.21.1,NeoForge,,,,,,,,Eigene mechanische Rollenlösung
+mekanism,Mekanism,Technik,Verarbeitung und Chemie,native-first,candidate,1.21.1,NeoForge,,,,,,,,Industrielle Ersatzrolle
+powah,Powah,Technik,Energiebausteine,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere getestete Generatorlinie
+modern_industrialization,Modern Industrialization,Technik,Industrielle Fertigung,native-first,candidate,1.21.1,NeoForge,,,,,,,,Mekanism oder erlaubter Port
+industrial_foregoing,Industrial Foregoing,Technik,Farm- und Mobautomation,native-first,candidate,1.21.1,NeoForge,,,,,,,,Spezialisierte Farmketten
+ae2,Applied Energistics 2,Lager & Logistik,Primäres Digitallager und Autocrafting,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ein alternatives Digitallager
+modular_routers,Modular Routers,Lager & Logistik,Begrenzte dezentrale Automation,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere getestete Logistik
+xnet,XNet,Lager & Logistik,Mehrmedien-Logistik,native-first,candidate,1.21.1,NeoForge,,,,,,,,Getrennte Item-/Fluidnetze
+ars_nouveau,Ars Nouveau,Magie,Zauber und arkane Automation,native-first,candidate,1.21.1,NeoForge,,,,,,,,Arkaner Pfad mit erlaubtem Port
+botania,Botania,Magie,Mana und magische Logistik,native-first,candidate,1.21.1,NeoForge,,,,,,,,Gleichwertiger Magiepfad
+occultism,Occultism,Magie,Rituale und Beschwörung,native-first,candidate,1.21.1,NeoForge,,,,,,,,Eigene Ritualintegration
+blood_magic,Blood Magic,Magie,Rituale und Lebensenergie,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ergänzende Magierolle
+apotheosis,Apotheosis,Kampf & RPG,Ausrüstung und Lootsystem,native-first,candidate,1.21.1,NeoForge,,,,,,,,Getestetes RPG-Lootsystem
+twilight_forest,The Twilight Forest,Exploration,Waldwelt und Bossfolge,native-first,candidate,1.21.1,NeoForge,,,,,,,,Fantasy-Waldrolle
+aether,The Aether,Exploration,Himmel und Celestial Essence,native-first,candidate,1.21.1,NeoForge,,,,,,,,Himmel-Expeditionsrolle
+blue_skies,Blue Skies,Exploration,Zwei Fantasy-Dimensionsrollen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Zwei eigenständige Expeditionswelten
+deeper_darker,Deeper and Darker,Exploration,Tiefe und Abyssal Essence,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ancient-Tiefenrolle
+cataclysm,L_Ender's Cataclysm,Kampf & RPG,Späte Bossbegegnungen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere eigenständige Bossmechaniken
+mowzies_mobs,Mowzie's Mobs,Kampf & RPG,Telegraphierte Bosskämpfe,native-first,candidate,1.21.1,NeoForge,,,,,,,,Vergleichbare lesbare Begegnungen
+mystical_agriculture,Mystical Agriculture,Landwirtschaft,Gestufte Ressourcenpflanzen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Erneuerbarer Farmingpfad
+productive_bees,Productive Bees,Landwirtschaft,Bestäubung und Bio-Ressourcen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Gleichwertiger Bestäuberpfad
+farmers_delight,Farmer's Delight,Landwirtschaft,Nahrung und Landwirtschaft,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere geprüfte Nahrungskette
+chipped,Chipped,Bauen,Dekorationsvielfalt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Weglassen oder anderer Baukatalog
+framedblocks,FramedBlocks,Bauen,Flexible Formblöcke,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere Formbausteine
+supplementaries,Supplementaries,Bauen,Bau- und Utilityblöcke,native-first,candidate,1.21.1,NeoForge,,,,,,,,Weglassen oder gezielter Ersatz
+terralith,Terralith,Worldgen,Biom-/Terrainvielfalt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ein kompatibles Terrainprofil
+tectonic,Tectonic,Worldgen,Terrainform,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ein kompatibles Terrainprofil
+ad_astra,Ad Astra,Exploration,Kosmische Reisen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Eigene Expeditionswelten zunächst ohne Raketen
+silent_gear,Silent Gear,Kampf & RPG,Modulare Werkzeuge,native-first,candidate,1.21.1,NeoForge,,,,,,,,Andere gestufte Ausrüstung
+curios,Curios API,Bibliotheken,Ausrüstungsslots falls von Builds benötigt,native-first,candidate,1.21.1,NeoForge,,,,,,,,Abhängigkeiten entscheiden
+modernfix,ModernFix,Performance,Messbare Laufzeit-/Speicherverbesserung,native-first,candidate,1.21.1,NeoForge,,,,,,,,Nur bei nachgewiesenem Nutzen aufnehmen
+ferritecore,FerriteCore,Performance,Speicheroptimierung,native-first,candidate,1.21.1,NeoForge,,,,,,,,Nur bei nachgewiesenem Nutzen aufnehmen
+sodium,Sodium / kompatibler Renderer,Performance,Primärer Clientrenderer,native-first,candidate,1.21.1,NeoForge,,,,,,,,Ein kompatibler Renderer ohne Konkurrenzstack
+jei,Just Enough Items,Quality of Life,Rezeptanzeige-Kandidat,native-first,candidate,1.21.1,NeoForge,,,,,,,,EMI nach Vergleich
+emi,EMI,Quality of Life,Alternativer Rezeptviewer-Kandidat,native-first,candidate,1.21.1,NeoForge,,,,,,,,JEI nach Vergleich
+spark,spark,Performance,Profiling und Evidenz,native-first,candidate,1.21.1,NeoForge,,,,,,,,Anderer überprüfter Profiler
+connector,Sinytra Connector,Integration,Gezielte Fabric-Kompatibilität,native-first,candidate,1.21.1,NeoForge,,,,,,,,Nativer Build oder isolierter Port
+witchery,Witchery,Magie,Historischer Magiepfad,port-assessment,candidate,1.21.1,NeoForge,,,,,,,,Autorisierte Fortsetzung oder unabhängige Rollenlösung
+thaumcraft4,Thaumcraft 4,Magie,Forschung und historische Magie,port-assessment,candidate,1.21.1,NeoForge,,,,,,,,Autorisierte Fortsetzung oder unabhängige Rollenlösung
+rotarycraft,RotaryCraft,Technik,Historische Mechanik,port-assessment,candidate,1.21.1,NeoForge,,,,,,,,Autorisierte Fortsetzung oder unabhängige Rollenlösung
+draconic_evolution,Draconic Evolution,Technik,Hochenergie und Endgame,native-first,candidate,1.21.1,NeoForge,,,,,,,,Offizieller passender Build vor Eigenport
+astral_sorcery,Astral Sorcery,Magie,Astrale Magie,native-first,candidate,1.21.1,NeoForge,,,,,,,,Autorisierter Port oder astrale Ersatzrolle
+ender_io,Ender IO,Technik,Logistik und Maschinen,native-first,candidate,1.21.1,NeoForge,,,,,,,,Offizieller passender Build vor Eigenport
+ice_fire,Ice and Fire,Kampf & RPG,Kreaturen und Bosse,native-first,candidate,1.21.1,NeoForge,,,,,,,,Erlaubter Port oder andere Begegnungen
+eidolon,Eidolon,Magie,Historische Ritualrolle,native-first,candidate,1.21.1,NeoForge,,,,,,,,Autorisierte Fortsetzung oder Ersatz
+tinkers_construct,Tinkers' Construct,Technik,Werkstoffe und Werkzeuge,native-first,candidate,1.21.1,NeoForge,,,,,,,,Erlaubter Port oder modulare Ersatzrolle

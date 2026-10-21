@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "kind": "design_only",
+  "ages": [
+    {
+      "id": "A01",
+      "key": "primitive",
+      "name": "Primitive Age",
+      "prerequisites": [],
+      "milestone": "omega:primitive_core",
+      "goal": "Handstart, Nahrung und erste Werkstoffe"
+    },
+    {
+      "id": "A02",
+      "key": "mechanical",
+      "name": "Mechanical Age",
+      "prerequisites": [
+        "A01"
+      ],
+      "milestone": "omega:mechanical_core",
+      "goal": "Rotation und erste vollautomatische Linie"
+    },
+    {
+      "id": "A03",
+      "key": "electrical",
+      "name": "Electrical Age",
+      "prerequisites": [
+        "A02"
+      ],
+      "milestone": "omega:electrical_core",
+      "goal": "Strom, Speicher und Infernal Essence"
+    },
+    {
+      "id": "A04",
+      "key": "arcane",
+      "name": "Arcane Age",
+      "prerequisites": [
+        "A03"
+      ],
+      "milestone": "omega:arcane_core",
+      "goal": "Ergänzende Magiesysteme und Titan-Nachweis"
+    },
+    {
+      "id": "A05",
+      "key": "industrial",
+      "name": "Industrial Age",
+      "prerequisites": [
+        "A04"
+      ],
+      "milestone": "omega:industrial_core",
+      "goal": "Chemie, Biology und digitale Lagerung"
+    },
+    {
+      "id": "A06",
+      "key": "dimensional",
+      "name": "Dimensional Age",
+      "prerequisites": [
+        "A05"
+      ],
+      "milestone": "omega:dimensional_core",
+      "goal": "Entdeckungen, Essenzen und Devourer-Nachweis"
+    },
+    {
+      "id": "A07",
+      "key": "nuclear",
+      "name": "Nuclear Age",
+      "prerequisites": [
+        "A06"
+      ],
+      "milestone": "omega:nuclear_core",
+      "goal": "Brennstoff, Kühlung und Abfallpfad"
+    },
+    {
+      "id": "A08",
+      "key": "quantum",
+      "name": "Quantum Age",
+      "prerequisites": [
+        "A07"
+      ],
+      "milestone": "omega:quantum_core",
+      "goal": "Matrix Mk I und Quantenschaltungen"
+    },
+    {
+      "id": "A09",
+      "key": "galactic",
+      "name": "Galactic Age",
+      "prerequisites": [
+        "A08"
+      ],
+      "milestone": "omega:galactic_core",
+      "goal": "Stellar Matter, Array und Warden-Nachweis"
+    },
+    {
+      "id": "A10",
+      "key": "omega",
+      "name": "Omega Age",
+      "prerequisites": [
+        "A09"
+      ],
+      "milestone": "omega:omega_core",
+      "goal": "Erste Omega Star und Guardian-Nachweis"
+    },
+    {
+      "id": "A11",
+      "key": "transcendence",
+      "name": "Transcendence Age",
+      "prerequisites": [
+        "A10"
+      ],
+      "milestone": "omega:transcendence_core",
+      "goal": "Transcendence Star und Meisterungen"
+    },
+    {
+      "id": "A12",
+      "key": "infinity",
+      "name": "Infinity Age",
+      "prerequisites": [
+        "A11"
+      ],
+      "milestone": "omega:infinity_core",
+      "goal": "Architect, Infinity Omega Star und finales System"
+    }
+  ],
+  "optional_epilogue": {
+    "id": "A13",
+    "name": "Legacy Ascension",
+    "requires": "A12",
+    "milestone": "omega:eternal_omega_core",
+    "enabled": false
+  }
+}

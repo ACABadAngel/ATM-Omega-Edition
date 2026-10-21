@@ -1,0 +1,16 @@
+name: Validate planning data
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  planning:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate documentation and planning consistency
+        run: python3 tools/validate_plan.py

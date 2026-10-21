@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "kind": "design_only",
+  "ticks_per_second": 20,
+  "singularities": [
+    "omega:technological_singularity",
+    "omega:arcane_singularity",
+    "omega:dimensional_singularity",
+    "omega:biological_singularity",
+    "omega:quantum_singularity",
+    "omega:boss_soul_singularity"
+  ],
+  "recipes": [
+    {
+      "id": "omega:omega_star",
+      "machine": "Quantum Assembly Matrix Mk I",
+      "age": "A10",
+      "inputs": {
+        "omega:technological_singularity": 1,
+        "omega:arcane_singularity": 1,
+        "omega:dimensional_singularity": 1,
+        "omega:biological_singularity": 1,
+        "omega:quantum_singularity": 1,
+        "omega:boss_soul_singularity": 1,
+        "omega:omega_catalyst": 4,
+        "omega:stellar_matter": 16
+      },
+      "energy_fe": 10000000000000,
+      "duration_ticks": 12000
+    },
+    {
+      "id": "omega:transcendence_star",
+      "machine": "Quantum Assembly Matrix Mk II",
+      "age": "A11",
+      "inputs": {
+        "omega:omega_star": 8,
+        "omega:technological_singularity": 4,
+        "omega:arcane_singularity": 4,
+        "omega:dimensional_singularity": 4,
+        "omega:biological_singularity": 4,
+        "omega:quantum_singularity": 4,
+        "omega:boss_soul_singularity": 4,
+        "omega:ascension_matrix": 16,
+        "omega:guardian_fragment": 32,
+        "omega:transcendent_matter": 64
+      },
+      "energy_fe": 80000000000000,
+      "duration_ticks": 24000
+    },
+    {
+      "id": "omega:infinity_omega_star",
+      "machine": "Infinity Forge",
+      "age": "A12",
+      "inputs": {
+        "omega:transcendence_star": 8,
+        "omega:omega_star": 64,
+        "omega:infinity_lattice": 16,
+        "omega:architect_seal": 1,
+        "omega:unified_essence": 64
+      },
+      "energy_fe": 640000000000000,
+      "duration_ticks": 36000
+    }
+  ],
+  "bootstrap": {
+    "pre_omega_array_net_fe_per_tick": 100000000,
+    "array_count_for_first_star": 9,
+    "omega_reactor_requires": "omega:omega_star",
+    "architect_arena_requires": "omega:transcendence_star"
+  },
+  "derived_targets": {
+    "omega_stars_for_first_infinity": 128,
+    "total_star_recipe_energy_fe": 2560000000000000
+  }
+}
