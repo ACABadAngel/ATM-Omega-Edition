@@ -7,6 +7,7 @@ Stand: 2026-10-21.
 | Originalplan übernommen | done | [Vorlage](docs/source/original-plan.txt) |
 | Ausgearbeitete Systemspezifikation | done | [Dokumentübersicht](README.md) |
 | Claude-Übergabe und priorisierter Backlog | done | [CLAUDE.md](CLAUDE.md), [Backlog](docs/backlog.md) |
+| Vollständige aktuell benannte Mod-Wunschliste | done | [MODLIST.md](MODLIST.md): 473 Projekte mit Quellen, Rollen, Alternativen und bedingten Abhängigkeiten |
 | Maschinenlesbare Planungsdaten und Prüfung | lokal geprüft | [Validator](tools/validate_plan.py): Summen, Graphen, Sternarithmetik und Links; Fehlerfälle zusätzlich geprüft |
 | Exakte Loader-/Modversionen | not_started | FND-01 / MOD-01 |
 | Installierbarer Client / Dedicated Server | not_started | FND-02 |

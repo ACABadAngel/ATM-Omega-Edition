@@ -11,7 +11,7 @@ Die vollständige Quelle steht unter `docs/source/original-plan.txt`. Die ausgea
 ## Lesereihenfolge
 
 1. `STATUS.md`, `docs/masterplan.md`, `docs/decisions.md`.
-2. `docs/architecture.md`, `docs/mod-selection.md`, `docs/quality.md`.
+2. `docs/architecture.md`, `docs/mod-selection.md`, `MODLIST.md`, `docs/quality.md`.
 3. `docs/progression.md`, `docs/endgame.md`, `docs/omega-systems.md`.
 4. `docs/quests.md`, `docs/worlds-and-bosses.md`, `docs/balancing.md`.
 5. `docs/roadmap.md`, `docs/backlog.md`, `planning/`.
@@ -46,6 +46,8 @@ Wenn Launcher, Grafikausgabe, Downloadrechte oder eine Java-Laufzeit fehlen, lie
 - Wähle ein klar begrenztes Backlog-Paket und prüfe dessen Voraussetzungen. Bearbeite notwendige vorbereitende Schritte eigenständig.
 - Implementiere kleine vertikale Abschnitte mit tatsächlichem Spielnutzen; erzeuge keine 3.000 generischen Quests oder 1.000 leeren Modzeilen zur Erfüllung einer Zahl.
 - Neue Mods in Batches von 5–15 aufnehmen, einschließlich neu eingeführter transitiver Abhängigkeiten. Worldgen, Renderer und große Ports separat integrieren.
+- `MODLIST.md` ist die vollständige aktuell benannte Wunschliste, erzeugt aus `planning/mod-candidates.csv`. Kernwünsche sind bevorzugte Rollen, keine Testfreigabe. Bibliotheken nur bei tatsächlichem Bedarf aufnehmen; Alternativzweige wie Refined Storage und AE2 nicht blind gemeinsam installieren. `parent_candidates` sind Designbeziehungen, keine verifizierten Loader-Abhängigkeiten.
+- Kandidaten zuerst in der CSV bearbeiten und danach `python3 tools/render_modlist.py` ausführen. Projektnamen und Links belegen keine 1.21.1-/NeoForge-Kompatibilität. `own-development` bezeichnet die geplante eigene Omega-Core-Mod.
 - Prüfe alternative Erwerbswege: Loot, Trades, Recycling, Saatgut, Bienen, EMC-ähnliche Systeme, Dimensionsabbau und Dungeon-Belohnungen dürfen Gates nicht umgehen.
 - Vor jedem Haupt-Gate muss dessen eigene Herstellungsmaschine erreichbar sein. Omega Star darf nicht den Omega Reactor für ihren ersten Craft benötigen; Infinity Architect darf nicht den Infinity Omega Star zum Betreten seiner Arena verlangen.
 - Halte Planung und Laufzeitdaten konsistent. Aktualisiere `planning/ages.json`, `planning/endgame.json` und `planning/quest-samples.csv`, wenn sich die zugehörigen Regeln ändern.

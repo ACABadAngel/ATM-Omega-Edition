@@ -4,6 +4,8 @@
 
 `python3 tools/validate_plan.py` validiert Planungsdateien, Summen, IDs, Voraussetzungen, zyklusfreie Beispielgraphen, Sternarithmetik und lokale Markdownziele. GitHub Actions führt genau diese Prüfung aus. Es lädt keine Mods und startet keinen Minecraft-Server. Der vollständige spätere Rezeptgraph kann erst nach realer Modauflösung geprüft werden.
 
+Für die Mod-Wunschliste prüft derselbe Lauf außerdem eindeutige Projektlinks, Auswahl-/Quellenstufen, bedingte Bibliotheken, Elternkandidaten und die exakte Übereinstimmung von `MODLIST.md` mit der kanonischen CSV. `python3 tools/render_modlist.py --check` prüft die erzeugte Liste separat. Diese Identitäts- und Datenprüfungen ersetzen keine Versionsauflösung oder Modstarts.
+
 ## Reproduzierbare Testevidenz
 
 Jeder Lauf enthält Packcommit/Lockhash, Loader-/Java-/Modversionen, Betriebssystem, CPU, RAM, Heap, Datenträger, Spielerzahl, Seed, Sicht-/Simulationsdistanz, Chunkloading, Dauer, Befehle, Ergebnis und bereinigte Logs. Keine Tokens, privaten IP-Adressen oder komplette personenbezogene Logsammlungen veröffentlichen.

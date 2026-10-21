@@ -24,6 +24,8 @@ Alle Zahlen beschreiben Ziele, keine getesteten Eigenschaften. Die Modanzahl wir
 
 Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** lesen und mit Aufgabe `FND-01` aus dem [Backlog](docs/backlog.md) beginnen. Die erste spielbare Lieferung ist ein kurzer Survival→Mechanical-Abschnitt; danach folgt eine vollständige, zunächst komprimierte Kette bis zur ersten Omega Star.
 
+Die **[vollständige aktuelle Mod-Wunschliste](MODLIST.md)** enthält 473 benannte Projekte einschließlich Alternativen, bedingter Bibliotheken und der eigenen Omega-Core-Mod. Jedes Projekt hat einen Link, einen Zweck, eine Aufnahmephase und eine Auswahlkennzeichnung. Der Ausbau auf 1.000+ bleibt ein langfristiges Ziel; die Wunschliste behauptet keine bereits getestete Installation.
+
 | Dokument | Inhalt |
 | --- | --- |
 | [Masterplan](docs/masterplan.md) | Umfang, Leitlinien, Spielablauf, Prioritäten und Entscheidungen |
@@ -34,6 +36,7 @@ Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** lesen und mit Aufgabe `
 | [Dimensionen & Bosse](docs/worlds-and-bosses.md) | Expeditionsrollen, Arenen und fünf eigene Bossentwürfe |
 | [Quests](docs/quests.md) | 3.000er-Budget, Kapitelstruktur und ausführbare spätere Nachweise |
 | [Mod-Auswahl](docs/mod-selection.md) | Kategorienbudget, Kandidaten und Aufnahmeverfahren |
+| [Vollständige Mod-Wunschliste](MODLIST.md) | Alle 473 aktuell benannten Projekte, Zwecke, Quellen und Auswahlregeln |
 | [Legacy-Portierung](docs/legacy-porting.md) | Ports, Quellcode, Abhängigkeiten und Testmatrix |
 | [Architektur](docs/architecture.md) | Ordner, Zuständigkeiten, Daten und Versionierung |
 | [Balancing](docs/balancing.md) | Automationsraten, Abkürzungen, Multiplayer und Ökonomie |
@@ -53,5 +56,7 @@ python3 tools/validate_plan.py
 ```
 
 Unter Windows kann alternativ `py -3 tools/validate_plan.py` verwendet werden. Die Prüfung benötigt nur die Python-Standardbibliothek und wird auch in GitHub Actions ausgeführt. Sie prüft Summen, Referenzen, Progressionszyklen, Rezeptarithmetik und interne Markdown-Links. Ein erfolgreicher Lauf belegt keine Spielkompatibilität.
+
+Die Modliste wird aus `planning/mod-candidates.csv` erzeugt: nach Änderungen `python3 tools/render_modlist.py` ausführen. Der Validator prüft auch Projektduplikate, Elternreferenzen und die Übereinstimmung zwischen CSV und sichtbarer Wunschliste.
 
 Die eigentlichen Pack-Ordner und das Java-Projekt werden erst mit verifizierten Toolchain- und Modversionen angelegt. Der aktuelle Implementierungsstand steht in [STATUS.md](STATUS.md).

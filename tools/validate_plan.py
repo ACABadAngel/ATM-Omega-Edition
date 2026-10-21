@@ -9,6 +9,8 @@ from fractions import Fraction
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
+from render_modlist import EVIDENCE, PHASES, SELECTIONS, render
+
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS = []
 
@@ -82,7 +84,9 @@ def validate():
     require(epilogue['id'] not in age_index, 'epilogue must be separate from the main path')
 
     mods = read_csv('mod-candidates.csv')
-    index_by_id(mods, 'mod candidates')
+    mod_index = index_by_id(mods, 'mod candidates')
+    project_urls = [row['project_url'].rstrip('/') for row in mods]
+    require(len(project_urls) == len(set(project_urls)), 'mod candidates: duplicate project identity')
     valid_statuses = {'candidate', 'source_checked', 'resolved', 'compiled', 'isolated_tested',
                       'integrated_tested', 'approved', 'blocked', 'rejected'}
     provenance = ('exact_version', 'source_url', 'license', 'redistribution',
@@ -91,14 +95,36 @@ def validate():
         label = f"mod {row['id']}"
         require(row['category'] in budgets['mods'], f'{label}: unknown category')
         require(row['status'] in valid_statuses, f'{label}: unknown status')
-        require(row['admission_route'] in {'native-first', 'port-assessment'}, f'{label}: invalid route')
+        require(row['admission_route'] in {'native-first', 'port-assessment', 'own-development'}, f'{label}: invalid route')
         require(bool(row['role'] and row['fallback']), f'{label}: missing role or fallback')
+        require(row['selection'] in SELECTIONS, f'{label}: invalid selection')
+        require(row['phase'] in PHASES, f'{label}: invalid phase')
+        require(row['priority'] in {'P0', 'P1', 'P2', 'P3', 'conditional'}, f'{label}: invalid priority')
+        require(row['evidence_level'] in EVIDENCE, f'{label}: invalid identity-evidence level')
+        require(row['project_url'].startswith('https://'), f'{label}: missing HTTPS project URL')
+        require(row['choice_group'] in {'', 'primary_storage', 'recipe_viewer', 'renderer', 'pack_menu',
+                                       'ice_fire_distribution', 'harvest_input', 'inventory_sorting',
+                                       'multiblock_recipe_platform'}, f'{label}: unknown choice group')
+        if row['selection'] == 'custom':
+            require(row['admission_route'] == 'own-development', f'{label}: custom project needs own-development route')
+        else:
+            require(row['admission_route'] != 'own-development', f'{label}: own-development must be custom')
+            require(row['catalog_source'].startswith('https://'), f'{label}: missing identity source')
+        if row['selection'] == 'dependency':
+            require(row['category'] == 'Bibliotheken' and row['priority'] == 'conditional',
+                    f'{label}: dependency must be conditional library')
+        for parent in filter(None, row['parent_candidates'].split('|')):
+            require(parent in mod_index and parent != row['id'], f'{label}: invalid parent candidate {parent}')
         require(row['target_minecraft'] == '1.21.1' and row['target_loader'] == 'NeoForge',
                 f'{label}: baseline changed without updating validation policy')
         if row['status'] == 'approved':
             for field in provenance:
                 require(bool(row[field].strip()), f'{label}: approved without {field}')
             require(row['side'] in {'client', 'server', 'both'}, f'{label}: invalid approved side')
+
+    if not ERRORS:
+        require((ROOT / 'MODLIST.md').read_text(encoding='utf-8') == render(mods, budgets),
+                'MODLIST.md differs from candidate CSV; run python3 tools/render_modlist.py')
 
     quests = read_csv('quest-samples.csv')
     quest_index = index_by_id(quests, 'quest samples')

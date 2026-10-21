@@ -1,5 +1,7 @@
 # Mod-Auswahl und Kompatibilität
 
+Die komplette aktuell benannte Auswahl steht in **[MODLIST.md](../MODLIST.md)**: 473 Projekte mit Zweck, Projektlink, Auswahl, Priorität und Aufnahmephase. Enthalten sind 472 externe Kandidaten und eine geplante Eigenentwicklung. Dazu gehören auch Alternativzweige und nur bedingt benötigte Bibliotheken; die Zahl beschreibt keine gemeinsame getestete Installation. Für das langfristige 1.000+-Ziel werden weitere echte Projekte anhand freier Rollen ausgewählt.
+
 ## Kategorienbudget: 1.085 Projekte
 
 | Primärkategorie | Budget | Rolle |
@@ -23,11 +25,11 @@ Das Budget ist keine Einkaufsliste. Gerade 35 Performance- oder 75 Worldgen-Proj
 
 ## Drei getrennte Register
 
-1. `planning/mod-candidates.csv`: Ideen, Portkandidaten und vorgeschlagene Rollen. Die vorbefüllten Zeilen sind **nicht verifiziert** und enthalten bewusst keine erfundenen Versionen.
+1. `planning/mod-candidates.csv`: Ideen, Portkandidaten und vorgeschlagene Rollen. Die Projektidentitäten/Links sind recherchiert; genaue Versionen, Rechte, Abhängigkeiten und Laufzeitkompatibilität sind **noch nicht freigegeben**. Daraus wird die sichtbare `MODLIST.md` erzeugt.
 2. Installiertes Manifest/Lockfile: erst nach `FND-02`; enthält genaue Projekt-/Datei-IDs, Versionen, Hashes und Client-/Serverseite. Dieses erzeugt das Pack.
 3. Testevidenz/Freigaberegister: konkreter Lock-Stand, Testfälle, Ergebnis und Datum. Nur dieses rechtfertigt `approved`.
 
-Pflichtfelder der Kandidaten: stabile ID, Name, Kategorie, Rolle, Aufnahmepfad (`native-first` oder `port-assessment`), Status, Minecraft, Loader, genaue Version, Quellcode, Lizenz, Verteilrecht, Abhängigkeiten, Seite, Testevidenz und Ersatzrolle. Leere Werte sind offene Arbeit, keine implizite Zustimmung.
+Pflichtfelder der Kandidaten: stabile ID, Name, Kategorie, Rolle, Aufnahmepfad (`native-first`, `port-assessment` oder `own-development`), Status, Minecraft, Loader, genaue Version, Quellcode, Lizenz, Verteilrecht, Abhängigkeiten, Seite, Testevidenz und Ersatzrolle. Hinzu kommen Auswahl, Priorität, Aufnahmephase, Entscheidungsgruppe, Elternkandidaten, Projektlink und Quellenstufe. Leere Versions-/Rechte-/Testfelder sind offene Arbeit, keine implizite Zustimmung.
 
 ## Vorgeschlagene Kernrollen
 
@@ -50,7 +52,9 @@ Pflichtfelder der Kandidaten: stabile ID, Name, Kategorie, Rolle, Aufnahmepfad (
 | Rezeptanzeige | JEI oder EMI | Eine primäre Lösung, alle wichtigen Rezeptarten sichtbar |
 | Profiling | spark oder geeigneter Profiler | Reproduzierbare Tick-/Speichermessung |
 
-Die Macaw-Reihe wird im Kandidatenregister zunächst als Auswahlaufgabe geführt und zählt nicht als ein bereits ausgewählter konkreter Mod. Gleiches gilt für nicht benannte Bibliotheken, Add-ons und Biommods. Sie dürfen nicht als erledigte Modslots zählen.
+Die Macaw-Reihe ist jetzt mit zehn konkret benannten Bauprojekten eingetragen. Auch weitere Add-ons und Bibliotheken besitzen Einzelzeilen. Unbenannte zukünftige Projekte bleiben offene Budgetplätze und werden nicht als erledigte Modslots gezählt. Ein Mod-/Datapack-Paar desselben Projekts zählt nur einmal.
+
+Ein beobachteter Eintrag im offiziellen ATM-Projektverzeichnis dient zur Identitätsrecherche. Er belegt weder den aktuellen Inhalt einer ATM-Veröffentlichung noch eine Freigabe für unser eigenes Pack. Alle 473 Einträge bleiben in diesem Stand `candidate`. Renderer-, Lager- und Menüalternativen werden vor dem Lockfile aufgelöst. Bedingte Bibliotheken werden nur mit tatsächlicher Pflichtabhängigkeit aufgenommen.
 
 ## Aufnahmeverfahren
 
