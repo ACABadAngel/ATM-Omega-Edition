@@ -38,7 +38,8 @@
         "A03"
       ],
       "milestone": "omega:arcane_core",
-      "goal": "Ergänzende Magiesysteme und Titan-Nachweis"
+      "goal": "Ergänzende Magiesysteme und Titan-Nachweis",
+      "alpha_implementation": "0.3.0-alpha.1: Ars Nouveau + Occultism; Wilden Chimera als vorläufige Titan-Rolle, kein eigener Omega-Titan und kein geschützter Mastery-Nachweis"
     },
     {
       "id": "A05",

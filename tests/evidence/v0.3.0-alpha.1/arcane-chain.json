@@ -1,0 +1,367 @@
+{
+	"success": true,
+	"failure": "",
+	"checks": [
+		"Third real FTB chapter imports all 16 arcane quests",
+		"Registered omega:runic_crystal",
+		"Registered omega:arcane_binder",
+		"Registered omega:arcane_core",
+		"Quest item resolves ars_nouveau:novice_spell_book",
+		"Quest item resolves ars_nouveau:purple_archwood_log",
+		"Quest item resolves ars_nouveau:imbuement_chamber",
+		"Quest item resolves ars_nouveau:source_gem",
+		"Quest item resolves occultism:datura_seeds",
+		"Quest item resolves occultism:otherstone",
+		"Quest item resolves occultism:spirit_attuned_gem",
+		"Quest item resolves occultism:golden_sacrificial_bowl",
+		"Quest item resolves ars_nouveau:volcanic_sourcelink",
+		"Quest item resolves ars_nouveau:source_jar",
+		"Quest item resolves ars_nouveau:enchanting_apparatus",
+		"Quest item resolves ars_nouveau:arcane_core",
+		"Quest item resolves ars_nouveau:arcane_pedestal",
+		"Quest item resolves omega:runic_crystal",
+		"Quest item resolves omega:arcane_binder",
+		"Quest item resolves ars_nouveau:ritual_brazier",
+		"Quest item resolves ars_nouveau:ritual_wilden_summon",
+		"Quest item resolves ars_nouveau:wilden_spike",
+		"Quest item resolves ars_nouveau:wilden_horn",
+		"Quest item resolves ars_nouveau:wilden_wing",
+		"Quest item resolves ars_nouveau:wilden_tribute",
+		"Quest item resolves omega:arcane_core",
+		"Exactly one craft for ars_nouveau:enchanting_apparatus",
+		"Correct crafting output ars_nouveau:enchanting_apparatus",
+		"Exactly one craft for occultism:golden_sacrificial_bowl",
+		"Correct crafting output occultism:golden_sacrificial_bowl",
+		"Old golden bowl bypass removed",
+		"Exactly one craft for occultism:dark_golden_sacrificial_bowl",
+		"Correct crafting output occultism:dark_golden_sacrificial_bowl",
+		"Old dark_golden bowl bypass removed",
+		"Exactly one craft for omega:arcane_core",
+		"Correct crafting output omega:arcane_core",
+		"Native apparatus crafting bypass removed",
+		"Native KillTask requires one boss",
+		"Native registered boss entity constructs successfully",
+		"Boss kill starts at zero",
+		"Unrelated zombie does not satisfy boss task",
+		"Correct native boss increments KillTask",
+		"Completed kill task does not double count",
+		"Native apparatus starts binder 1",
+		"Apparatus consumes exactly 1000 generated source",
+		"Apparatus consumes all eight pedestal ingredients for binder 1",
+		"Native apparatus starts binder 2",
+		"Apparatus consumes exactly 1000 generated source",
+		"Apparatus consumes all eight pedestal ingredients for binder 2",
+		"Real chamber makes Runic Crystal",
+		"Both imbuement catalysts remain reusable",
+		"Native lapis bootstrap works via passive chamber source",
+		"Both jars received real generated source",
+		"Volcanic links consume test fuel",
+		"Real Spirit Fire converts andesite and diamond into both occult materials"
+	],
+	"elapsed_ticks": 1200,
+	"binder_outputs": 2,
+	"jar_samples": [
+		{
+			"tick": 20,
+			"runic": 0,
+			"apparatus": 0
+		},
+		{
+			"tick": 40,
+			"runic": 0,
+			"apparatus": 0
+		},
+		{
+			"tick": 60,
+			"runic": 0,
+			"apparatus": 0
+		},
+		{
+			"tick": 80,
+			"runic": 0,
+			"apparatus": 0
+		},
+		{
+			"tick": 100,
+			"runic": 1333,
+			"apparatus": 1333
+		},
+		{
+			"tick": 120,
+			"runic": 1133,
+			"apparatus": 1333
+		},
+		{
+			"tick": 140,
+			"runic": 933,
+			"apparatus": 1333
+		},
+		{
+			"tick": 160,
+			"runic": 733,
+			"apparatus": 1333
+		},
+		{
+			"tick": 180,
+			"runic": 733,
+			"apparatus": 1333
+		},
+		{
+			"tick": 200,
+			"runic": 733,
+			"apparatus": 1333
+		},
+		{
+			"tick": 220,
+			"runic": 733,
+			"apparatus": 333
+		},
+		{
+			"tick": 240,
+			"runic": 733,
+			"apparatus": 333
+		},
+		{
+			"tick": 260,
+			"runic": 733,
+			"apparatus": 333
+		},
+		{
+			"tick": 280,
+			"runic": 733,
+			"apparatus": 333
+		},
+		{
+			"tick": 300,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 320,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 340,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 360,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 380,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 400,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 420,
+			"runic": 2066,
+			"apparatus": 1666
+		},
+		{
+			"tick": 440,
+			"runic": 2066,
+			"apparatus": 666
+		},
+		{
+			"tick": 460,
+			"runic": 2066,
+			"apparatus": 666
+		},
+		{
+			"tick": 480,
+			"runic": 2066,
+			"apparatus": 666
+		},
+		{
+			"tick": 500,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 520,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 540,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 560,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 580,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 600,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 620,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 640,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 660,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 680,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 700,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 720,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 740,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 760,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 780,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 800,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 820,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 840,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 860,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 880,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 900,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 920,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 940,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 960,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 980,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1000,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1020,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1040,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1060,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1080,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1100,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1120,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1140,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1160,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1180,
+			"runic": 3399,
+			"apparatus": 1999
+		},
+		{
+			"tick": 1200,
+			"runic": 3399,
+			"apparatus": 1999
+		}
+	],
+	"source_supply": "native Volcanic Sourcelinks burning coal blocks; no injected source",
+	"kill_test_scope": "native KillTask.kill adapter with real entity classes; not a player combat test"
+}

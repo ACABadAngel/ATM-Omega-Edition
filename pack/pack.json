@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "name": "ATM Omega Edition",
-  "version": "0.2.0-alpha.1",
+  "version": "0.3.0-alpha.1",
   "minecraft": "1.21.1",
   "neoforge": "21.1.264",
   "java_major": 21,
   "author": "Omega Edition Team",
-  "description": "Primitive, Mechanical and Electrical progression with Create, Mekanism and bilingual quests.",
+  "description": "Primitive, Mechanical, Electrical and Arcane progression with Create, Mekanism, Ars Nouveau, Occultism and bilingual quests.",
   "distribution": "curseforge-manifest",
   "overrides": "pack/overrides"
 }

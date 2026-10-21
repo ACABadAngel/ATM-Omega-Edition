@@ -2,13 +2,13 @@
 
 Ein eigenständiges Minecraft-Expert-Modpack: Technik, Magie, Erkundung, Kampf und Landwirtschaft bilden eine gemeinsame Progression bis zur Infinity Omega Star.
 
-**Version 0.2.0-alpha.1 · 21. Oktober 2026.** Survival → Primitive Core → Create-Wasserkraft → Mechanical Core → Mekanism-Stromnetz → Electrical Core. Enthalten sind 15 festgelegte Moddateien, 22 Quests auf Deutsch und Englisch, sieben eigene Items und elf Custom-Rezepte. Die [neue Evidenz](tests/evidence/v0.2.0-alpha.1/REPORT.md) dokumentiert Rezept-Eindeutigkeit, echten Kohlebetrieb, Infusion, Stahl, Energiespeicherung und Save-Erhalt.
+**Version 0.3.0-alpha.1 · 21. Oktober 2026.** Survival → Primitive Core → Mechanical Core → Electrical Core → Omega Arcane Core. Enthalten sind 21 festgelegte Moddateien, 38 Quests auf Deutsch und Englisch, zehn eigene Items und 17 Custom-Rezepte. Ars Nouveau und Occultism verbinden Source, Geistermaterialien und einen nativen Bossdrop. [Prüfstand und Grenzen](tests/evidence/v0.3.0-alpha.1/REPORT.md).
 
 **Starten:** [Installationsanleitung](docs/installation.md) lesen. Den Client-ZIP im CurseForge-Minecraft-Launcher importieren. Java 21 verwenden. Exporte gibt es als [GitHub-Actions-Artefakt](https://github.com/ACABadAngel/ATM-Omega-Edition/actions/workflows/build-alpha.yml) oder lokal mit `python3 tools/pack.py build`.
 
 Clientdarstellung, Questoberfläche und ein echter Zwei-Spieler-Durchlauf sind noch nicht geprüft. Dies ist ein früher Teststand. Der Name ist ein Arbeitstitel; eine Zugehörigkeit zu All the Mods wird nicht behauptet.
 
-Neu: [Elektrische Werkstatt](docs/electrical-age.md) und behobener Brot-/Faser-Rezeptkonflikt. [Erste Fabrik](docs/first-factory.md) und [Backup/Restore](docs/backups.md) bleiben als Grundlage erhalten. Vor Übernahme einer bestehenden Welt die [Update-Anleitung](docs/installation.md) lesen.
+Neu: [Arkane Werkstatt](docs/arcane-age.md) mit Source-Erzeugung, Imbuement, Apparatus und Wilden Chimera als Titan-Prototyp. Die [elektrische Werkstatt](docs/electrical-age.md) bleibt Voraussetzung. [Erste Fabrik](docs/first-factory.md) und [Backup/Restore](docs/backups.md) bleiben als Grundlage erhalten. Vor Übernahme einer bestehenden Welt die [Update-Anleitung](docs/installation.md) lesen.
 
 ## Zielbild
 
@@ -28,7 +28,7 @@ Alle Zahlen beschreiben Ziele, keine getesteten Eigenschaften. Die Modanzahl wir
 
 ## Hier anfangen
 
-Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** und [STATUS.md](STATUS.md) lesen. Zuerst die offene Client-/Multiplayer-Abnahme der Alpha durchführen, danach den arkanen Einstieg vorbereiten. Der vollständige Entwurf bis zur Infinity Omega Star bleibt das langfristige Ziel.
+Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** und [STATUS.md](STATUS.md) lesen. Zuerst die offene Client-/Multiplayer-Abnahme der Alpha durchführen, danach Industrial Age mit Chemie und Lagerung entwickeln. Der vollständige Entwurf bis zur Infinity Omega Star bleibt das langfristige Ziel.
 
 Die **[vollständige aktuelle Mod-Wunschliste](MODLIST.md)** enthält 473 benannte Projekte einschließlich Alternativen, bedingter Bibliotheken und der eigenen Omega-Core-Mod. Jedes Projekt hat einen Link, einen Zweck, eine Aufnahmephase und eine Auswahlkennzeichnung. Der Ausbau auf 1.000+ bleibt ein langfristiges Ziel; die Wunschliste behauptet keine bereits getestete Installation.
 
@@ -65,7 +65,7 @@ Unter Windows kann alternativ `py -3 tools/validate_plan.py` verwendet werden. D
 
 Die Modliste wird aus `planning/mod-candidates.csv` erzeugt: nach Änderungen `python3 tools/render_modlist.py` ausführen. Der Validator prüft auch Projektduplikate, Elternreferenzen und die Übereinstimmung zwischen CSV und sichtbarer Wunschliste.
 
-`pack/lock.json` definiert die 15 installierten Moddateien der Alpha; die 473 Wünsche bleiben ein separates Register. `pack/content/quests.json` erzeugt das echte Questbuch. Eine eigene Java-Mod existiert noch nicht.
+`pack/lock.json` definiert die 21 installierten Moddateien der Alpha; die 473 Wünsche bleiben ein separates Register. `pack/content/quests.json` erzeugt das echte Questbuch. Eine eigene Java-Mod existiert noch nicht.
 
 ```sh
 python3 tools/pack.py validate
@@ -74,4 +74,4 @@ python3 -m unittest discover -s tests -v
 python3 tools/pack.py build
 ```
 
-Siehe [Alpha-Änderungen](docs/releases/0.2.0-alpha.1.md), [Testbericht](tests/evidence/v0.2.0-alpha.1/REPORT.md) und [STATUS.md](STATUS.md).
+Siehe [Alpha-Änderungen](docs/releases/0.3.0-alpha.1.md), [Testbericht](tests/evidence/v0.3.0-alpha.1/REPORT.md) und [STATUS.md](STATUS.md).

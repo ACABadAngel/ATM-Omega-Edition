@@ -5,5 +5,8 @@
   "item.omega.pressed_core": "Gepresster Kern",
   "item.omega.mechanical_core": "Mechanischer Kern",
   "item.omega.infernal_essence": "Infernale Essenz",
-  "item.omega.electrical_core": "Elektrischer Kern"
+  "item.omega.electrical_core": "Elektrischer Kern",
+  "item.omega.runic_crystal": "Runenkristall",
+  "item.omega.arcane_binder": "Arkaner Binder",
+  "item.omega.arcane_core": "Arkaner Omega-Kern"
 }

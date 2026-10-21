@@ -731,15 +731,579 @@
         "en_us": [
           "Combine four Infused Alloy, a Basic Control Circuit, two steel ingots, Infernal Essence and another Mechanical Core.",
           "You have reached the alpha Electrical milestone. Expand generation, storage and production, then back up your world.",
-          "Arcane progression, custom bosses and stars remain planned."
+          "Continue with spellcraft and rituals in the Arcane chapter. Custom Omega bosses and stars remain planned."
         ],
         "de_de": [
           "Verbinde vier Infused Alloy, einen Basic Control Circuit, zwei Stahlbarren, Infernale Essenz und einen weiteren Mechanical Core.",
           "Du hast den elektrischen Alpha-Meilenstein erreicht. Erweitere Erzeugung, Speicher und Produktion und sichere deine Welt.",
-          "Arkane Progression, eigene Bosse und Sterne bleiben geplant."
+          "Weiter geht es mit Zaubern und Ritualen im arkanen Kapitel. Eigene Omega-Bosse und Sterne bleiben geplant."
         ]
       },
       "x": 18,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000017",
+      "chapter_id": "0100000000000003",
+      "key": "arcane_books",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000016"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:novice_spell_book",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Begin spellcraft",
+        "de_de": "Zauberkunst beginnen"
+      },
+      "description": {
+        "en_us": [
+          "Craft a Novice Spell Book. Ars Nouveau handles spells and source; Occultism provides spirit materials and rituals.",
+          "Read the native Ars guide and Occultism’s Dictionary of Spirits. Their normal early recipes remain available; the shared apparatus and golden bowls require Electrical Cores."
+        ],
+        "de_de": [
+          "Fertige ein Novice Spell Book. Ars Nouveau liefert Zauber und Source; Occultism Geistermaterialien und Rituale.",
+          "Lies den Ars-Leitfaden und Occultisms Dictionary of Spirits. Frühe Standardrezepte bleiben erreichbar; Apparatus und goldene Schalen brauchen elektrische Kerne."
+        ]
+      },
+      "x": 0,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000018",
+      "chapter_id": "0100000000000003",
+      "key": "archwood",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:purple_archwood_log",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Find purple Archwood",
+        "de_de": "Violettes Archwood finden"
+      },
+      "description": {
+        "en_us": [
+          "Find purple Archwood and retain saplings. Existing worlds need unexplored chunks for newly added world generation.",
+          "Purple logs are used in the Wilden summoning tablet. A native alternative uses an emerald block, iron sword, bow, lapis block and purple log."
+        ],
+        "de_de": [
+          "Finde violettes Archwood und behalte Setzlinge. Bestehende Welten benötigen unerforschte Chunks für neue Weltgenerierung.",
+          "Violette Stämme werden für die Wilden-Ritualtafel gebraucht. Eine native Alternative nutzt zusätzlich Smaragdblock, Eisenschwert, Bogen und Lapislazuliblock."
+        ]
+      },
+      "x": 2,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000019",
+      "chapter_id": "0100000000000003",
+      "key": "imbuement",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:imbuement_chamber",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "An Imbuement Chamber",
+        "de_de": "Eine Imbuement Chamber"
+      },
+      "description": {
+        "en_us": [
+          "Craft and place an Imbuement Chamber using the native recipe. It slowly gathers its own source, so lapis or amethyst can become Source Gems before you build a generator.",
+          "Pedestals near the chamber select advanced recipes. Keep the two Runic Crystal catalyst pedestals for the later step."
+        ],
+        "de_de": [
+          "Fertige und platziere eine Imbuement Chamber mit ihrem Standardrezept. Die Kammer sammelt langsam selbst Source; Lapis oder Amethyst werden auch vor dem Bau eines Generators zu Source Gems.",
+          "Sockel neben der Kammer wählen fortgeschrittene Rezepte aus. Die beiden Katalysatorsockel für den Runenkristall werden später benötigt."
+        ]
+      },
+      "x": 2,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001A",
+      "chapter_id": "0100000000000003",
+      "key": "source_gems",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000019"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:source_gem",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Grow a Source Gem supply",
+        "de_de": "Source Gems auf Vorrat"
+      },
+      "description": {
+        "en_us": [
+          "Imbue lapis or amethyst using the native recipe with passive chamber source. Build a supply for jars, sourcelinks and apparatus recipes.",
+          "Later Runic Crystals need amethyst, two different pedestal catalysts and 500 source. Plain gem production remains available with the catalysts removed."
+        ],
+        "de_de": [
+          "Verarbeite Lapis oder Amethyst mit dem nativen Rezept und passiver Kammer-Source. Lege einen Vorrat für Gefäße, Sourcelinks und Apparatus an.",
+          "Runenkristalle brauchen später Amethyst, zwei verschiedene Sockelkatalysatoren und 500 Source. Ohne die Katalysatoren bleibt die normale Edelsteinproduktion verfügbar."
+        ]
+      },
+      "x": 4,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001B",
+      "chapter_id": "0100000000000003",
+      "key": "dream_seeds",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "items": [
+        {
+          "id": "occultism:datura_seeds",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Demon’s Dream cultivation",
+        "de_de": "Demon’s Dream anbauen"
+      },
+      "description": {
+        "en_us": [
+          "Break grass for Demon’s Dream Seeds and grow the crop for its fruit. Consult Occultism’s book for the early steps.",
+          "Throw the fruit onto the ground and ignite it with flint and steel to create Spirit Fire."
+        ],
+        "de_de": [
+          "Zerbrich Gras für Demon’s Dream Seeds und baue die Pflanze für ihre Früchte an. Nutze Occultisms Buch für den Einstieg.",
+          "Wirf eine Frucht auf den Boden und entzünde sie mit Feuerstein und Stahl zu Spirit Fire."
+        ]
+      },
+      "x": 2,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001C",
+      "chapter_id": "0100000000000003",
+      "key": "spirit_materials",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001B"
+      ],
+      "items": [
+        {
+          "id": "occultism:otherstone",
+          "count": 8
+        },
+        {
+          "id": "occultism:spirit_attuned_gem",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Materials through Spirit Fire",
+        "de_de": "Materialien durch Spirit Fire"
+      },
+      "description": {
+        "en_us": [
+          "Drop ANDESITE into Spirit Fire for Otherstone. Drop DIAMONDS into Spirit Fire for Spirit Attuned Gems.",
+          "These are the recipes in Occultism 1.224.5. Each diamond becomes one gem; keep extras for apparatus recipes and reusable imbuement catalysts."
+        ],
+        "de_de": [
+          "Wirf ANDESIT für Otherstone und DIAMANTEN für Spirit Attuned Gems in Spirit Fire.",
+          "Das sind die Rezepte von Occultism 1.224.5. Ein Diamant ergibt einen Edelstein; plane Vorräte für Apparatus und wiederverwendbare Imbuement-Katalysatoren ein."
+        ]
+      },
+      "x": 4,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001D",
+      "chapter_id": "0100000000000003",
+      "key": "golden_bowl",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001C",
+        "1000000000000016"
+      ],
+      "items": [
+        {
+          "id": "occultism:golden_sacrificial_bowl",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Link rituals to engineering",
+        "de_de": "Rituale und Technik verbinden"
+      },
+      "description": {
+        "en_us": [
+          "Craft a normal Sacrificial Bowl first. Three gold ingots, two Otherstone, an Electrical Core and that bowl make the Golden Sacrificial Bowl.",
+          "The dark variant has the same cost with a Dark Sacrificial Bowl. Follow the native book for chalk, pentacles, spirits and further rituals."
+        ],
+        "de_de": [
+          "Fertige zuerst eine normale Sacrificial Bowl. Drei Goldbarren, zwei Otherstone, ein elektrischer Kern und diese Schale ergeben die Golden Sacrificial Bowl.",
+          "Die dunkle Variante hat dieselben Kosten mit Dark Sacrificial Bowl. Kreide, Pentakel, Geister und weitere Rituale erklärt das native Buch."
+        ]
+      },
+      "x": 6,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001E",
+      "chapter_id": "0100000000000003",
+      "key": "source_generation",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001A"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:volcanic_sourcelink",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Generate magical source",
+        "de_de": "Magische Source erzeugen"
+      },
+      "description": {
+        "en_us": [
+          "Craft a Volcanic Sourcelink and supply burnable fuel on a nearby Arcane Pedestal. Place a Source Jar within five blocks.",
+          "The link consumes fuel and transfers source periodically. It can heat nearby ground into magma; place this setup away from flammable builds. Other native sourcelinks are valid alternatives."
+        ],
+        "de_de": [
+          "Fertige einen Volcanic Sourcelink und lege Brennstoff auf einen nahen Arcane Pedestal. Ein Source Jar gehört in fünf Blöcke Reichweite.",
+          "Der Link verbraucht Brennstoff und überträgt Source regelmäßig. Er kann nahen Boden in Magma verwandeln; plane Abstand zu brennbaren Bauten ein. Andere native Sourcelinks sind ebenfalls möglich."
+        ]
+      },
+      "x": 6,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "100000000000001F",
+      "chapter_id": "0100000000000003",
+      "key": "source_storage",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001E"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:source_jar",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Store source beside your machines",
+        "de_de": "Source neben den Maschinen speichern"
+      },
+      "description": {
+        "en_us": [
+          "Charge a Source Jar. Place one within two blocks of the Imbuement Chamber, and within ten blocks of the Enchanting Apparatus.",
+          "This quest detects a jar item, not its stored source. Check the native meter in the world; charged jars speed imbuement, and the apparatus requires its source payment."
+        ],
+        "de_de": [
+          "Lade ein Source Jar. Die Imbuement Chamber braucht ein Gefäß in zwei Blöcken Reichweite, der Enchanting Apparatus in zehn.",
+          "Die Quest erkennt das Gefäß als Item, nicht seinen Füllstand. Prüfe die native Anzeige in der Welt; geladene Gefäße beschleunigen Imbuement; der Apparatus verlangt seine Source-Kosten."
+        ]
+      },
+      "x": 8,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000020",
+      "chapter_id": "0100000000000003",
+      "key": "enchanting_apparatus",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001A",
+        "1000000000000016"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:enchanting_apparatus",
+          "count": 1
+        },
+        {
+          "id": "ars_nouveau:arcane_core",
+          "count": 1
+        },
+        {
+          "id": "ars_nouveau:arcane_pedestal",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Build the enchanting station",
+        "de_de": "Verzauberungsstation bauen"
+      },
+      "description": {
+        "en_us": [
+          "Craft the apparatus with four gold ingots, two Source Gems, two Sourcestone and an Electrical Core. Place it above the native Ars Arcane Core block, with eight Arcane Pedestals nearby.",
+          "That base block is ars_nouveau:arcane_core. The later Omega Arcane Core is a separate milestone item: omega:arcane_core."
+        ],
+        "de_de": [
+          "Fertige den Apparatus mit vier Goldbarren, zwei Source Gems, zwei Sourcestone und einem elektrischen Kern. Platziere ihn über dem nativen Ars-Arcane-Core-Block mit acht Arcane Pedestals in der Nähe.",
+          "Der Basisblock heißt ars_nouveau:arcane_core. Der spätere arkane Omega-Kern ist ein eigenes Meilenstein-Item: omega:arcane_core."
+        ]
+      },
+      "x": 8,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000021",
+      "chapter_id": "0100000000000003",
+      "key": "runic_crystal",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001C",
+        "100000000000001F"
+      ],
+      "items": [
+        {
+          "id": "omega:runic_crystal",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Imbue the Runic Crystal",
+        "de_de": "Runenkristall durch Imbuement"
+      },
+      "description": {
+        "en_us": [
+          "Place one Source Gem and one Spirit Attuned Gem on two separate nearby pedestals. Insert amethyst into the Imbuement Chamber with 500 source available.",
+          "The chamber consumes the amethyst and source. Both pedestal catalysts remain reusable."
+        ],
+        "de_de": [
+          "Lege einen Source Gem und einen Spirit Attuned Gem auf zwei getrennte nahe Sockel. Gib Amethyst in die Kammer und stelle 500 Source bereit.",
+          "Die Kammer verbraucht Amethyst und Source. Beide Sockelkatalysatoren bleiben wiederverwendbar."
+        ]
+      },
+      "x": 10,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000022",
+      "chapter_id": "0100000000000003",
+      "key": "arcane_binder",
+      "age": "A04",
+      "dependencies": [
+        "100000000000001D",
+        "100000000000001F",
+        "1000000000000020"
+      ],
+      "items": [
+        {
+          "id": "omega:arcane_binder",
+          "count": 2
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Bind the two magic paths",
+        "de_de": "Beide Magiepfade verbinden"
+      },
+      "description": {
+        "en_us": [
+          "For EACH binder, place two Source Gems, two Otherstone, two gold ingots and two Spirit Attuned Gems on eight separate apparatus pedestals.",
+          "Insert an Electrical Core into the apparatus with 1000 source available. The reagent and all eight pedestal ingredients are consumed. Repeat for a second binder."
+        ],
+        "de_de": [
+          "Lege für JEDEN Binder zwei Source Gems, zwei Otherstone, zwei Goldbarren und zwei Spirit Attuned Gems auf acht getrennte Apparatus-Sockel.",
+          "Gib einen elektrischen Kern in den Apparatus mit 1000 Source. Reagenz und alle acht Sockelzutaten werden verbraucht. Wiederhole den Vorgang für den zweiten Binder."
+        ]
+      },
+      "x": 10,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000023",
+      "chapter_id": "0100000000000003",
+      "key": "ritual_brazier",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000018",
+        "1000000000000020"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:ritual_brazier",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Prepare an outdoor ritual site",
+        "de_de": "Ritualplatz im Freien vorbereiten"
+      },
+      "description": {
+        "en_us": [
+          "Craft a Ritual Brazier. Prepare armor, healing, food and a clear outdoor arena before summoning the Wilden Chimera.",
+          "The alpha uses the native Ars boss as the Ancient Titan encounter prototype. A custom Omega Titan remains future development."
+        ],
+        "de_de": [
+          "Fertige einen Ritual Brazier. Bereite Rüstung, Heilung, Essen und eine freie Arena im Außenbereich vor.",
+          "Die Alpha nutzt den nativen Ars-Boss als Begegnungsprototyp für den Ancient Titan. Ein eigener Omega-Titan bleibt spätere Entwicklung."
+        ]
+      },
+      "x": 10,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000024",
+      "chapter_id": "0100000000000003",
+      "key": "wilden_ritual",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000023"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:ritual_wilden_summon",
+          "count": 1
+        },
+        {
+          "id": "ars_nouveau:wilden_spike",
+          "count": 1
+        },
+        {
+          "id": "ars_nouveau:wilden_horn",
+          "count": 1
+        },
+        {
+          "id": "ars_nouveau:wilden_wing",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Augment the Wilden ritual",
+        "de_de": "Wilden-Ritual verstärken"
+      },
+      "description": {
+        "en_us": [
+          "Make a Wilden summoning tablet. The native alternate recipe lets you obtain it before collecting the three different Wilden drops.",
+          "Use the tablet in the brazier, add one Wilden Spike, Horn and Wing as AUGMENTS, then activate it. Without all three augments the ritual summons ordinary Wilden, not the Chimera. Follow the native ritual guide."
+        ],
+        "de_de": [
+          "Fertige eine Wilden-Ritualtafel. Das native Alternativrezept ist auch vor dem Sammeln der drei unterschiedlichen Wilden-Drops möglich.",
+          "Setze die Tafel in den Brazier, ergänze je einen Wilden Spike, Horn und Wing als VERSTÄRKUNGEN und aktiviere ihn. Ohne alle drei erscheinen normale Wilden statt der Chimera. Beachte den nativen Ritualleitfaden."
+        ]
+      },
+      "x": 12,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000025",
+      "chapter_id": "0100000000000003",
+      "key": "wilden_chimera",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000024"
+      ],
+      "items": [
+        {
+          "id": "ars_nouveau:wilden_tribute",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Defeat the Wilden Chimera",
+        "de_de": "Wilden Chimera besiegen"
+      },
+      "description": {
+        "en_us": [
+          "Defeat one Wilden Chimera and retain its Wilden Tribute. This quest requires both the real boss kill and the tribute item.",
+          "The kill task targets ars_nouveau:wilden_boss. Boss kills before this quest is unlocked may need repeating. Native combat and loot rules apply."
+        ],
+        "de_de": [
+          "Besiege eine Wilden Chimera und behalte ihren Wilden Tribute. Die Quest verlangt sowohl den Boss-Kill als auch das Tribute-Item.",
+          "Die Kill-Aufgabe prüft ars_nouveau:wilden_boss. Kills vor der Freischaltung müssen eventuell wiederholt werden. Es gelten native Kampf- und Beuteregeln."
+        ]
+      },
+      "x": 14,
+      "y": -2,
+      "reward": null,
+      "kill": {
+        "entity": "ars_nouveau:wilden_boss",
+        "count": 1
+      }
+    },
+    {
+      "id": "1000000000000026",
+      "chapter_id": "0100000000000003",
+      "key": "arcane_core",
+      "age": "A04",
+      "dependencies": [
+        "1000000000000021",
+        "1000000000000022",
+        "1000000000000025"
+      ],
+      "items": [
+        {
+          "id": "omega:arcane_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Omega Arcane Core",
+        "de_de": "Arkaner Omega-Kern"
+      },
+      "description": {
+        "en_us": [
+          "Combine four Source Gems, two Arcane Binder, one Runic Crystal, one Spirit Attuned Gem and one Wilden Tribute.",
+          "The craft connects mechanical infrastructure, electricity, both magic material paths and a native boss drop. Industrial progression and custom Omega bosses remain future work. Back up before the next update."
+        ],
+        "de_de": [
+          "Verbinde vier Source Gems, zwei arkane Binder, einen Runenkristall, einen Spirit Attuned Gem und einen Wilden Tribute.",
+          "Der Craft verbindet Mechanik, Elektrizität, beide Magiematerialpfade und einen nativen Bossdrop. Industrielle Progression und eigene Omega-Bosse folgen später. Sichere vor dem nächsten Update deine Welt."
+        ]
+      },
+      "x": 16,
       "y": 0,
       "reward": null
     }
@@ -751,6 +1315,14 @@
       "title": {
         "en_us": "02 • From Motion to Power",
         "de_de": "02 • Von Bewegung zu Strom"
+      }
+    },
+    {
+      "id": "0100000000000003",
+      "filename": "03_from_power_to_source",
+      "title": {
+        "en_us": "03 • From Power to Source",
+        "de_de": "03 • Von Strom zu Magie"
       }
     }
   ]

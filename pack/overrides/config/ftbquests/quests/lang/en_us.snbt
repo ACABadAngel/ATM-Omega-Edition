@@ -1,7 +1,8 @@
 {
-  "file.0000000000000001.title": "ATM Omega Edition · 0.2",
+  "file.0000000000000001.title": "ATM Omega Edition · 0.3.0-alpha.1",
   "chapter.0100000000000001.title": "01 • From Survival to Motion",
   "chapter.0100000000000002.title": "02 • From Motion to Power",
+  "chapter.0100000000000003.title": "03 • From Power to Source",
   "quest.1000000000000001.title": "Welcome to Omega",
   "quest.1000000000000001.quest_desc": [
     "This alpha includes Primitive, Mechanical and Electrical progression.",
@@ -120,6 +121,86 @@
   "quest.1000000000000016.quest_desc": [
     "Combine four Infused Alloy, a Basic Control Circuit, two steel ingots, Infernal Essence and another Mechanical Core.",
     "You have reached the alpha Electrical milestone. Expand generation, storage and production, then back up your world.",
-    "Arcane progression, custom bosses and stars remain planned."
+    "Continue with spellcraft and rituals in the Arcane chapter. Custom Omega bosses and stars remain planned."
+  ],
+  "quest.1000000000000017.title": "Begin spellcraft",
+  "quest.1000000000000017.quest_desc": [
+    "Craft a Novice Spell Book. Ars Nouveau handles spells and source; Occultism provides spirit materials and rituals.",
+    "Read the native Ars guide and Occultism’s Dictionary of Spirits. Their normal early recipes remain available; the shared apparatus and golden bowls require Electrical Cores."
+  ],
+  "quest.1000000000000018.title": "Find purple Archwood",
+  "quest.1000000000000018.quest_desc": [
+    "Find purple Archwood and retain saplings. Existing worlds need unexplored chunks for newly added world generation.",
+    "Purple logs are used in the Wilden summoning tablet. A native alternative uses an emerald block, iron sword, bow, lapis block and purple log."
+  ],
+  "quest.1000000000000019.title": "An Imbuement Chamber",
+  "quest.1000000000000019.quest_desc": [
+    "Craft and place an Imbuement Chamber using the native recipe. It slowly gathers its own source, so lapis or amethyst can become Source Gems before you build a generator.",
+    "Pedestals near the chamber select advanced recipes. Keep the two Runic Crystal catalyst pedestals for the later step."
+  ],
+  "quest.100000000000001A.title": "Grow a Source Gem supply",
+  "quest.100000000000001A.quest_desc": [
+    "Imbue lapis or amethyst using the native recipe with passive chamber source. Build a supply for jars, sourcelinks and apparatus recipes.",
+    "Later Runic Crystals need amethyst, two different pedestal catalysts and 500 source. Plain gem production remains available with the catalysts removed."
+  ],
+  "quest.100000000000001B.title": "Demon’s Dream cultivation",
+  "quest.100000000000001B.quest_desc": [
+    "Break grass for Demon’s Dream Seeds and grow the crop for its fruit. Consult Occultism’s book for the early steps.",
+    "Throw the fruit onto the ground and ignite it with flint and steel to create Spirit Fire."
+  ],
+  "quest.100000000000001C.title": "Materials through Spirit Fire",
+  "quest.100000000000001C.quest_desc": [
+    "Drop ANDESITE into Spirit Fire for Otherstone. Drop DIAMONDS into Spirit Fire for Spirit Attuned Gems.",
+    "These are the recipes in Occultism 1.224.5. Each diamond becomes one gem; keep extras for apparatus recipes and reusable imbuement catalysts."
+  ],
+  "quest.100000000000001D.title": "Link rituals to engineering",
+  "quest.100000000000001D.quest_desc": [
+    "Craft a normal Sacrificial Bowl first. Three gold ingots, two Otherstone, an Electrical Core and that bowl make the Golden Sacrificial Bowl.",
+    "The dark variant has the same cost with a Dark Sacrificial Bowl. Follow the native book for chalk, pentacles, spirits and further rituals."
+  ],
+  "quest.100000000000001E.title": "Generate magical source",
+  "quest.100000000000001E.quest_desc": [
+    "Craft a Volcanic Sourcelink and supply burnable fuel on a nearby Arcane Pedestal. Place a Source Jar within five blocks.",
+    "The link consumes fuel and transfers source periodically. It can heat nearby ground into magma; place this setup away from flammable builds. Other native sourcelinks are valid alternatives."
+  ],
+  "quest.100000000000001F.title": "Store source beside your machines",
+  "quest.100000000000001F.quest_desc": [
+    "Charge a Source Jar. Place one within two blocks of the Imbuement Chamber, and within ten blocks of the Enchanting Apparatus.",
+    "This quest detects a jar item, not its stored source. Check the native meter in the world; charged jars speed imbuement, and the apparatus requires its source payment."
+  ],
+  "quest.1000000000000020.title": "Build the enchanting station",
+  "quest.1000000000000020.quest_desc": [
+    "Craft the apparatus with four gold ingots, two Source Gems, two Sourcestone and an Electrical Core. Place it above the native Ars Arcane Core block, with eight Arcane Pedestals nearby.",
+    "That base block is ars_nouveau:arcane_core. The later Omega Arcane Core is a separate milestone item: omega:arcane_core."
+  ],
+  "quest.1000000000000021.title": "Imbue the Runic Crystal",
+  "quest.1000000000000021.quest_desc": [
+    "Place one Source Gem and one Spirit Attuned Gem on two separate nearby pedestals. Insert amethyst into the Imbuement Chamber with 500 source available.",
+    "The chamber consumes the amethyst and source. Both pedestal catalysts remain reusable."
+  ],
+  "quest.1000000000000022.title": "Bind the two magic paths",
+  "quest.1000000000000022.quest_desc": [
+    "For EACH binder, place two Source Gems, two Otherstone, two gold ingots and two Spirit Attuned Gems on eight separate apparatus pedestals.",
+    "Insert an Electrical Core into the apparatus with 1000 source available. The reagent and all eight pedestal ingredients are consumed. Repeat for a second binder."
+  ],
+  "quest.1000000000000023.title": "Prepare an outdoor ritual site",
+  "quest.1000000000000023.quest_desc": [
+    "Craft a Ritual Brazier. Prepare armor, healing, food and a clear outdoor arena before summoning the Wilden Chimera.",
+    "The alpha uses the native Ars boss as the Ancient Titan encounter prototype. A custom Omega Titan remains future development."
+  ],
+  "quest.1000000000000024.title": "Augment the Wilden ritual",
+  "quest.1000000000000024.quest_desc": [
+    "Make a Wilden summoning tablet. The native alternate recipe lets you obtain it before collecting the three different Wilden drops.",
+    "Use the tablet in the brazier, add one Wilden Spike, Horn and Wing as AUGMENTS, then activate it. Without all three augments the ritual summons ordinary Wilden, not the Chimera. Follow the native ritual guide."
+  ],
+  "quest.1000000000000025.title": "Defeat the Wilden Chimera",
+  "quest.1000000000000025.quest_desc": [
+    "Defeat one Wilden Chimera and retain its Wilden Tribute. This quest requires both the real boss kill and the tribute item.",
+    "The kill task targets ars_nouveau:wilden_boss. Boss kills before this quest is unlocked may need repeating. Native combat and loot rules apply."
+  ],
+  "quest.1000000000000026.title": "Omega Arcane Core",
+  "quest.1000000000000026.quest_desc": [
+    "Combine four Source Gems, two Arcane Binder, one Runic Crystal, one Spirit Attuned Gem and one Wilden Tribute.",
+    "The craft connects mechanical infrastructure, electricity, both magic material paths and a native boss drop. Industrial progression and custom Omega bosses remain future work. Back up before the next update."
   ]
 }

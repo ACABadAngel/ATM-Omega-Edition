@@ -24,4 +24,10 @@ StartupEvents.registry('item', event => {
     .texture('minecraft:item/heart_of_the_sea')
     .color(0, 0xF4D64A)
     .maxStackSize(16);
+  event.create('omega:runic_crystal')
+    .texture('minecraft:item/amethyst_shard').color(0, 0x95AAFF);
+  event.create('omega:arcane_binder')
+    .texture('minecraft:item/slime_ball').color(0, 0xB978DF);
+  event.create('omega:arcane_core')
+    .texture('minecraft:item/heart_of_the_sea').color(0, 0xB37DF1).maxStackSize(16);
 });

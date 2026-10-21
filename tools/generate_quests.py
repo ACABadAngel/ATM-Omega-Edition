@@ -19,7 +19,7 @@ def generated_files():
         'progression_mode': 'linear', 'quests': [],
     } for index, definition in enumerate(definitions)}
     languages = {locale: {
-        'file.0000000000000001.title': 'ATM Omega Edition · 0.2',
+        'file.0000000000000001.title': 'ATM Omega Edition · ' + json.loads((ROOT / 'pack/pack.json').read_text())['version'],
     } for locale in ('en_us', 'de_de')}
     for definition in definitions:
         for locale, table in languages.items():
@@ -32,7 +32,7 @@ def generated_files():
             'id': source['id'], 'x': float(source['x']), 'y': float(source['y']),
             'dependencies': source['dependencies'], 'tasks': [], 'rewards': [],
         }
-        targets = source['items'] or [None]
+        targets = source['items'] or ([] if source.get('kill') else [None])
         for index, target in enumerate(targets):
             task = {'id': f'200000000000{number * 16 + index:04X}'}
             if target is None:
@@ -41,6 +41,10 @@ def generated_files():
                 task.update(type='item', item={'id': target['id'], 'count': 1},
                             count=target['count'], consume_items=source['consume'])
             quest['tasks'].append(task)
+        if source.get('kill'):
+            quest['tasks'].append({'id': f'200000000000{number * 16 + len(targets):04X}',
+                                   'type': 'kill', 'entity': source['kill']['entity'],
+                                   'value': source['kill']['count']})
         if source.get('reward'):
             item, count = source['reward']
             quest['rewards'].append({

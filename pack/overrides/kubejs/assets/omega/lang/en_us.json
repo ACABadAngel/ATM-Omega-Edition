@@ -5,5 +5,8 @@
   "item.omega.pressed_core": "Pressed Core",
   "item.omega.mechanical_core": "Mechanical Core",
   "item.omega.infernal_essence": "Infernal Essence",
-  "item.omega.electrical_core": "Electrical Core"
+  "item.omega.electrical_core": "Electrical Core",
+  "item.omega.runic_crystal": "Runic Crystal",
+  "item.omega.arcane_binder": "Arcane Binder",
+  "item.omega.arcane_core": "Omega Arcane Core"
 }

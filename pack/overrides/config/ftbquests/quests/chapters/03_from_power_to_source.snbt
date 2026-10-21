@@ -1,0 +1,420 @@
+{
+  "id": "0100000000000003",
+  "filename": "03_from_power_to_source",
+  "group": "",
+  "order_index": 2,
+  "default_quest_shape": "square",
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1000000000000017",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000016"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000170",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:novice_spell_book",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000018",
+      "x": 2.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000180",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:purple_archwood_log",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000019",
+      "x": 2.0,
+      "y": 2.0,
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000190",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:imbuement_chamber",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001A",
+      "x": 4.0,
+      "y": 2.0,
+      "dependencies": [
+        "1000000000000019"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001A0",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:source_gem",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001B",
+      "x": 2.0,
+      "y": -2.0,
+      "dependencies": [
+        "1000000000000017"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001B0",
+          "type": "item",
+          "item": {
+            "id": "occultism:datura_seeds",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001C",
+      "x": 4.0,
+      "y": -2.0,
+      "dependencies": [
+        "100000000000001B"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001C0",
+          "type": "item",
+          "item": {
+            "id": "occultism:otherstone",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        },
+        {
+          "id": "20000000000001C1",
+          "type": "item",
+          "item": {
+            "id": "occultism:spirit_attuned_gem",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001D",
+      "x": 6.0,
+      "y": -2.0,
+      "dependencies": [
+        "100000000000001C",
+        "1000000000000016"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001D0",
+          "type": "item",
+          "item": {
+            "id": "occultism:golden_sacrificial_bowl",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001E",
+      "x": 6.0,
+      "y": 2.0,
+      "dependencies": [
+        "100000000000001A"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001E0",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:volcanic_sourcelink",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000001F",
+      "x": 8.0,
+      "y": 2.0,
+      "dependencies": [
+        "100000000000001E"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000001F0",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:source_jar",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000020",
+      "x": 8.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000001A",
+        "1000000000000016"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000200",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:enchanting_apparatus",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000201",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:arcane_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000202",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:arcane_pedestal",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000021",
+      "x": 10.0,
+      "y": 2.0,
+      "dependencies": [
+        "100000000000001C",
+        "100000000000001F"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000210",
+          "type": "item",
+          "item": {
+            "id": "omega:runic_crystal",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000022",
+      "x": 10.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000001D",
+        "100000000000001F",
+        "1000000000000020"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000220",
+          "type": "item",
+          "item": {
+            "id": "omega:arcane_binder",
+            "count": 1
+          },
+          "count": 2,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000023",
+      "x": 10.0,
+      "y": -2.0,
+      "dependencies": [
+        "1000000000000018",
+        "1000000000000020"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000230",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:ritual_brazier",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000024",
+      "x": 12.0,
+      "y": -2.0,
+      "dependencies": [
+        "1000000000000023"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000240",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:ritual_wilden_summon",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000241",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_spike",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000242",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_horn",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000243",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_wing",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000025",
+      "x": 14.0,
+      "y": -2.0,
+      "dependencies": [
+        "1000000000000024"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000250",
+          "type": "item",
+          "item": {
+            "id": "ars_nouveau:wilden_tribute",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000251",
+          "type": "kill",
+          "entity": "ars_nouveau:wilden_boss",
+          "value": 1
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000026",
+      "x": 16.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000021",
+        "1000000000000022",
+        "1000000000000025"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000260",
+          "type": "item",
+          "item": {
+            "id": "omega:arcane_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

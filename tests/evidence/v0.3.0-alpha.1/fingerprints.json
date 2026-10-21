@@ -1,0 +1,24 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pack/content/quests.json": "56c430840b2688f194a78b14bc6c10c380f123509082c1e8e0a5651d27641aa5",
+    "pack/lock.json": "823e0f51af4029ec631646bbabe79eefdf1ebefced374c28d28ffb7352c78d6c",
+    "pack/overrides/config/ftbquests/quests/chapter_groups.snbt": "0fe735f6927c9d905e14b238f2cf44d5c08d735b460a603ad26a764b90096dca",
+    "pack/overrides/config/ftbquests/quests/chapters/01_from_survival_to_motion.snbt": "e1aa3e6d9048ff22efa3c35b09d16a85de97f12dd221e67dfe8ada5f7db1a109",
+    "pack/overrides/config/ftbquests/quests/chapters/02_from_motion_to_power.snbt": "bfe8d4193ffbe0f89b514af3a8541e5ac88d265bd7c444b9d929f957cb643808",
+    "pack/overrides/config/ftbquests/quests/chapters/03_from_power_to_source.snbt": "c95ba627bee183ee081883d511c0dbd83aee26472527d45d9246b04bdab5dbd8",
+    "pack/overrides/config/ftbquests/quests/data.snbt": "a137a7aebc23150340063f01cef2e13abbd611c041c3b32f44133242626a0591",
+    "pack/overrides/config/ftbquests/quests/lang/de_de.snbt": "53a17d75098a84a65250c63edbd7307dac694d0543f1dcc02952fed4380198ec",
+    "pack/overrides/config/ftbquests/quests/lang/en_us.snbt": "a15ccf13190e3a5ca55d57fd74e695790017411451f35c8e624e00961bd52b6e",
+    "pack/overrides/kubejs/assets/omega/lang/de_de.json": "960cbc1d2d0dd4fb0a134929251975ff4f1235fa441ffc480f6cdf9e5273689c",
+    "pack/overrides/kubejs/assets/omega/lang/en_us.json": "ab34f9121e073e5d2e76e7484ad9957bd47eb6d9166b416973b697d8ce566b3d",
+    "pack/overrides/kubejs/server_scripts/omega_arcane.js": "283548832cb278275ff462953c748a9f3bb2d41b01f1e0377d62c52857284b0a",
+    "pack/overrides/kubejs/server_scripts/omega_electrical.js": "baa52dfd2852a2e42c1cc1797530e976c181362182251f039cf91dfb5cb0c786",
+    "pack/overrides/kubejs/server_scripts/omega_progression.js": "8fa490824b0c4fc5895c280ff64919923be72c5b94fb7c13f51d07c4ba36c74f",
+    "pack/overrides/kubejs/startup_scripts/omega_items.js": "98ac7695dbc37dcdcc8c5ed6e79ae81f4e07298cd3b8e6d85ad6859d378d2af9",
+    "pack/pack.json": "43b783f1b32d3413cb5fba9897cfc07b30210b867ca769e38ef7b3470f616552",
+    "tests/runtime_scripts/omega_arcane_restart.js": "f12e66dc91117285ffae8885a85a06341de4b73e9db1d81e53d5447d12152c7b",
+    "tests/runtime_scripts/omega_arcane_smoke.js": "7c1a47646df902d321d1a599aae44b692a49940092b27bd72af7a0dbbaee1bcc",
+    "tools/generate_quests.py": "2fef67b508ed8491623647549bb18bb7d04ede6edbc22aa0d36e8230d01a62ba"
+  }
+}

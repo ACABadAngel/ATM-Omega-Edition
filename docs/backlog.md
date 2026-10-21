@@ -1,6 +1,6 @@
 # Umsetzungsbacklog
 
-Stand: Alpha 0.2.0-alpha.1. Die Paketliste beschreibt weiterhin die vollständigen Abnahmen. FND-01 ist für den Alpha-Batch aufgelöst; FND-03 ist unter Linux mit echter Welt geprüft. FND-02, MOD-01 und MVP-01/02/04 bleiben wegen offener Client-/Survival-/Multiplayer-Abnahme teilweise offen. MVP-03 ist serverseitig über eine synthetische Teamabgabe geprüft. Reihenfolge innerhalb einer Phase nach Abhängigkeiten wählen. Größere Pakete vor Beginn in überprüfbare Teilaufgaben zerlegen.
+Stand: Alpha 0.3.0-alpha.1. Die Paketliste beschreibt weiterhin die vollständigen Abnahmen. FND-01 ist für den Alpha-Batch aufgelöst; FND-03 ist unter Linux mit echter Welt geprüft. FND-02, MOD-01 und MVP-01/02/04 bleiben wegen offener Client-/Survival-/Multiplayer-Abnahme teilweise offen. MVP-03 ist serverseitig über eine synthetische Teamabgabe geprüft. Reihenfolge innerhalb einer Phase nach Abhängigkeiten wählen. Größere Pakete vor Beginn in überprüfbare Teilaufgaben zerlegen.
 
 | ID | Priorität | Paket | Voraussetzung | Definition of Done |
 | --- | --- | --- | --- | --- |
@@ -65,4 +65,4 @@ FND-03: Offline-Backup, Hash-Verifikation, Restore in separater Instanz und erne
 
 ### 21.10.2026 · Elektrischer Durchstich
 
-PROG-01 ist teilweise implementiert: Generator, direkt versorgter Infuser, Redstone-Bauteile, Stahl, Kabel, Speicher und Electrical Core mit zehn neuen Quests. Mekanism/Generators 10.7.19.85 sind exakt aufgelöst. Arkane Rollen und Titan-Zugang bleiben offen; PROG-01 ist insgesamt nicht abgeschlossen. Der Nutzer möchte trotz Rezeptproblemen fortfahren; der konkrete Brot-/Faser-Konflikt wurde behoben. Formale MVP-04-Abnahme und umfassendes Gate-Audit werden nicht dadurch ersetzt. [Evidenz](../tests/evidence/v0.2.0-alpha.1/REPORT.md).
+PROG-01 ist teilweise implementiert: Generator, direkt versorgter Infuser, Redstone-Bauteile, Stahl, Kabel, Speicher und Electrical Core mit zehn neuen Quests. Mekanism/Generators 10.7.19.85 sind exakt aufgelöst. Ars Nouveau/Occultism ergänzen jetzt Runenkristall, Binder, Source-Erzeugung, goldene Ritualschalen und Omega Arcane Core. Die native Wilden Chimera übernimmt vorläufig die Titan-Rolle. PROG-01 ist wegen offener Client-/Survival-/Teamabnahme und eigenem Titan-Nachweis insgesamt nicht abgeschlossen. Der Nutzer möchte trotz Rezeptproblemen fortfahren; der konkrete Brot-/Faser-Konflikt wurde behoben. Formale MVP-04-Abnahme und umfassendes Gate-Audit werden nicht dadurch ersetzt. [Evidenz](../tests/evidence/v0.3.0-alpha.1/REPORT.md).

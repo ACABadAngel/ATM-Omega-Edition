@@ -13,7 +13,7 @@ Q011,A03,Ein belastbares Stromnetz,Technik & Maschinen,item,team,Q010,Generator 
 Q012,A03,Infernal Expedition,Erkundung & Dimensionen,discovery,team,Q011,Nether / Infernal Essence,Hinreise Probe und sichere Rückkehr,Passender Komfort / Codex-Hinweis,design
 Q013,A03,Electrical Core,Omega-Endgame,milestone,team,Q012,omega:electrical_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
 Q014,A04,Zwei Wege der Magie,Magie & Rituale,production,team,Q013,Arcane Binder / Runic Crystal,Zwei freigegebene Magiesysteme nachweisen,Passender Komfort / Codex-Hinweis,design
-Q015,A04,Ancient Titan,Kampf & Bosse,boss,team,Q014,Titan Mastery,Teilnahme und Sieg serverseitig bestätigen,Passender Komfort / Codex-Hinweis,design
+Q015,A04,Ancient Titan,Kampf & Bosse,boss,team,Q014,Titan Mastery,Design: eigener Teamnachweis; Alpha 0.3 nutzt native Wilden Chimera mit FTB-KillTask und Tribute,Passender Komfort / Codex-Hinweis,design
 Q016,A04,Arcane Core,Omega-Endgame,milestone,team,Q015,omega:arcane_core,Serverseitiger Meilensteinnachweis,Passender Komfort / Codex-Hinweis,design
 Q017,A05,Eine lebendige Lieferkette,Landwirtschaft & Ressourcen,production,team,Q016,Bio Matrix,Erneuerbare Farm und Bestäubung integrieren,Passender Komfort / Codex-Hinweis,design
 Q018,A05,Vom Erz zum Bauteil,Technik & Maschinen,production,team,Q016,Industrial Processor,Chemie und Verarbeitung verbinden,Passender Komfort / Codex-Hinweis,design
