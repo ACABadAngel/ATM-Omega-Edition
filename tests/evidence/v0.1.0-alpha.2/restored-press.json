@@ -1,0 +1,12 @@
+{
+	"success": true,
+	"failure": "",
+	"checks": [
+		"Flowing water drives a real water wheel and press",
+		"Real press converts one Primitive Core to one Pressed Core",
+		"Same powered press converts a copper ingot into one copper sheet"
+	],
+	"press_rpm": 8,
+	"elapsed_ticks": 380,
+	"power_source": "create:water_wheel with flowing minecraft:water"
+}

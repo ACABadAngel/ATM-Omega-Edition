@@ -1,0 +1,20 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pack/pack.json": "af00e0c6f14ef12dc871c504b31221dfd767a8a0fe483ce055f00f6dd2222ad5",
+    "pack/lock.json": "372fc12b10747d8e1c5b764e20c393bb21c097f93458881e7d7cdc7a9953cf5e",
+    "tools/pack.py": "39da45d361812750af9c09018c8ad18b6f3bb3f91f242189b1f295c1a90e1086",
+    "tools/backup.py": "9be823c0a0cfdaaf954c2fb3d7a1e63fc9e2c48b470be8f5a5a781a2d09c6080",
+    "tests/runtime_scripts/omega_smoke.js": "1d16cc6ff34fc2d9c9755af5f5ce7d01a5e799adb5ac4ca09dbdf61fdf3365f9",
+    "tests/runtime_scripts/omega_press_smoke.js": "456c5ad128143f675a543012a9e3cc9d2c5c7e8f811569c46636b98a38bd71cf",
+    "pack/overrides/config/ftbquests/quests/chapter_groups.snbt": "0fe735f6927c9d905e14b238f2cf44d5c08d735b460a603ad26a764b90096dca",
+    "pack/overrides/config/ftbquests/quests/chapters/01_from_survival_to_motion.snbt": "e1aa3e6d9048ff22efa3c35b09d16a85de97f12dd221e67dfe8ada5f7db1a109",
+    "pack/overrides/config/ftbquests/quests/data.snbt": "a137a7aebc23150340063f01cef2e13abbd611c041c3b32f44133242626a0591",
+    "pack/overrides/config/ftbquests/quests/lang/de_de.snbt": "5f129a6fba593cb3d87bcf577a5bfbde2fa5af7810b9754b3fd9f96f67625c41",
+    "pack/overrides/config/ftbquests/quests/lang/en_us.snbt": "d32156868da7c8afb84f84698447e20144b6c783aa8eaae89222e64f67e3038b",
+    "pack/overrides/kubejs/assets/omega/lang/de_de.json": "ba94827aadd72f9baa18a00d0f04580578efff9aae97c78ad7d0d8ec63f16e84",
+    "pack/overrides/kubejs/assets/omega/lang/en_us.json": "a87e70da5784b2e809954afaa07505c20bd41481f1a993533e819573892742db",
+    "pack/overrides/kubejs/server_scripts/omega_progression.js": "bec7ed44d65a3bbb2f27a17404ba4b5207922da8c3d9446d0b7f57d331659d7e",
+    "pack/overrides/kubejs/startup_scripts/omega_items.js": "98e7b21345f910297bd0f788d341d06682089f9eb77d60dc31622dec4b80714d"
+  }
+}

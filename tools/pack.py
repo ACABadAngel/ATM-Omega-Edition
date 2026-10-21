@@ -175,7 +175,7 @@ def build(output, root=ROOT):
     # A server kit carries our scripts/configuration and the same lock. No mod JARs,
     # Minecraft server binaries, credentials or accepted EULA are redistributed.
     server_files = {key: (root / key).read_bytes() for key in [
-        'tools/pack.py', 'pack/pack.json', 'pack/lock.json', 'pack/SERVER-README.md',
+        'tools/pack.py', 'tools/backup.py', 'pack/pack.json', 'pack/lock.json', 'pack/SERVER-README.md',
     ]}
     for key, data in override_files(meta, root).items():
         server_files['pack/' + key] = data
@@ -215,26 +215,33 @@ def install_server(directory, java='java', root=ROOT):
     meta, lock = load(root)
     target = directory.resolve()
     sentinel = target / '.omega-instance.json'
-    if (target / 'world').exists():
+    if ((target / 'world').exists() or any(target.rglob('level.dat'))
+            or any(target.rglob('session.lock'))):
         raise ValueError('This command only creates fresh servers. Back up and migrate existing worlds separately.')
     if target.exists() and any(target.iterdir()) and not sentinel.is_file():
         raise ValueError('Refusing to write into an unrecognised nonempty directory')
     signature = digest(json.dumps(lock, sort_keys=True).encode('utf-8'))
-    if sentinel.is_file() and json.loads(sentinel.read_text())['lock_hash'] != signature:
+    previous = json.loads(sentinel.read_text()) if sentinel.is_file() else {}
+    if previous and previous['lock_hash'] != signature:
         raise ValueError('Server directory belongs to another lock. Use a new empty directory.')
     command = java_command(java)
     target.mkdir(parents=True, exist_ok=True)
-    sentinel.write_text(json.dumps({'version': meta['version'], 'lock_hash': signature}, indent=2) + '\n')
+    state = {'version': meta['version'], 'lock_hash': signature,
+             'neoforge_install_complete': previous.get('neoforge_install_complete', False)}
+    sentinel.write_text(json.dumps(state, indent=2) + '\n')
     cache = target / '.omega-cache'
     installer = download(lock['installer'], cache / lock['installer']['filename'])
     # The installer fetches official Minecraft/NeoForge libraries and performs their own checksum checks.
-    if not (target / 'run.sh').is_file() and not (target / 'run.bat').is_file():
+    if not (state['neoforge_install_complete'] and (target / 'run.sh').is_file()
+            and (target / 'run.bat').is_file()):
         installer_env = os.environ.copy()
         # NeoForge processors may launch child JVMs. Bound their heap and worker count too.
         installer_env['JAVA_TOOL_OPTIONS'] = (installer_env.get('JAVA_TOOL_OPTIONS', '')
                                              + ' -Xmx2G -XX:ActiveProcessorCount=4').strip()
         subprocess.run(command + ['-jar', str(installer), '--installServer', str(target)],
                        check=True, cwd=target, env=installer_env)
+        state['neoforge_install_complete'] = True
+        sentinel.write_text(json.dumps(state, indent=2) + '\n')
     for mod in lock['mods']:
         if mod['env']['server'] == 'unsupported':
             continue

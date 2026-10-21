@@ -1,4 +1,4 @@
-# Omega 0.1 — Dedicated Server Kit
+# Omega 0.1.0-alpha.2 — Dedicated Server Kit
 
 Benötigt: **Python 3.11+ und Java 21**. Dieses Kit lädt die exakt gesperrten Moddateien von ihren Projektquellen und den NeoForge-Installer vom offiziellen Maven. Es enthält keine fremden JARs oder akzeptierte EULA.
 
@@ -13,3 +13,21 @@ Liegt Java 21 nicht auf PATH: `python3 tools/pack.py install-server --directory 
 Das Installationswerkzeug bearbeitet nur einen neuen Serverordner. Vor Updates eine vollständige Sicherung von Welt, Spieler-, Team-, Quest- und Konfigurationsdaten anlegen. Kein Installationsaufruf setzt vorhandene Welten zurück. Für Restore den gestoppten gesamten Serverordner sichern und als Kopie wiederherstellen.
 
 Inhalt dieser Alpha: Create, erster Questpfad auf Deutsch/Englisch, Pflanzenfasern, Baumharz, Primitive Core, Pressed Core und Mechanical Core. Der 120-Platten-Auftrag misst eine Abgabe; eine verifizierte Produktionsrate gehört erst in ein späteres Update.
+
+## Offline-Backup und Restore
+
+Server mit `save-all flush` und `stop` vollständig beenden. Danach im Kit-Ordner:
+
+```sh
+python3 tools/backup.py create --instance server --output backups/before-update.zip
+python3 tools/backup.py verify --archive backups/before-update.zip
+```
+
+Zum Restore mit diesem identischen Packlock zuerst einen separaten Server installieren, noch nicht starten:
+
+```sh
+python3 tools/pack.py install-server --directory server-restored
+python3 tools/backup.py restore --archive backups/before-update.zip --instance server-restored
+```
+
+Danach den restaurierten Server mit Java 21 starten. Vorhandene Welten und andere Modlocks werden abgelehnt. Backups enthalten private Welt-, Spieler- und Serverdaten. Die EULA-Einstellung wird aus der Sicherung übernommen; nur bei eigener Zustimmung aktivieren. Linux-Restore ist getestet; Windows benötigt noch native Abnahme. Die Quelle enthält eine ausführliche Anleitung unter `docs/backups.md`.

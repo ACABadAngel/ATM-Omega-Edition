@@ -1,0 +1,8 @@
+=== alpha2-press.log ===
+=== alpha2-restored.log ===
+[21:20:32] [main/INFO] [KubeJS Server/]: Added 8 recipes, removed 2 recipes, modified 0 recipes, with 0 failed recipes taking 328 ms in total
+[21:20:33] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.560s)! For help, type "help"
+[21:20:33] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[21:20:33] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 1 chapters, 12 quests, 0 reward tables
+[21:20:35] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 27 runtime checks
+[21:20:55] [Server thread/INFO] [KubeJS Server/]: [OMEGA PRESS] PASS

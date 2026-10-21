@@ -4,7 +4,7 @@
 
 Du arbeitest im Repository `ACABadAngel/ATM-Omega-Edition` für Paul und seinen Kollegen. Entwickle ein sehr großes, extrem anspruchsvolles Expert-Modpack, in dem Technik, Magie, Erkundung, Bosse und Automation gemeinsam benötigt werden. Antworte und dokumentiere standardmäßig auf Deutsch; verwende stabile englische technische IDs.
 
-**Aktuell: 0.1.0-alpha.1 mit Packlock, Exporter, fünf Items, acht Rezepten und zwölf bilingualen FTB-Quests.** Lies [STATUS.md](STATUS.md), [Installation](docs/installation.md) und den [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md). Serverprüfungen ersetzen keinen Client-/Multiplayer-Playtest. Langfristige Ziele bleiben Planung.
+**Aktuell: 0.1.0-alpha.2 mit Packlock, Exporter, fünf Items, acht Rezepten und zwölf bilingualen FTB-Quests.** Lies [STATUS.md](STATUS.md), [Installation](docs/installation.md) und den [Testbericht](tests/evidence/v0.1.0-alpha.2/REPORT.md). Linux-Backup/Restore und physische Wasserpresse sind geprüft. Serverprüfungen ersetzen keinen Client-/Multiplayer-Playtest. Langfristige Ziele bleiben Planung.
 
 Die vollständige Quelle steht unter `docs/source/original-plan.txt`. Die ausgearbeiteten Dokumente haben Vorrang bei Widersprüchen innerhalb der ursprünglichen Diskussion. Die ursprünglichen 10/12/13 Zeitalter wurden zu **12 Hauptzeitaltern plus optionalem Legacy-Epilog** vereinheitlicht. Namen, Mengen und Raten sind Designwerte, bis sie durch Playtests bestätigt sind.
 
@@ -32,7 +32,7 @@ Lies vor einem Port zusätzlich `docs/legacy-porting.md`. Ein nachträglich ange
 ## Nächster konkreter Auftrag
 
 1. Importiere den Alpha-Client, prüfe deutsche/englische Texte, JEI, Ponder und alle fünf Itemmodelle. Dokumentiere tatsächliche Ergebnisse unter `tests/evidence/`.
-2. Spiele in frischer Welt den Pfad bis Mechanical Core durch: mehrere Primitive Cores, Wasserrad, angetriebene Presse, Pressed Core und 120-Platten-Lieferung. Teste Platzierung und tatsächliche Maschinenverarbeitung; die automatischen Tests prüfen Rezeptmanager und Crafting, keine laufende physische Presse.
+2. Spiele in frischer Welt den Pfad bis Mechanical Core durch: mehrere Primitive Cores, Wasserrad, angetriebene Presse, Pressed Core und 120-Platten-Lieferung. Teste Platzierung und tatsächliche Maschinenverarbeitung; der isolierte Servertest betreibt inzwischen eine echte wassergetriebene Presse. Er ersetzt keinen vollständigen Survival-Durchlauf.
 3. Prüfe mit zwei echten Spielern: FTB-Teambeitritt/-austritt, Lieferfortschritt, Belohnungen, Disconnect und Serverneustart. Die vorhandene synthetische Teamprüfung ersetzt das nicht.
 4. Ergänze danach einen kleinen Abschnitt des elektrischen Zeitalters. Entscheide die neue Modgruppe und ihre Gates anhand des Backlogs. Noch keine gesamte 473er-Wunschliste installieren.
 5. Halte Lock, Modregister, generierte Quests und Dokumentation konsistent. Bewahre die veröffentlichten Registry-/Quest-IDs; vor Omega-Core-Übernahme die KubeJS-Registrierung derselben IDs gleichzeitig entfernen.

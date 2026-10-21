@@ -17,6 +17,8 @@ Die folgende Tabelle definiert den kritischen Pfad. Innerhalb eines Zeitalters l
 | A11 Transcendence | Omega Core | Alle Hauptzweige meistern, Transcendence-Prüfungen, Sternfabrik, Materiesynthese | Transcendence Core nach erster Transcendence Star | Transcendence Realm, leistungsfähige Synthese und Omega Network |
 | A12 Infinity | Transcendence Core | Infinity Forge, Architect-Schlüssel, fünfphasiger Boss, Infinity Omega Star | Infinity Core aktivieren und Infrastrukturtest bestehen | Freies Bauen, kosmetische Ascension und optionale Folgeherausforderungen |
 
+Die Tabelle beschreibt das langfristige Design. In Alpha 0.1.0-alpha.2 ist A02 ein verbrauchender Lieferauftrag über 120 Platten, ohne Zeit- oder Neuproduktionsmessung. Eine echte wasserbetriebene Presse wurde isoliert auf dem Server geprüft. Der elektrische Abschnitt und spätere Gates sind noch nicht implementiert.
+
 ## Core, Stern und Forschung sauber trennen
 
 Ein **Core** ist ein Meilensteinobjekt für Rezepte. Das dauerhafte Team-Flag bestätigt den erreichten Abschnitt; es wird nicht wieder gelöscht, wenn der Core verbraucht oder verloren wird. Der **Stern** ist ein teures Verbrauchs-/Herstellungsprodukt. **Forschung** bietet gezielte Freischaltungen und Seitenspezialisierungen. Kein System darf irrtümlich voraussetzen, dass ein Team ein bereits verbrauchtes Item ständig im Inventar trägt.

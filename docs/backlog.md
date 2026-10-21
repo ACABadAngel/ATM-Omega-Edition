@@ -1,6 +1,6 @@
 # Umsetzungsbacklog
 
-Stand: alle folgenden Implementierungspakete `todo`. Planung ist vorhanden; sie ist nicht mit erledigter Implementation gleichzusetzen. Reihenfolge innerhalb einer Phase nach Abhängigkeiten wählen. Größere Pakete vor Beginn in überprüfbare Teilaufgaben zerlegen.
+Stand: Alpha 0.1.0-alpha.2. Die Paketliste beschreibt weiterhin die vollständigen Abnahmen. FND-01 ist für den Alpha-Batch aufgelöst; FND-03 ist unter Linux mit echter Welt geprüft. FND-02, MOD-01 und MVP-01/02/04 bleiben wegen offener Client-/Survival-/Multiplayer-Abnahme teilweise offen. MVP-03 ist serverseitig über eine synthetische Teamabgabe geprüft. Reihenfolge innerhalb einer Phase nach Abhängigkeiten wählen. Größere Pakete vor Beginn in überprüfbare Teilaufgaben zerlegen.
 
 | ID | Priorität | Paket | Voraussetzung | Definition of Done |
 | --- | --- | --- | --- | --- |
@@ -58,3 +58,7 @@ Stand: alle folgenden Implementierungspakete `todo`. Planung ist vorhanden; sie 
 ## Änderungsprotokoll für erledigte Pakete
 
 Bei Abschluss je Paket eine kurze Zeile mit Datum, Commit, erreichten Abnahmekriterien, durchgeführten Prüfungen und offenen Folgepunkten ergänzen. Implementierung und Tests nicht anhand der bloßen Existenz eines Markdownabschnitts als abgeschlossen markieren.
+
+### 21.10.2026 · Alpha 2
+
+FND-03: Offline-Backup, Hash-Verifikation, Restore in separater Instanz und erneuter Serverstart geprüft. Alle 65 Dateien stimmen vor dem Start byteweise überein; Itemstack und Lieferfortschritt bleiben nach dem Start erhalten. Windows-Abnahme offen. MVP-01: Physische Wasserpresse verarbeitet Primitive Core und Kupfer bei 8 RPM. Vollständiger Survival- und Teamdurchlauf weiterhin offen. [Evidenz](../tests/evidence/v0.1.0-alpha.2/REPORT.md).

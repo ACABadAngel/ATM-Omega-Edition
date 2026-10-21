@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "pack_version": "0.1.0-alpha.2",
+  "world": "world-alpha",
+  "file_count": 65,
+  "all_restored_files_match_source": true,
+  "all_12_server_mods_match_lock": true,
+  "backup_sha256": "bb53b026ceb2465516ff12cc36246ac324dcce2143916a6c23c6a54324a69923",
+  "world_files_include": [
+    "world-alpha/level.dat",
+    "world-alpha/kubejs_persistent_data.nbt",
+    "world-alpha/ftbquests/00000000-0000-0000-0000-000000000123.snbt"
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Client: CurseForge-Minecraft-App
 
-1. Lade `ATM-Omega-Edition-0.1.0-alpha.1-curseforge.zip`. Die Datei unverändert lassen.
+1. Lade `ATM-Omega-Edition-0.1.0-alpha.2-curseforge.zip`. Die Datei unverändert lassen.
 2. Öffne in der CurseForge-App Minecraft → eigenes Profil erstellen → Importieren. Wähle den ZIP und lasse alle Mods herunterladen.
 3. Verwende Java 21. Beginne versuchsweise mit 4–6 GB zugewiesenem RAM; das ist kein gemessener Mindestbedarf.
 4. Starte eine neue Survival-Welt. Öffne das FTB-Questbuch über den Inventar-Button und bestätige die Einführung.
@@ -26,7 +26,7 @@ Unter Windows kann `python3` durch `py -3` ersetzt werden. Beide ZIPs und SHA-25
 
 ## Dedicated Server
 
-Das separate `ATM-Omega-Edition-0.1.0-alpha.1-server-kit.zip` entpacken. Python 3.11+ und Java 21 installieren. Im entpackten Ordner:
+Das separate `ATM-Omega-Edition-0.1.0-alpha.2-server-kit.zip` entpacken. Python 3.11+ und Java 21 installieren. Im entpackten Ordner:
 
 ```sh
 python3 tools/pack.py install-server --directory server
@@ -35,6 +35,8 @@ python3 tools/pack.py install-server --directory server
 Alternativ `install-server.bat` starten oder `sh install-server.sh` ausführen. Der Installer lädt die festgelegten Mods, prüft Hashes und installiert NeoForge. AppleSkin wird als Clientmod ausgelassen. Eine abweichende Java-Installation kann mit `--java /voller/pfad/zu/java` gewählt werden.
 
 Lies die Minecraft-EULA und setze `server/eula.txt` selbst auf `eula=true`, wenn du zustimmst. Danach im Ordner `server/` die erzeugte `run.bat` beziehungsweise `run.sh` starten. Client und Server müssen denselben Packstand verwenden. Details: [Server-Handbuch](../pack/SERVER-README.md).
+
+Backup und Rücksicherung: [Schritt-für-Schritt-Anleitung](backups.md). Eine tatsächlich getestete Anordnung für Wasserrad und Presse steht unter [Erste Fabrik](first-factory.md).
 
 ## Updates und Fehlermeldungen
 

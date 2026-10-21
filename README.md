@@ -2,11 +2,13 @@
 
 Ein eigenständiges Minecraft-Expert-Modpack: Technik, Magie, Erkundung, Kampf und Landwirtschaft bilden eine gemeinsame Progression bis zur Infinity Omega Star.
 
-**Version 0.1.0-alpha.1 · 21. Oktober 2026.** Die erste Alpha implementiert Survival → Primitive Core → Create-Wasserkraft → Mechanical Core. Sie enthält 13 festgelegte Moddateien, 12 Quests auf Deutsch und Englisch, fünf eigene Items und acht Rezepte. Der Dedicated Server sowie Crafting, Lieferaufträge und Speichern/Laden werden geprüft; die konkrete Evidenz steht im [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md).
+**Version 0.1.0-alpha.2 · 21. Oktober 2026.** Die erste Alpha implementiert Survival → Primitive Core → Create-Wasserkraft → Mechanical Core. Sie enthält 13 festgelegte Moddateien, 12 Quests auf Deutsch und Englisch, fünf eigene Items und acht Rezepte. Geprüft sind Dedicated Server, Crafting, Lieferaufträge, eine echte wasserbetriebene Presse sowie Backup/Restore; die konkrete Evidenz steht im [Testbericht](tests/evidence/v0.1.0-alpha.2/REPORT.md).
 
 **Starten:** [Installationsanleitung](docs/installation.md) lesen. Den Client-ZIP im CurseForge-Minecraft-Launcher importieren. Java 21 verwenden. Exporte gibt es als [GitHub-Actions-Artefakt](https://github.com/ACABadAngel/ATM-Omega-Edition/actions/workflows/build-alpha.yml) oder lokal mit `python3 tools/pack.py build`.
 
 Clientdarstellung, Questoberfläche und ein echter Zwei-Spieler-Durchlauf sind noch nicht geprüft. Dies ist ein früher Teststand. Der Name ist ein Arbeitstitel; eine Zugehörigkeit zu All the Mods wird nicht behauptet.
+
+Neu in Alpha 2: [Offline-Backup und Restore](docs/backups.md), sicherer Installer-Wiederanlauf und ein Test der physischen Create-Presse. Zum Spielen: [Erste Fabrik bauen](docs/first-factory.md).
 
 ## Zielbild
 
@@ -72,4 +74,4 @@ python3 -m unittest discover -s tests -v
 python3 tools/pack.py build
 ```
 
-Siehe [Alpha-Änderungen](docs/releases/0.1.0-alpha.1.md), [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md) und [STATUS.md](STATUS.md).
+Siehe [Alpha-Änderungen](docs/releases/0.1.0-alpha.2.md), [Testbericht](tests/evidence/v0.1.0-alpha.2/REPORT.md) und [STATUS.md](STATUS.md).
