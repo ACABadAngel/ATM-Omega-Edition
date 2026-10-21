@@ -3,5 +3,7 @@
   "item.omega.tree_resin": "Baumharz",
   "item.omega.primitive_core": "Primitiver Kern",
   "item.omega.pressed_core": "Gepresster Kern",
-  "item.omega.mechanical_core": "Mechanischer Kern"
+  "item.omega.mechanical_core": "Mechanischer Kern",
+  "item.omega.infernal_essence": "Infernale Essenz",
+  "item.omega.electrical_core": "Elektrischer Kern"
 }

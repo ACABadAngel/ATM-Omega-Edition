@@ -80,14 +80,14 @@ class PackTests(unittest.TestCase):
                                          name.endswith('eula.txt') or '/world/' in name for name in names))
             with zipfile.ZipFile(first[0]) as archive:
                 manifest = json.loads(archive.read('manifest.json'))
-                self.assertEqual(len(manifest['files']), 13)
+                self.assertEqual(len(manifest['files']), 15)
                 self.assertEqual(manifest['minecraft']['modLoaders'][0]['id'], 'neoforge-' + meta['neoforge'])
-            self.assertEqual(sum(m['env']['server'] != 'unsupported' for m in lock['mods']), 12)
+            self.assertEqual(sum(m['env']['server'] != 'unsupported' for m in lock['mods']), 14)
 
     def test_quest_graph_and_consuming_contract(self):
         content = json.loads((ROOT / 'pack/content/quests.json').read_text())
         quests = {q['id']: q for q in content['quests']}
-        self.assertEqual(len(quests), 12)
+        self.assertEqual(len(quests), 22)
         visited = set()
         def visit(key, active):
             self.assertNotIn(key, active, 'Quest dependency cycle')
@@ -104,6 +104,38 @@ class PackTests(unittest.TestCase):
         contracts = [q for q in quests.values() if q['consume']]
         self.assertEqual(len(contracts), 1)
         self.assertEqual(contracts[0]['items'], [{'id': 'create:copper_sheet', 'count': 120}])
+
+    def test_published_quest_task_reward_ids_are_preserved(self):
+        generator_spec = importlib.util.spec_from_file_location('quests', ROOT / 'tools/generate_quests.py')
+        generator = importlib.util.module_from_spec(generator_spec)
+        generator_spec.loader.exec_module(generator)
+        generated = generator.generated_files()
+        chapters = [json.loads(value) for name, value in generated.items() if name.startswith('chapters/')]
+        self.assertEqual(len(chapters), 2)
+        golden = json.loads((ROOT / 'tests/fixtures/alpha1_quest_ids.json').read_text())
+        chapter = next(chapter for chapter in chapters if chapter['id'] == golden['chapter_id'])
+        self.assertEqual({quest['id']: {'tasks': [task['id'] for task in quest['tasks']],
+                                      'rewards': [reward['id'] for reward in quest['rewards']]}
+                          for quest in chapter['quests']}, golden['quests'])
+        ids = [chapter['id'] for chapter in chapters]
+        for chapter in chapters:
+            for quest in chapter['quests']:
+                ids.append(quest['id'])
+                ids.extend(task['id'] for task in quest['tasks'])
+                ids.extend(reward['id'] for reward in quest['rewards'])
+        self.assertEqual(len(ids), len(set(ids)))
+        content = json.loads((ROOT / 'pack/content/quests.json').read_text())
+        content['quests'].reverse()
+        with tempfile.TemporaryDirectory() as folder:
+            alternate = Path(folder)
+            (alternate / 'pack/content').mkdir(parents=True)
+            (alternate / 'pack/content/quests.json').write_text(json.dumps(content))
+            with mock.patch.object(generator, 'ROOT', alternate):
+                reordered = generator.generated_files()
+        for name in [name for name in generated if name.startswith('chapters/')]:
+            before = {q['id']: (q['tasks'], q['rewards']) for q in json.loads(generated[name])['quests']}
+            after = {q['id']: (q['tasks'], q['rewards']) for q in json.loads(reordered[name])['quests']}
+            self.assertEqual(before, after)
 
 
 if __name__ == '__main__':

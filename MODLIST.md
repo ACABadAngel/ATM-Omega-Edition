@@ -8,7 +8,7 @@ Das langfristige Budget von **1.085 Mods / 1.000+** bleibt bestehen. Dafür sind
 
 **Leseschlüssel:** Kernwunsch = bevorzugte Grundlage; Ausbauwunsch = gewünschter zusätzlicher Inhalt; Alternative = nur nach Rollenentscheidung; Abhängigkeit = nur wenn ein gewählter Build sie benötigt; Legacy-Prüfung = offizielle Ausgabe/Fortsetzung zuerst suchen, andernfalls separaten erlaubten Port prüfen; Eigenentwicklung = im Projekt selbst bauen.
 
-Die Phase bezeichnet die geplante Aufnahme-/Spielrolle, kein zugesichertes Freischaltungsalter. Fundament bedeutet keine Anweisung, alle so markierten Projekte im ersten Batch zu installieren. Versionen, Loaderunterstützung, vollständige Abhängigkeiten, Lizenzen und Laufzeitkompatibilität bleiben bis zur echten Prüfung offen. Statusverteilung: **460 × `candidate`**, **13 × `resolved`**.
+Die Phase bezeichnet die geplante Aufnahme-/Spielrolle, kein zugesichertes Freischaltungsalter. Fundament bedeutet keine Anweisung, alle so markierten Projekte im ersten Batch zu installieren. Versionen, Loaderunterstützung, vollständige Abhängigkeiten, Lizenzen und Laufzeitkompatibilität bleiben bis zur echten Prüfung offen. Statusverteilung: **458 × `candidate`**, **15 × `resolved`**.
 
 ## Übersicht
 
@@ -98,8 +98,8 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [Industrialization Overdrive](https://www.curseforge.com/minecraft/mc-mods/industrialization-overdrive) (`industrialization_overdrive`) | Ausbau der ausgewählten Industrialisierungskette | Ausbauwunsch / P2 | Späte Progression | — |
 | [Iron Furnaces](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) (`iron_furnaces`) | Gestufte Schmelzleistung | Ausbauwunsch / P2 | Mittlere Progression | — |
 | [Just Dire Things](https://www.curseforge.com/minecraft/mc-mods/just-dire-things) (`just_dire_things`) | Gestufte Werkzeuge und Automationshilfen | Ausbauwunsch / P2 | Mittlere Progression | — |
-| [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) (`mekanism`) | Verarbeitung und Chemie | Kernwunsch / P0 | Mittlere Progression | — |
-| [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators) (`mekanism_generators`) | Spaltung, Fusion und Energieinfrastruktur | Ausbauwunsch / P2 | Mittlere Progression | Elternkandidaten: mekanism |
+| [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) (`mekanism`) | Verarbeitung und Chemie | Kernwunsch / P0 | Mittlere Progression | Alpha 0.2: elektrischer Einstieg; Pflichtmetadaten und Hashes geprüft. Client-/Mehrspieler-Abnahme offen; native spätere Inhalte noch nicht vollständig gegated. |
+| [Mekanism Generators](https://www.curseforge.com/minecraft/mc-mods/mekanism-generators) (`mekanism_generators`) | Spaltung, Fusion und Energieinfrastruktur | Ausbauwunsch / P2 | Mittlere Progression | Alpha 0.2: elektrischer Einstieg; Pflichtmetadaten und Hashes geprüft. Client-/Mehrspieler-Abnahme offen; native spätere Inhalte noch nicht vollständig gegated. Elternkandidaten: mekanism |
 | [Mekanism:More Machine](https://www.curseforge.com/minecraft/mc-mods/mekanism-more-machine) (`mekanism_more_machine`) | Zusätzliche fortgeschrittene Verarbeitung | Ausbauwunsch / P2 | Mittlere Progression | Elternkandidaten: mekanism |
 | [Mining Gadgets](https://www.curseforge.com/minecraft/mc-mods/mining-gadgets) (`mining_gadgets`) | Fortschrittliche persönliche Abbauwerkzeuge | Ausbauwunsch / P2 | Mittlere Progression | — |
 | [Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils) (`mob_grinding_utils`) | Gestufte Mobfarm-Bauteile | Ausbauwunsch / P2 | Mittlere Progression | — |

@@ -1,0 +1,11 @@
+{
+	"success": true,
+	"inspected_blocks": 4283,
+	"first_natural_osmium": {
+		"id": "mekanism:deepslate_osmium_ore",
+		"x": 1,
+		"y": -6,
+		"z": 1
+	},
+	"note": "One fresh-world sample; no ore blocks placed by the fixture"
+}

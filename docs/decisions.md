@@ -51,3 +51,9 @@ ADR-05/06: KubeJS besitzt in der Alpha `omega:plant_fiber`, `omega:tree_resin`, 
 Der 120-Kupferplatten-Auftrag ist ausdrücklich ein verbrauchender Lieferauftrag. Er misst weder eine Produktionsrate noch frisch produzierte Gegenstände; die geplante manipulationsgeschützte Produktionsmessung bleibt CORE-Arbeit. Die maschinelle Herstellung des Pressed Core verwendet den nativen Create-Rezepttyp.
 
 Eingebettete Bibliotheken werden nicht doppelt installiert: Create bringt Flywheel/Ponder mit, KubeJS Better Advanced Tooltips und JEI MezzConfig. Ihre IDs werden bei der Abhängigkeitsprüfung berücksichtigt. Das Kandidatenregister ist keine zweite installierte Modliste.
+
+## Elektrischer Durchstich 0.2.0-alpha.1
+
+Mekanism und Mekanism Generators 10.7.19.85 ergänzen die native Technikrolle. Dieser Batch umfasst bewusst nur die zwei benötigten Projekte; keine unbenötigten Füllmods. Exakte Quellen, CurseForge-IDs, Hashes, MIT-Lizenzlabels und JAR-Abhängigkeiten stehen im Lock. Der minimale NeoForge-Bedarf 21.1.194 ist durch den bestehenden Build 21.1.264 erfüllt. Eine protokollierte vollständige Client-/Team-Abnahme bleibt offen; der Nutzer hat die Weiterentwicklung ausdrücklich gewünscht.
+
+Der erste Infuser verbraucht einen Mechanical Core. Ein direkt angeschlossener Heat Generator ermöglicht den Bootstrap, bevor Stahlkabel herstellbar sind. Native Mekanism-Rezepte bleiben ansonsten erhalten; spätere Maschinen benötigen noch ein umfassendes Expert-Gate-Audit. In dieser Version wird Infused Alloy aus Kupfer hergestellt. Ein Weizen zu einer Pflanzenfaser behebt den realen Konflikt mit Vanillas Brot bei unverändertem Mengenverhältnis. Frühere Quest-/Task-/Reward-IDs werden über eine feste Testfixture erhalten; neue Kapitel dürfen diese IDs nicht durch Listenumsortierung verändern.

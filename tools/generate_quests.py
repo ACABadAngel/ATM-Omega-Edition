@@ -11,16 +11,23 @@ DEST = ROOT / 'pack/overrides/config/ftbquests/quests'
 
 def generated_files():
     content = json.loads((ROOT / 'pack/content/quests.json').read_text(encoding='utf-8'))
-    chapter = {
-        'id': content['chapter_id'], 'filename': '01_from_survival_to_motion',
-        'group': '', 'order_index': 0, 'default_quest_shape': 'square',
+    definitions = [{'id': content['chapter_id'], 'filename': '01_from_survival_to_motion',
+                    'title': content['chapter_title']}] + content.get('additional_chapters', [])
+    chapters = {definition['id']: {
+        'id': definition['id'], 'filename': definition['filename'],
+        'group': '', 'order_index': index, 'default_quest_shape': 'square',
         'progression_mode': 'linear', 'quests': [],
-    }
+    } for index, definition in enumerate(definitions)}
     languages = {locale: {
-        'file.0000000000000001.title': 'ATM Omega Edition · 0.1',
-        f'chapter.{content["chapter_id"]}.title': content['chapter_title'][locale],
+        'file.0000000000000001.title': 'ATM Omega Edition · 0.2',
     } for locale in ('en_us', 'de_de')}
-    for number, source in enumerate(content['quests'], 1):
+    for definition in definitions:
+        for locale, table in languages.items():
+            table[f'chapter.{definition["id"]}.title'] = definition['title'][locale]
+    for source in content['quests']:
+        # Derive task/reward IDs from the stable quest ID, never its current list position.
+        # This preserves all published alpha-1 IDs when chapters are reordered.
+        number = int(source['id'][-4:], 16)
         quest = {
             'id': source['id'], 'x': float(source['x']), 'y': float(source['y']),
             'dependencies': source['dependencies'], 'tasks': [], 'rewards': [],
@@ -40,14 +47,14 @@ def generated_files():
                 'id': f'300000000000{number:04X}', 'type': 'item',
                 'item': {'id': item, 'count': count},
             })
-        chapter['quests'].append(quest)
+        chapters[source.get('chapter_id', content['chapter_id'])]['quests'].append(quest)
         for locale, table in languages.items():
             table[f'quest.{source["id"]}.title'] = source['title'][locale]
             table[f'quest.{source["id"]}.quest_desc'] = source['description'][locale]
 
     # JSON is a strict subset of the SNBT accepted by FTB Library. Numeric task counts
     # are read through CompoundTag.getLong(), which accepts any NumericTag.
-    files = {'chapters/01_from_survival_to_motion.snbt': chapter}
+    files = {f'chapters/{chapter["filename"]}.snbt': chapter for chapter in chapters.values()}
     files.update({f'lang/{locale}.snbt': table for locale, table in languages.items()})
     return {name: json.dumps(data, ensure_ascii=False, indent=2) + '\n' for name, data in files.items()}
 
@@ -64,7 +71,7 @@ def main():
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(text, encoding='utf-8')
-    print('PASS: 12 bilingual FTB quests are ' + ('current.' if args.check else 'generated.'))
+    print('PASS: bilingual FTB chapters are ' + ('current.' if args.check else 'generated.'))
 
 
 if __name__ == '__main__':

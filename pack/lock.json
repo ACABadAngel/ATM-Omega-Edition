@@ -342,6 +342,74 @@
       ]
     },
     {
+      "id": "mekanism",
+      "name": "Mekanism",
+      "version": "10.7.19.85",
+      "filename": "Mekanism-1.21.1-10.7.19.85.jar",
+      "provider": "modrinth",
+      "project_id": "Ce6I4WUE",
+      "version_id": "5KzzycBT",
+      "source": "https://modrinth.com/mod/mekanism",
+      "source_code": "https://github.com/mekanism/Mekanism",
+      "license": "MIT",
+      "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar",
+      "size": 11976009,
+      "hashes": {
+        "sha1": "b78945c40cfe7640408f3fd1e44da385a8c8b805",
+        "sha512": "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 268560,
+        "file_id": 7904058
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/5KzzycBT",
+      "mod_ids": [
+        "mekanism"
+      ],
+      "embedded_mod_ids": [],
+      "curseforge_source": "https://www.curseforge.com/minecraft/mc-mods/mekanism/files/7904058"
+    },
+    {
+      "id": "mekanism_generators",
+      "name": "Mekanism Generators",
+      "version": "10.7.19.85",
+      "filename": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "provider": "modrinth",
+      "project_id": "OFVYKsAk",
+      "version_id": "a6gl7srE",
+      "source": "https://modrinth.com/mod/mekanism-generators",
+      "source_code": "https://github.com/mekanism/Mekanism",
+      "license": "MIT",
+      "url": "https://cdn.modrinth.com/data/OFVYKsAk/versions/a6gl7srE/MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "size": 1114598,
+      "hashes": {
+        "sha1": "44c4d8006597580ff7e4101b5a22f7b426cdcaf6",
+        "sha512": "6c3d5b7ea2f67f43c3d169c97de2855a7085f38019cf426e015ccc8ca9bc4f66e96b1cdf4a9afdc92bef7b2e236f16c81415ed5e48736805d5961d29525316d6"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 268566,
+        "file_id": 7904061
+      },
+      "declared_required_mods": [
+        "mekanism"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/a6gl7srE",
+      "mod_ids": [
+        "mekanismgenerators"
+      ],
+      "embedded_mod_ids": [],
+      "curseforge_source": "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators/files/7904061"
+    },
+    {
       "id": "modernfix",
       "name": "ModernFix",
       "version": "5.27.26+mc1.21.1",

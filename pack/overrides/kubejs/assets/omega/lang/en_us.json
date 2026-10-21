@@ -3,5 +3,7 @@
   "item.omega.tree_resin": "Tree Resin",
   "item.omega.primitive_core": "Primitive Core",
   "item.omega.pressed_core": "Pressed Core",
-  "item.omega.mechanical_core": "Mechanical Core"
+  "item.omega.mechanical_core": "Mechanical Core",
+  "item.omega.infernal_essence": "Infernal Essence",
+  "item.omega.electrical_core": "Electrical Core"
 }

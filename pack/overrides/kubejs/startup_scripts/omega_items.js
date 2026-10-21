@@ -17,4 +17,11 @@ StartupEvents.registry('item', event => {
   event.create('omega:mechanical_core')
     .texture('minecraft:item/heart_of_the_sea')
     .maxStackSize(16);
+  event.create('omega:infernal_essence')
+    .texture('minecraft:item/blaze_powder')
+    .color(0, 0xEE7941);
+  event.create('omega:electrical_core')
+    .texture('minecraft:item/heart_of_the_sea')
+    .color(0, 0xF4D64A)
+    .maxStackSize(16);
 });

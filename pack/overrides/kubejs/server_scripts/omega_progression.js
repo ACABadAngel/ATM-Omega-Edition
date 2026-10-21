@@ -1,7 +1,8 @@
 // v0.1 vertical slice. All custom recipes have stable omega:* IDs.
 // The hand-sheet route bootstraps the first core before a press exists.
 ServerEvents.recipes(event => {
-  event.shapeless('3x omega:plant_fiber', ['3x minecraft:wheat'])
+  // One wheat cannot overlap vanilla's three-wheat bread recipe.
+  event.shapeless('omega:plant_fiber', ['minecraft:wheat'])
     .id('omega:plant_fiber');
   event.shapeless('omega:tree_resin', ['#minecraft:logs', 'minecraft:flint'])
     .id('omega:tree_resin');

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "chapter_id": "0100000000000001",
   "chapter_title": {
     "en_us": "01 • From Survival to Motion",
@@ -19,14 +19,14 @@
       },
       "description": {
         "en_us": [
-          "This is the first playable alpha: Primitive and Mechanical ages.",
+          "This alpha includes Primitive, Mechanical and Electrical progression.",
           "Open the Quests button in your inventory. Follow the main path, then build your own factory.",
-          "Check this introduction to begin. Later ages are planned and are not included in this version."
+          "Check this introduction to begin. Later ages remain planned."
         ],
         "de_de": [
-          "Dies ist die erste spielbare Alpha mit primitivem und mechanischem Zeitalter.",
+          "Diese Alpha enthält primitive, mechanische und elektrische Progression.",
           "Öffne die Quests über dein Inventar. Folge dem Hauptpfad und baue deine eigene Fabrik.",
-          "Bestätige diese Einführung. Spätere Zeitalter sind in dieser Version noch nicht enthalten."
+          "Bestätige diese Einführung. Spätere Zeitalter bleiben geplant."
         ]
       },
       "x": 0,
@@ -158,12 +158,12 @@
       },
       "description": {
         "en_us": [
-          "Make Plant Fiber from three wheat. Combine a log and flint for Tree Resin.",
+          "One wheat makes one Plant Fiber. Combine a log and flint for Tree Resin.",
           "A Primitive Core combines four copper sheets, two fibers, two resin and charcoal.",
           "You will need multiple cores: the water wheel, press and pressed-core chain each use one."
         ],
         "de_de": [
-          "Gewinne Pflanzenfasern aus drei Weizen. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
+          "Ein Weizen ergibt eine Pflanzenfaser. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
           "Ein primitiver Kern verbindet vier Kupferplatten, zwei Fasern, zwei Harze und Holzkohle.",
           "Du brauchst mehrere Kerne: Wasserrad, Presse und gepresster Kern verbrauchen jeweils einen."
         ]
@@ -263,12 +263,12 @@
       "description": {
         "en_us": [
           "Craft the press with an iron block, two shafts, an andesite casing and another Primitive Core.",
-          "Connect rotation and place a depot below the press. Copper ingots become sheets on the depot.",
+          "Connect rotation. Place the press two blocks above a depot, leaving one air block between them. Copper ingots become sheets on the depot.",
           "Leave enough clearance and check the rotational speed if it does not move."
         ],
         "de_de": [
           "Fertige die Presse aus einem Eisenblock, zwei Wellen, einem Andesitgehäuse und einem weiteren primitiven Kern.",
-          "Schließe Rotation an und platziere ein Depot unter der Presse. Kupferbarren werden darauf zu Platten.",
+          "Schließe Rotation an. Setze die Presse zwei Blöcke über ein Depot und lasse dazwischen einen Luftblock frei. Kupferbarren werden dort zu Platten.",
           "Prüfe Abstand und Drehzahl, falls die Presse nicht arbeitet."
         ]
       },
@@ -397,19 +397,361 @@
       },
       "description": {
         "en_us": [
-          "You have completed the v0.1 main path. Expand your plate line and make the setup easy to maintain.",
-          "The next release will develop the Electrical Age. This alpha contains no Omega Reactor, bosses or later stars.",
+          "Your Mechanical milestone is complete. Continue in chapter 02: From Motion to Power.",
+          "Keep your rotational factory: more Mechanical Cores are needed for electrical machines.",
           "Before updating, back up your complete world and quest/team data."
         ],
         "de_de": [
-          "Du hast den Hauptpfad von v0.1 abgeschlossen. Erweitere die Plattenlinie und mache deine Anlage wartungsfreundlich.",
-          "Als Nächstes folgt das elektrische Zeitalter. Diese Alpha enthält noch keine Omega-Reaktoren, Bosse oder späteren Sterne.",
+          "Dein mechanischer Meilenstein ist erreicht. Weiter geht es in Kapitel 02: Von Bewegung zu Strom.",
+          "Behalte deine Rotationsfabrik: Weitere Mechanical Cores werden für elektrische Maschinen benötigt.",
           "Sichere vor Updates die vollständige Welt einschließlich Quest- und Teamdaten."
         ]
       },
       "x": 18,
       "y": 0,
       "reward": null
+    },
+    {
+      "id": "100000000000000D",
+      "chapter_id": "0100000000000002",
+      "key": "electrical_intro",
+      "age": "A03",
+      "dependencies": [
+        "100000000000000B"
+      ],
+      "items": [],
+      "consume": false,
+      "title": {
+        "en_us": "Beyond rotation",
+        "de_de": "Mehr als Rotation"
+      },
+      "description": {
+        "en_us": [
+          "Build the first electrical workshop using Mekanism. You need additional Mechanical Cores.",
+          "Start with direct generator-to-machine contact. Cables require steel, which you will make in the powered infuser first."
+        ],
+        "de_de": [
+          "Baue mit Mekanism die erste elektrische Werkstatt. Du benötigst weitere Mechanical Cores.",
+          "Verbinde Generator und Maschine zunächst direkt. Kabel brauchen Stahl, den du erst im angetriebenen Infuser herstellst."
+        ]
+      },
+      "x": 0,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000000E",
+      "chapter_id": "0100000000000002",
+      "key": "osmium",
+      "age": "A03",
+      "dependencies": [
+        "100000000000000D"
+      ],
+      "items": [
+        {
+          "id": "mekanism:ingot_osmium",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "A new metal: osmium",
+        "de_de": "Ein neues Metall: Osmium"
+      },
+      "description": {
+        "en_us": [
+          "Mine and smelt osmium ore. Keep iron, copper, gold, coal and redstone ready too.",
+          "When continuing an older alpha world, search newly generated chunks for Mekanism ores. Existing ore generation is not retroactively changed."
+        ],
+        "de_de": [
+          "Baue Osmiumerz ab und schmelze es. Halte außerdem Eisen, Kupfer, Gold, Kohle und Redstone bereit.",
+          "Suche in einer älteren Alpha-Welt in neu generierten Chunks nach Mekanism-Erzen. Alte Chunks werden nicht nachträglich umgebaut."
+        ]
+      },
+      "x": 2,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000000F",
+      "chapter_id": "0100000000000002",
+      "key": "infuser",
+      "age": "A03",
+      "dependencies": [
+        "100000000000000E"
+      ],
+      "items": [
+        {
+          "id": "mekanism:metallurgic_infuser",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Mechanical becomes electrical",
+        "de_de": "Von Mechanik zu Elektrik"
+      },
+      "description": {
+        "en_us": [
+          "Craft the Metallurgic Infuser from four iron ingots, two furnaces, two redstone and one Mechanical Core.",
+          "The core is consumed. Your earlier Mechanical milestone remains completed. The infuser will need electricity."
+        ],
+        "de_de": [
+          "Fertige den Metallurgic Infuser aus vier Eisenbarren, zwei Öfen, zwei Redstone und einem Mechanical Core.",
+          "Der Kern wird verbraucht; der bisherige Meilenstein bleibt abgeschlossen. Der Infuser benötigt Strom."
+        ]
+      },
+      "x": 4,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000010",
+      "chapter_id": "0100000000000002",
+      "key": "heat_power",
+      "age": "A03",
+      "dependencies": [
+        "100000000000000F"
+      ],
+      "items": [
+        {
+          "id": "mekanismgenerators:heat_generator",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Your first electricity",
+        "de_de": "Dein erster Strom"
+      },
+      "description": {
+        "en_us": [
+          "Craft a Heat Generator using its normal Mekanism recipe. Add combustible fuel such as coal.",
+          "Place its front energy output directly against the infuser. This starts the machine before steel cables exist. Check the infuser energy meter."
+        ],
+        "de_de": [
+          "Fertige einen Heat Generator mit dem normalen Mekanism-Rezept. Gib Brennstoff wie Kohle hinein.",
+          "Setze seinen vorderen Energieausgang direkt an den Infuser. So startest du ohne Stahlkabel. Prüfe die Energieanzeige des Infusers."
+        ]
+      },
+      "x": 6,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000011",
+      "chapter_id": "0100000000000002",
+      "key": "infused_parts",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000010"
+      ],
+      "items": [
+        {
+          "id": "mekanism:alloy_infused",
+          "count": 4
+        },
+        {
+          "id": "mekanism:basic_control_circuit",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Redstone-infused components",
+        "de_de": "Redstone-Komponenten"
+      },
+      "description": {
+        "en_us": [
+          "In this pinned Mekanism version, copper plus redstone infusion produces Infused Alloy. Osmium plus redstone infusion produces Basic Control Circuits.",
+          "Put redstone in the infusion slot and the metal in the main input. Use JEI to check quantities; the task detects items and does not measure machine uptime."
+        ],
+        "de_de": [
+          "In dieser Mekanism-Version entsteht Infused Alloy aus Kupfer mit Redstone-Infusion. Osmium mit Redstone-Infusion ergibt Basic Control Circuits.",
+          "Redstone gehört in den Infusionsslot, das Metall in den Haupteingang. Prüfe Mengen in JEI; die Quest erkennt Items und misst keine Maschinenlaufzeit."
+        ]
+      },
+      "x": 8,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000012",
+      "chapter_id": "0100000000000002",
+      "key": "steel",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000011"
+      ],
+      "items": [
+        {
+          "id": "mekanism:ingot_steel",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Steel for the power grid",
+        "de_de": "Stahl für das Stromnetz"
+      },
+      "description": {
+        "en_us": [
+          "Infuse iron with carbon to obtain Enriched Iron. Infuse that with carbon again to obtain Steel Dust, then smelt the dust.",
+          "Coal or charcoal supplies carbon. Use a separate infuser for carbon, or clear the remaining redstone infusion before switching."
+        ],
+        "de_de": [
+          "Infundiere Eisen mit Kohlenstoff zu Enriched Iron. Eine zweite Kohlenstoff-Infusion ergibt Steel Dust; schmelze den Staub zu Stahl.",
+          "Kohle oder Holzkohle liefert Kohlenstoff. Nutze einen getrennten Infuser oder entferne verbliebene Redstone-Infusion vor dem Wechsel."
+        ]
+      },
+      "x": 10,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000013",
+      "chapter_id": "0100000000000002",
+      "key": "cables",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000012"
+      ],
+      "items": [
+        {
+          "id": "mekanism:basic_universal_cable",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Carry power further",
+        "de_de": "Strom weiterleiten"
+      },
+      "description": {
+        "en_us": [
+          "Two steel ingots and redstone craft eight Basic Universal Cables. Extend the generator output to your workshop.",
+          "Keep energy connections continuous. These cables move electricity; Create shafts move rotation."
+        ],
+        "de_de": [
+          "Zwei Stahlbarren und Redstone ergeben acht Basic Universal Cables. Verlängere den Generatorausgang bis zur Werkstatt.",
+          "Halte Energieverbindungen durchgängig. Diese Kabel übertragen Strom; Create-Wellen übertragen Rotation."
+        ]
+      },
+      "x": 12,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000014",
+      "chapter_id": "0100000000000002",
+      "key": "energy_storage",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000013"
+      ],
+      "items": [
+        {
+          "id": "mekanism:basic_energy_cube",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "A buffer for your workshop",
+        "de_de": "Ein Puffer für die Werkstatt"
+      },
+      "description": {
+        "en_us": [
+          "Craft a Basic Energy Cube. Its normal recipe uses a Steel Casing and Energy Tablets; JEI shows the full recipe.",
+          "Configure an input toward the generator and an output toward machines. Charge it and verify that the energy meter increases. Item detection alone does not prove it is charged."
+        ],
+        "de_de": [
+          "Fertige einen Basic Energy Cube. Das normale Rezept braucht Steel Casing und Energy Tablets; JEI zeigt die vollständige Kette.",
+          "Stelle einen Eingang zum Generator und einen Ausgang zu den Maschinen ein. Lade den Speicher und prüfe die steigende Energieanzeige. Der Itemnachweis allein beweist keinen Ladezustand."
+        ]
+      },
+      "x": 14,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000015",
+      "chapter_id": "0100000000000002",
+      "key": "infernal_essence",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000014"
+      ],
+      "items": [
+        {
+          "id": "omega:infernal_essence",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Materials from the Nether",
+        "de_de": "Materialien aus dem Nether"
+      },
+      "description": {
+        "en_us": [
+          "Prepare safe Nether access and a return route. Combine two blaze powder, two quartz and one magma cream into Infernal Essence.",
+          "This quest checks the material. It does not record a personal dimension visit; shared supplies are allowed."
+        ],
+        "de_de": [
+          "Bereite sicheren Netherzugang und einen Rückweg vor. Zwei Lohenstaub, zwei Quarz und eine Magmacreme ergeben Infernale Essenz.",
+          "Die Quest prüft das Material und protokolliert keinen persönlichen Dimensionsbesuch. Gemeinsame Vorräte sind erlaubt."
+        ]
+      },
+      "x": 16,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000016",
+      "chapter_id": "0100000000000002",
+      "key": "electrical_core",
+      "age": "A03",
+      "dependencies": [
+        "1000000000000014",
+        "1000000000000015"
+      ],
+      "items": [
+        {
+          "id": "omega:electrical_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Electrical Core",
+        "de_de": "Elektrischer Kern"
+      },
+      "description": {
+        "en_us": [
+          "Combine four Infused Alloy, a Basic Control Circuit, two steel ingots, Infernal Essence and another Mechanical Core.",
+          "You have reached the alpha Electrical milestone. Expand generation, storage and production, then back up your world.",
+          "Arcane progression, custom bosses and stars remain planned."
+        ],
+        "de_de": [
+          "Verbinde vier Infused Alloy, einen Basic Control Circuit, zwei Stahlbarren, Infernale Essenz und einen weiteren Mechanical Core.",
+          "Du hast den elektrischen Alpha-Meilenstein erreicht. Erweitere Erzeugung, Speicher und Produktion und sichere deine Welt.",
+          "Arkane Progression, eigene Bosse und Sterne bleiben geplant."
+        ]
+      },
+      "x": 18,
+      "y": 0,
+      "reward": null
+    }
+  ],
+  "additional_chapters": [
+    {
+      "id": "0100000000000002",
+      "filename": "02_from_motion_to_power",
+      "title": {
+        "en_us": "02 • From Motion to Power",
+        "de_de": "02 • Von Bewegung zu Strom"
+      }
     }
   ]
 }

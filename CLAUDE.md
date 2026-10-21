@@ -4,7 +4,7 @@
 
 Du arbeitest im Repository `ACABadAngel/ATM-Omega-Edition` für Paul und seinen Kollegen. Entwickle ein sehr großes, extrem anspruchsvolles Expert-Modpack, in dem Technik, Magie, Erkundung, Bosse und Automation gemeinsam benötigt werden. Antworte und dokumentiere standardmäßig auf Deutsch; verwende stabile englische technische IDs.
 
-**Aktuell: 0.1.0-alpha.2 mit Packlock, Exporter, fünf Items, acht Rezepten und zwölf bilingualen FTB-Quests.** Lies [STATUS.md](STATUS.md), [Installation](docs/installation.md) und den [Testbericht](tests/evidence/v0.1.0-alpha.2/REPORT.md). Linux-Backup/Restore und physische Wasserpresse sind geprüft. Serverprüfungen ersetzen keinen Client-/Multiplayer-Playtest. Langfristige Ziele bleiben Planung.
+**Aktuell: 0.2.0-alpha.1 mit 15 Moddateien, sieben Items, elf Custom-Rezepten und 22 bilingualen FTB-Quests.** Lies [STATUS.md](STATUS.md), [Installation](docs/installation.md) und den [Testbericht](tests/evidence/v0.2.0-alpha.1/REPORT.md). Linux-Backup/Restore und physische Wasserpresse sind geprüft; der neue Abschnitt hat echte Generator-/Infuser-/Stahl-/Speicherprüfungen. Nutzerfeedback zur vorherigen Alpha war positiv mit Rezeptproblemen; daraus keine vollständige Abnahme ableiten. Serverprüfungen ersetzen keinen Client-/Multiplayer-Playtest. Langfristige Ziele bleiben Planung.
 
 Die vollständige Quelle steht unter `docs/source/original-plan.txt`. Die ausgearbeiteten Dokumente haben Vorrang bei Widersprüchen innerhalb der ursprünglichen Diskussion. Die ursprünglichen 10/12/13 Zeitalter wurden zu **12 Hauptzeitaltern plus optionalem Legacy-Epilog** vereinheitlicht. Namen, Mengen und Raten sind Designwerte, bis sie durch Playtests bestätigt sind.
 
@@ -24,17 +24,17 @@ Lies vor einem Port zusätzlich `docs/legacy-porting.md`. Ein nachträglich ange
 - Wähle genaue NeoForge-, Mod-, Gradle-Plugin- und Wrapper-Versionen anhand offizieller Quellen und eines echten Starts; für diese Alpha ist NeoForge 21.1.264 serverseitig gestartet; alle Modbuilds stehen in `pack/lock.json`.
 - Baue ein eigenständiges Pack. Übernimm keine komplette ATM-Distribution oder fremde Assets ohne Prüfung der jeweiligen Rechte.
 - Verwende KubeJS für registrierbare einfache Inhalte, Rezepte und Integrationen innerhalb der nachgewiesenen API. Komplexe persistente Maschinen, Netzwerkprotokolle, Boss-KI und Vertragsmessung gehören in `omega-core/`.
-- Fünf `omega:*`-IDs sind in `pack/overrides/kubejs/startup_scripts/omega_items.js` registriert; die übrigen sind Planung. Jede ID bekommt genau einen Eigentümer. Vorzugsweise besitzt Omega Core langfristig die Gameplay-Registries; beim Prototyp keine späteren Registry-Umbenennungen ohne Migration einführen.
-- FTB Quests wird gegen eine festgelegte Version entwickelt. Die Alpha erzeugt SNBT aus `pack/content/quests.json`, geprüft gegen den gepinnten Upstream-Quellcode und durch echten Serverimport. Die Editor-/GUI-Abnahme steht aus. Die Daten unter `planning/` sind weiterhin kein fertiges SNBT.
+- Sieben `omega:*`-IDs sind in `pack/overrides/kubejs/startup_scripts/omega_items.js` registriert; die übrigen sind Planung. Jede ID bekommt genau einen Eigentümer. Vorzugsweise besitzt Omega Core langfristig die Gameplay-Registries; beim Prototyp keine späteren Registry-Umbenennungen ohne Migration einführen.
+- FTB Quests wird gegen eine festgelegte Version entwickelt. Die Alpha erzeugt zwei SNBT-Kapitel aus `pack/content/quests.json`; die bisherigen IDs sind durch `tests/fixtures/alpha1_quest_ids.json` eingefroren. Das Format ist gegen den gepinnten Upstream-Quellcode und durch echten Serverimport geprüft. Die Editor-/GUI-Abnahme steht aus. Die Daten unter `planning/` sind weiterhin kein fertiges SNBT.
 - `config/ftbquests/quests/` ist der vorgesehene Pack-Pfad, anhand der tatsächlich gewählten Version zu bestätigen. Ein lose angelegter Root-Ordner `ftbquests/` ist kein verifiziertes Format.
 - Kein `latest`, keine frei geratenen Downloadlinks, Maven-Versionen, Item-IDs, Rezepttypen oder Event-APIs. Keine JARs unbekannter Herkunft. Keine CI, die angeblich einen Server startet, aber nur Dateien prüft.
 
 ## Nächster konkreter Auftrag
 
-1. Importiere den Alpha-Client, prüfe deutsche/englische Texte, JEI, Ponder und alle fünf Itemmodelle. Dokumentiere tatsächliche Ergebnisse unter `tests/evidence/`.
+1. Importiere den Alpha-Client, prüfe deutsche/englische Texte, JEI, Ponder und alle sieben Itemmodelle. Dokumentiere tatsächliche Ergebnisse unter `tests/evidence/`.
 2. Spiele in frischer Welt den Pfad bis Mechanical Core durch: mehrere Primitive Cores, Wasserrad, angetriebene Presse, Pressed Core und 120-Platten-Lieferung. Teste Platzierung und tatsächliche Maschinenverarbeitung; der isolierte Servertest betreibt inzwischen eine echte wassergetriebene Presse. Er ersetzt keinen vollständigen Survival-Durchlauf.
 3. Prüfe mit zwei echten Spielern: FTB-Teambeitritt/-austritt, Lieferfortschritt, Belohnungen, Disconnect und Serverneustart. Die vorhandene synthetische Teamprüfung ersetzt das nicht.
-4. Ergänze danach einen kleinen Abschnitt des elektrischen Zeitalters. Entscheide die neue Modgruppe und ihre Gates anhand des Backlogs. Noch keine gesamte 473er-Wunschliste installieren.
+4. Prüfe die neue elektrische Kette bis Electrical Core und noch gemeldete doppelte/unlogische Rezepte anhand konkreter Eingaben. Der Brot-/Faser-Konflikt ist behoben; dies ist kein vollständiger Rezeptaudit. Native spätere Mekanism-Inhalte sind noch nicht sämtlich gegated. Danach den arkanen Einstieg mit zwei komplementären Magierollen vorbereiten; neue Mods zunächst verifizieren.
 5. Halte Lock, Modregister, generierte Quests und Dokumentation konsistent. Bewahre die veröffentlichten Registry-/Quest-IDs; vor Omega-Core-Übernahme die KubeJS-Registrierung derselben IDs gleichzeitig entfernen.
 
 Wenn Launcher, Grafikausgabe, Downloadrechte oder eine Java-Laufzeit fehlen, liefere die durchführbaren Änderungen und eine genaue reproduzierbare manuelle Prüfung. Benenne die fehlende Prüfung ausdrücklich. Eine Kompilierung allein ist keine Spielabnahme.

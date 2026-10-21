@@ -1,11 +1,12 @@
 {
-  "file.0000000000000001.title": "ATM Omega Edition · 0.1",
+  "file.0000000000000001.title": "ATM Omega Edition · 0.2",
   "chapter.0100000000000001.title": "01 • From Survival to Motion",
+  "chapter.0100000000000002.title": "02 • From Motion to Power",
   "quest.1000000000000001.title": "Welcome to Omega",
   "quest.1000000000000001.quest_desc": [
-    "This is the first playable alpha: Primitive and Mechanical ages.",
+    "This alpha includes Primitive, Mechanical and Electrical progression.",
     "Open the Quests button in your inventory. Follow the main path, then build your own factory.",
-    "Check this introduction to begin. Later ages are planned and are not included in this version."
+    "Check this introduction to begin. Later ages remain planned."
   ],
   "quest.1000000000000002.title": "A place to work",
   "quest.1000000000000002.quest_desc": [
@@ -25,7 +26,7 @@
   ],
   "quest.1000000000000005.title": "Primitive Core",
   "quest.1000000000000005.quest_desc": [
-    "Make Plant Fiber from three wheat. Combine a log and flint for Tree Resin.",
+    "One wheat makes one Plant Fiber. Combine a log and flint for Tree Resin.",
     "A Primitive Core combines four copper sheets, two fibers, two resin and charcoal.",
     "You will need multiple cores: the water wheel, press and pressed-core chain each use one."
   ],
@@ -43,7 +44,7 @@
   "quest.1000000000000008.title": "Your first mechanical press",
   "quest.1000000000000008.quest_desc": [
     "Craft the press with an iron block, two shafts, an andesite casing and another Primitive Core.",
-    "Connect rotation and place a depot below the press. Copper ingots become sheets on the depot.",
+    "Connect rotation. Place the press two blocks above a depot, leaving one air block between them. Copper ingots become sheets on the depot.",
     "Leave enough clearance and check the rotational speed if it does not move."
   ],
   "quest.1000000000000009.title": "A core shaped by machinery",
@@ -66,8 +67,59 @@
   ],
   "quest.100000000000000C.title": "First factory, first milestone",
   "quest.100000000000000C.quest_desc": [
-    "You have completed the v0.1 main path. Expand your plate line and make the setup easy to maintain.",
-    "The next release will develop the Electrical Age. This alpha contains no Omega Reactor, bosses or later stars.",
+    "Your Mechanical milestone is complete. Continue in chapter 02: From Motion to Power.",
+    "Keep your rotational factory: more Mechanical Cores are needed for electrical machines.",
     "Before updating, back up your complete world and quest/team data."
+  ],
+  "quest.100000000000000D.title": "Beyond rotation",
+  "quest.100000000000000D.quest_desc": [
+    "Build the first electrical workshop using Mekanism. You need additional Mechanical Cores.",
+    "Start with direct generator-to-machine contact. Cables require steel, which you will make in the powered infuser first."
+  ],
+  "quest.100000000000000E.title": "A new metal: osmium",
+  "quest.100000000000000E.quest_desc": [
+    "Mine and smelt osmium ore. Keep iron, copper, gold, coal and redstone ready too.",
+    "When continuing an older alpha world, search newly generated chunks for Mekanism ores. Existing ore generation is not retroactively changed."
+  ],
+  "quest.100000000000000F.title": "Mechanical becomes electrical",
+  "quest.100000000000000F.quest_desc": [
+    "Craft the Metallurgic Infuser from four iron ingots, two furnaces, two redstone and one Mechanical Core.",
+    "The core is consumed. Your earlier Mechanical milestone remains completed. The infuser will need electricity."
+  ],
+  "quest.1000000000000010.title": "Your first electricity",
+  "quest.1000000000000010.quest_desc": [
+    "Craft a Heat Generator using its normal Mekanism recipe. Add combustible fuel such as coal.",
+    "Place its front energy output directly against the infuser. This starts the machine before steel cables exist. Check the infuser energy meter."
+  ],
+  "quest.1000000000000011.title": "Redstone-infused components",
+  "quest.1000000000000011.quest_desc": [
+    "In this pinned Mekanism version, copper plus redstone infusion produces Infused Alloy. Osmium plus redstone infusion produces Basic Control Circuits.",
+    "Put redstone in the infusion slot and the metal in the main input. Use JEI to check quantities; the task detects items and does not measure machine uptime."
+  ],
+  "quest.1000000000000012.title": "Steel for the power grid",
+  "quest.1000000000000012.quest_desc": [
+    "Infuse iron with carbon to obtain Enriched Iron. Infuse that with carbon again to obtain Steel Dust, then smelt the dust.",
+    "Coal or charcoal supplies carbon. Use a separate infuser for carbon, or clear the remaining redstone infusion before switching."
+  ],
+  "quest.1000000000000013.title": "Carry power further",
+  "quest.1000000000000013.quest_desc": [
+    "Two steel ingots and redstone craft eight Basic Universal Cables. Extend the generator output to your workshop.",
+    "Keep energy connections continuous. These cables move electricity; Create shafts move rotation."
+  ],
+  "quest.1000000000000014.title": "A buffer for your workshop",
+  "quest.1000000000000014.quest_desc": [
+    "Craft a Basic Energy Cube. Its normal recipe uses a Steel Casing and Energy Tablets; JEI shows the full recipe.",
+    "Configure an input toward the generator and an output toward machines. Charge it and verify that the energy meter increases. Item detection alone does not prove it is charged."
+  ],
+  "quest.1000000000000015.title": "Materials from the Nether",
+  "quest.1000000000000015.quest_desc": [
+    "Prepare safe Nether access and a return route. Combine two blaze powder, two quartz and one magma cream into Infernal Essence.",
+    "This quest checks the material. It does not record a personal dimension visit; shared supplies are allowed."
+  ],
+  "quest.1000000000000016.title": "Electrical Core",
+  "quest.1000000000000016.quest_desc": [
+    "Combine four Infused Alloy, a Basic Control Circuit, two steel ingots, Infernal Essence and another Mechanical Core.",
+    "You have reached the alpha Electrical milestone. Expand generation, storage and production, then back up your world.",
+    "Arcane progression, custom bosses and stars remain planned."
   ]
 }

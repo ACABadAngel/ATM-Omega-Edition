@@ -1,11 +1,12 @@
 {
-  "file.0000000000000001.title": "ATM Omega Edition · 0.1",
+  "file.0000000000000001.title": "ATM Omega Edition · 0.2",
   "chapter.0100000000000001.title": "01 • Vom Überleben zur Mechanik",
+  "chapter.0100000000000002.title": "02 • Von Bewegung zu Strom",
   "quest.1000000000000001.title": "Willkommen in Omega",
   "quest.1000000000000001.quest_desc": [
-    "Dies ist die erste spielbare Alpha mit primitivem und mechanischem Zeitalter.",
+    "Diese Alpha enthält primitive, mechanische und elektrische Progression.",
     "Öffne die Quests über dein Inventar. Folge dem Hauptpfad und baue deine eigene Fabrik.",
-    "Bestätige diese Einführung. Spätere Zeitalter sind in dieser Version noch nicht enthalten."
+    "Bestätige diese Einführung. Spätere Zeitalter bleiben geplant."
   ],
   "quest.1000000000000002.title": "Ein sicherer Arbeitsplatz",
   "quest.1000000000000002.quest_desc": [
@@ -25,7 +26,7 @@
   ],
   "quest.1000000000000005.title": "Primitiver Kern",
   "quest.1000000000000005.quest_desc": [
-    "Gewinne Pflanzenfasern aus drei Weizen. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
+    "Ein Weizen ergibt eine Pflanzenfaser. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
     "Ein primitiver Kern verbindet vier Kupferplatten, zwei Fasern, zwei Harze und Holzkohle.",
     "Du brauchst mehrere Kerne: Wasserrad, Presse und gepresster Kern verbrauchen jeweils einen."
   ],
@@ -43,7 +44,7 @@
   "quest.1000000000000008.title": "Deine erste mechanische Presse",
   "quest.1000000000000008.quest_desc": [
     "Fertige die Presse aus einem Eisenblock, zwei Wellen, einem Andesitgehäuse und einem weiteren primitiven Kern.",
-    "Schließe Rotation an und platziere ein Depot unter der Presse. Kupferbarren werden darauf zu Platten.",
+    "Schließe Rotation an. Setze die Presse zwei Blöcke über ein Depot und lasse dazwischen einen Luftblock frei. Kupferbarren werden dort zu Platten.",
     "Prüfe Abstand und Drehzahl, falls die Presse nicht arbeitet."
   ],
   "quest.1000000000000009.title": "Ein maschinell geformter Kern",
@@ -66,8 +67,59 @@
   ],
   "quest.100000000000000C.title": "Erste Fabrik, erster Meilenstein",
   "quest.100000000000000C.quest_desc": [
-    "Du hast den Hauptpfad von v0.1 abgeschlossen. Erweitere die Plattenlinie und mache deine Anlage wartungsfreundlich.",
-    "Als Nächstes folgt das elektrische Zeitalter. Diese Alpha enthält noch keine Omega-Reaktoren, Bosse oder späteren Sterne.",
+    "Dein mechanischer Meilenstein ist erreicht. Weiter geht es in Kapitel 02: Von Bewegung zu Strom.",
+    "Behalte deine Rotationsfabrik: Weitere Mechanical Cores werden für elektrische Maschinen benötigt.",
     "Sichere vor Updates die vollständige Welt einschließlich Quest- und Teamdaten."
+  ],
+  "quest.100000000000000D.title": "Mehr als Rotation",
+  "quest.100000000000000D.quest_desc": [
+    "Baue mit Mekanism die erste elektrische Werkstatt. Du benötigst weitere Mechanical Cores.",
+    "Verbinde Generator und Maschine zunächst direkt. Kabel brauchen Stahl, den du erst im angetriebenen Infuser herstellst."
+  ],
+  "quest.100000000000000E.title": "Ein neues Metall: Osmium",
+  "quest.100000000000000E.quest_desc": [
+    "Baue Osmiumerz ab und schmelze es. Halte außerdem Eisen, Kupfer, Gold, Kohle und Redstone bereit.",
+    "Suche in einer älteren Alpha-Welt in neu generierten Chunks nach Mekanism-Erzen. Alte Chunks werden nicht nachträglich umgebaut."
+  ],
+  "quest.100000000000000F.title": "Von Mechanik zu Elektrik",
+  "quest.100000000000000F.quest_desc": [
+    "Fertige den Metallurgic Infuser aus vier Eisenbarren, zwei Öfen, zwei Redstone und einem Mechanical Core.",
+    "Der Kern wird verbraucht; der bisherige Meilenstein bleibt abgeschlossen. Der Infuser benötigt Strom."
+  ],
+  "quest.1000000000000010.title": "Dein erster Strom",
+  "quest.1000000000000010.quest_desc": [
+    "Fertige einen Heat Generator mit dem normalen Mekanism-Rezept. Gib Brennstoff wie Kohle hinein.",
+    "Setze seinen vorderen Energieausgang direkt an den Infuser. So startest du ohne Stahlkabel. Prüfe die Energieanzeige des Infusers."
+  ],
+  "quest.1000000000000011.title": "Redstone-Komponenten",
+  "quest.1000000000000011.quest_desc": [
+    "In dieser Mekanism-Version entsteht Infused Alloy aus Kupfer mit Redstone-Infusion. Osmium mit Redstone-Infusion ergibt Basic Control Circuits.",
+    "Redstone gehört in den Infusionsslot, das Metall in den Haupteingang. Prüfe Mengen in JEI; die Quest erkennt Items und misst keine Maschinenlaufzeit."
+  ],
+  "quest.1000000000000012.title": "Stahl für das Stromnetz",
+  "quest.1000000000000012.quest_desc": [
+    "Infundiere Eisen mit Kohlenstoff zu Enriched Iron. Eine zweite Kohlenstoff-Infusion ergibt Steel Dust; schmelze den Staub zu Stahl.",
+    "Kohle oder Holzkohle liefert Kohlenstoff. Nutze einen getrennten Infuser oder entferne verbliebene Redstone-Infusion vor dem Wechsel."
+  ],
+  "quest.1000000000000013.title": "Strom weiterleiten",
+  "quest.1000000000000013.quest_desc": [
+    "Zwei Stahlbarren und Redstone ergeben acht Basic Universal Cables. Verlängere den Generatorausgang bis zur Werkstatt.",
+    "Halte Energieverbindungen durchgängig. Diese Kabel übertragen Strom; Create-Wellen übertragen Rotation."
+  ],
+  "quest.1000000000000014.title": "Ein Puffer für die Werkstatt",
+  "quest.1000000000000014.quest_desc": [
+    "Fertige einen Basic Energy Cube. Das normale Rezept braucht Steel Casing und Energy Tablets; JEI zeigt die vollständige Kette.",
+    "Stelle einen Eingang zum Generator und einen Ausgang zu den Maschinen ein. Lade den Speicher und prüfe die steigende Energieanzeige. Der Itemnachweis allein beweist keinen Ladezustand."
+  ],
+  "quest.1000000000000015.title": "Materialien aus dem Nether",
+  "quest.1000000000000015.quest_desc": [
+    "Bereite sicheren Netherzugang und einen Rückweg vor. Zwei Lohenstaub, zwei Quarz und eine Magmacreme ergeben Infernale Essenz.",
+    "Die Quest prüft das Material und protokolliert keinen persönlichen Dimensionsbesuch. Gemeinsame Vorräte sind erlaubt."
+  ],
+  "quest.1000000000000016.title": "Elektrischer Kern",
+  "quest.1000000000000016.quest_desc": [
+    "Verbinde vier Infused Alloy, einen Basic Control Circuit, zwei Stahlbarren, Infernale Essenz und einen weiteren Mechanical Core.",
+    "Du hast den elektrischen Alpha-Meilenstein erreicht. Erweitere Erzeugung, Speicher und Produktion und sichere deine Welt.",
+    "Arkane Progression, eigene Bosse und Sterne bleiben geplant."
   ]
 }

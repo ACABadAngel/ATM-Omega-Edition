@@ -1,0 +1,225 @@
+{
+  "id": "0100000000000002",
+  "filename": "02_from_motion_to_power",
+  "group": "",
+  "order_index": 1,
+  "default_quest_shape": "square",
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "100000000000000D",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000000B"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000D0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000000E",
+      "x": 2.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000000D"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000E0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:ingot_osmium",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000000F",
+      "x": 4.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000000E"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000F0",
+          "type": "item",
+          "item": {
+            "id": "mekanism:metallurgic_infuser",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000010",
+      "x": 6.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000000F"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000100",
+          "type": "item",
+          "item": {
+            "id": "mekanismgenerators:heat_generator",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000011",
+      "x": 8.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000010"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000110",
+          "type": "item",
+          "item": {
+            "id": "mekanism:alloy_infused",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000111",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_control_circuit",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000012",
+      "x": 10.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000011"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000120",
+          "type": "item",
+          "item": {
+            "id": "mekanism:ingot_steel",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000013",
+      "x": 12.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000012"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000130",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_universal_cable",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000014",
+      "x": 14.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000013"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000140",
+          "type": "item",
+          "item": {
+            "id": "mekanism:basic_energy_cube",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000015",
+      "x": 16.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000014"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000150",
+          "type": "item",
+          "item": {
+            "id": "omega:infernal_essence",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000016",
+      "x": 18.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000014",
+        "1000000000000015"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000160",
+          "type": "item",
+          "item": {
+            "id": "omega:electrical_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

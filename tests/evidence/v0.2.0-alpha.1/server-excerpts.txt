@@ -1,0 +1,57 @@
+=== electrical-upgrade.log ===
+[21:24:06] [main/INFO] [KubeJS Server/]: Added 11 recipes, removed 3 recipes, modified 0 recipes, with 0 failed recipes taking 559 ms in total
+[21:24:08] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.852s)! For help, type "help"
+[21:24:08] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[21:24:08] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 2 chapters, 22 quests, 0 reward tables
+[21:24:10] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 29 runtime checks
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for minecraft:bread (minecraft:wheat,minecraft:wheat,minecraft:wheat)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 minecraft:bread
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for minecraft:bread (,,,minecraft:wheat,minecraft:wheat,minecraft:wheat)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 minecraft:bread
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for minecraft:bread (,,,,,,minecraft:wheat,minecraft:wheat,minecraft:wheat)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 minecraft:bread
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for omega:plant_fiber (minecraft:wheat)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 omega:plant_fiber
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for mekanism:metallurgic_infuser (minecraft:iron_ingot,minecraft:furnace,minecraft:iron_ingot,minecraft:redstone,omega:mechanical_core,minecraft:redstone,minecraft:iron_ingot,minecraft:furnace,minecraft:iron_ingot)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 mekanism:metallurgic_infuser
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Old osmium-only infuser recipe is removed
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for mekanismgenerators:heat_generator (minecraft:iron_ingot,minecraft:iron_ingot,minecraft:iron_ingot,minecraft:oak_planks,mekanism:ingot_osmium,minecraft:oak_planks,minecraft:copper_ingot,minecraft:furnace,minecraft:copper_ingot)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 mekanismgenerators:heat_generator
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for mekanism:basic_universal_cable (mekanism:ingot_steel,minecraft:redstone,mekanism:ingot_steel)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 8 mekanism:basic_universal_cable
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for omega:infernal_essence (minecraft:blaze_powder,minecraft:blaze_powder,minecraft:quartz,minecraft:quartz,minecraft:magma_cream)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 omega:infernal_essence
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Exactly one crafting match for omega:electrical_core (mekanism:alloy_infused,mekanism:basic_control_circuit,mekanism:alloy_infused,mekanism:ingot_steel,omega:infernal_essence,mekanism:ingot_steel,mekanism:alloy_infused,omega:mechanical_core,mekanism:alloy_infused)
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Correct output 1 omega:electrical_core
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Both bilingual quest chapters load: 12 preserved plus 10 electrical quests
+[21:24:11] [Server thread/INFO] [STDERR/]: [dev.latvian.mods.rhino.CachedClassInfo:getDeclaredFields:149]: [Rhino] Failed to get declared fields for mekanism.common.tile.base.TileEntityMekanism: java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/sounds/SoundInstance for invalid dist DEDICATED_SERVER
+[21:24:11] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Real electrical test structures exist
+[21:24:30] [Server thread/INFO] [KubeJS Server/]: [OMEGA PRESS] PASS
+[21:24:52] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Coal generator directly powers infuser: four copper become four Infused Alloy
+[21:25:02] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Powered infuser produces a Basic Control Circuit from osmium
+[21:25:22] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Powered carbon infusion produces two Enriched Iron
+[21:25:42] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Second carbon infusion produces two Steel Dust
+[21:26:02] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Real furnace smelts Steel Dust into two steel ingots
+[21:26:02] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] Second coal generator charges Energy Cube through a Basic Universal Cable
+[21:26:02] [Server thread/INFO] [KubeJS Server/]: [OMEGA ELECTRICAL] PASS
+[21:27:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:27:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+=== electrical-restart.log ===
+[21:27:20] [main/INFO] [KubeJS Server/]: Added 11 recipes, removed 3 recipes, modified 0 recipes, with 0 failed recipes taking 540 ms in total
+[21:27:22] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.904s)! For help, type "help"
+[21:27:22] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[21:27:22] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 2 chapters, 22 quests, 0 reward tables
+[21:27:24] [Server thread/INFO] [STDERR/]: [dev.latvian.mods.rhino.CachedClassInfo:getDeclaredFields:149]: [Rhino] Failed to get declared fields for mekanism.common.tile.base.TileEntityMekanism: java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/sounds/SoundInstance for invalid dist DEDICATED_SERVER
+[21:27:24] [Server thread/INFO] [KubeJS Server/]: [OMEGA RESTART] PASS
+[21:27:24] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 29 runtime checks
+[21:27:44] [Server thread/INFO] [KubeJS Server/]: [OMEGA PRESS] PASS
+[21:29:08] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+=== electrical-fresh.log ===
+[21:29:28] [main/INFO] [KubeJS Server/]: Added 11 recipes, removed 3 recipes, modified 0 recipes, with 0 failed recipes taking 652 ms in total
+[21:29:39] [Server thread/INFO] [minecraft/DedicatedServer]: Done (10.005s)! For help, type "help"
+[21:29:39] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[21:29:39] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 2 chapters, 22 quests, 0 reward tables
+[21:29:41] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 31 runtime checks
+[21:29:42] [Server thread/INFO] [KubeJS Server/]: [OMEGA WORLDGEN] PASS natural osmium found
+[21:30:01] [Server thread/INFO] [KubeJS Server/]: [OMEGA PRESS] PASS
+[21:31:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
