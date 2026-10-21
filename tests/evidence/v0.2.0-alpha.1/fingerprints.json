@@ -1,15 +1,8 @@
 {
   "algorithm": "sha256",
   "files": {
-    "pack/pack.json": "0b2a11bf812ac6db5c8bf3dc703fa3a5a9163cee6e1240cd8149a444806766d5",
-    "pack/lock.json": "02b6e868a5659517e0908b44602f142e48e4e7d423525fedf994188c677e8a39",
     "pack/content/quests.json": "985e5ecd390b0650f646df866b0c424fceaa07be73e71508f6ecc01e726bb25f",
-    "tools/generate_quests.py": "0774607f93c2d00d156f007a78f4bc0a1e0036de3ea8fbf7cda79789ccb3dd15",
-    "tests/runtime_scripts/omega_electrical_restart.js": "cfabc0c469dc37adbfa0c6089b2be69f05c9034c907a936f0e958361739ababe",
-    "tests/runtime_scripts/omega_electrical_smoke.js": "4e7c3aa489b27938a33ef108845bed4bc4b99be5bda91c381d150e8587e82288",
-    "tests/runtime_scripts/omega_press_smoke.js": "456c5ad128143f675a543012a9e3cc9d2c5c7e8f811569c46636b98a38bd71cf",
-    "tests/runtime_scripts/omega_smoke.js": "b3a79fb753bdd842aa72aaafe7aa0f279401abcbb5c29d1606f5b5a26df08e67",
-    "tests/runtime_scripts/omega_worldgen_smoke.js": "b83ac5da91583e82a26052229fb605cf9b70561d638ed6230563ffdbddc9129e",
+    "pack/lock.json": "02b6e868a5659517e0908b44602f142e48e4e7d423525fedf994188c677e8a39",
     "pack/overrides/config/ftbquests/quests/chapter_groups.snbt": "0fe735f6927c9d905e14b238f2cf44d5c08d735b460a603ad26a764b90096dca",
     "pack/overrides/config/ftbquests/quests/chapters/01_from_survival_to_motion.snbt": "e1aa3e6d9048ff22efa3c35b09d16a85de97f12dd221e67dfe8ada5f7db1a109",
     "pack/overrides/config/ftbquests/quests/chapters/02_from_motion_to_power.snbt": "bfe8d4193ffbe0f89b514af3a8541e5ac88d265bd7c444b9d929f957cb643808",
@@ -20,6 +13,14 @@
     "pack/overrides/kubejs/assets/omega/lang/en_us.json": "32f4c2a113e5785037413597147fe6c73a34844abf9100d76c7ef20dc4d57b73",
     "pack/overrides/kubejs/server_scripts/omega_electrical.js": "baa52dfd2852a2e42c1cc1797530e976c181362182251f039cf91dfb5cb0c786",
     "pack/overrides/kubejs/server_scripts/omega_progression.js": "8fa490824b0c4fc5895c280ff64919923be72c5b94fb7c13f51d07c4ba36c74f",
-    "pack/overrides/kubejs/startup_scripts/omega_items.js": "701c181f1e7892590294717a6c35eb9da3f1b139bae79dbd96cb0272374fc30c"
+    "pack/overrides/kubejs/startup_scripts/omega_items.js": "701c181f1e7892590294717a6c35eb9da3f1b139bae79dbd96cb0272374fc30c",
+    "pack/pack.json": "0b2a11bf812ac6db5c8bf3dc703fa3a5a9163cee6e1240cd8149a444806766d5",
+    "tests/runtime_scripts/omega_electrical_restart.js": "bfcfc563b69b56dc733cba1d6b2c32e6d372c5092060cf75d8c09dbefcb686d4",
+    "tests/runtime_scripts/omega_electrical_smoke.js": "4e7c3aa489b27938a33ef108845bed4bc4b99be5bda91c381d150e8587e82288",
+    "tests/runtime_scripts/omega_energy_freeze.js": "ffc99436ed82e3a62bb68a7801fa0b8bfe89fb7419187734ae3f4ed658921aa0",
+    "tests/runtime_scripts/omega_press_smoke.js": "456c5ad128143f675a543012a9e3cc9d2c5c7e8f811569c46636b98a38bd71cf",
+    "tests/runtime_scripts/omega_smoke.js": "b3a79fb753bdd842aa72aaafe7aa0f279401abcbb5c29d1606f5b5a26df08e67",
+    "tests/runtime_scripts/omega_worldgen_smoke.js": "b83ac5da91583e82a26052229fb605cf9b70561d638ed6230563ffdbddc9129e",
+    "tools/generate_quests.py": "0774607f93c2d00d156f007a78f4bc0a1e0036de3ea8fbf7cda79789ccb3dd15"
   }
 }

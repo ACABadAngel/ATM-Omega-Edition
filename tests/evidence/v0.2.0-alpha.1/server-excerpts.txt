@@ -55,3 +55,13 @@
 [21:29:42] [Server thread/INFO] [KubeJS Server/]: [OMEGA WORLDGEN] PASS natural osmium found
 [21:30:01] [Server thread/INFO] [KubeJS Server/]: [OMEGA PRESS] PASS
 [21:31:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+
+=== electrical-freeze.log ===
+[21:35:50] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.013s)! For help, type "help"
+[21:35:51] [Server thread/INFO] [KubeJS Server/]: [OMEGA FREEZE] PASS isolated stored energy 572131
+[21:36:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:36:21] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+=== electrical-exact-restart.log ===
+[21:36:41] [Server thread/INFO] [minecraft/DedicatedServer]: Done (1.016s)! For help, type "help"
+[21:36:43] [Server thread/INFO] [KubeJS Server/]: [OMEGA RESTART] PASS
+[21:37:09] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

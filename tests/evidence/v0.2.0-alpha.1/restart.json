@@ -2,10 +2,11 @@
 	"success": true,
 	"checks": [
 		"Two Electrical Cores remain in the saved chest after full restart",
-		"The charged Energy Cube retains energy after full restart",
+		"Disconnected Energy Cube retains the exact saved energy after full restart",
 		"Original alpha delivery progress remains 120",
 		"The new electrical chapter loads after restart"
 	],
 	"failure": "",
-	"cube_energy_joules": 379995
+	"cube_energy_joules": 572131,
+	"expected_energy_joules": 572131
 }

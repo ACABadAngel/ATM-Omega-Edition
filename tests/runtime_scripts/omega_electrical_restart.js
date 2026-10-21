@@ -1,4 +1,4 @@
-// Run ONLY on the stopped/saved world from omega_electrical_smoke.js.
+// Run ONLY after omega_energy_freeze.js exports and the world fully saves/stops.
 // Disable that construction fixture first so it cannot reset this stored state.
 ServerEvents.loaded(event => {
   event.server.scheduleInTicks(40, callback => {
@@ -9,6 +9,7 @@ ServerEvents.loaded(event => {
     var UUID = Java.loadClass('java.util.UUID');
     var checks = [];
     var energy = 0;
+    var expected = 0;
     var failure = '';
     var check = function(value, message) {
       if (!value) throw new Error(message);
@@ -23,7 +24,9 @@ ServerEvents.loaded(event => {
         && chest.getItem(0).getCount() === 2, 'Two Electrical Cores remain in the saved chest after full restart');
       var cube = level.getBlockEntity(new Pos(18, 84, 5));
       energy = Number(cube.getEnergyContainer().getEnergy());
-      check(energy > 0, 'The charged Energy Cube retains energy after full restart');
+      expected = Number(server.persistentData.getLong('omega_test_expected_cube_energy'));
+      check(expected > 0 && energy === expected && level.getBlockState(new Pos(17, 84, 5)).isAir(),
+        'Disconnected Energy Cube retains the exact saved energy after full restart');
       var file = QuestFile.INSTANCE;
       var team = file.getOrCreateTeamData(UUID.fromString('00000000-0000-0000-0000-000000000123'));
       var delivery = file.getAllChapters().get(0).getQuests().get(9).getTasks().get(0);
@@ -32,7 +35,8 @@ ServerEvents.loaded(event => {
         'The new electrical chapter loads after restart');
     } catch (error) { failure = String(error); }
     JsonIO.write('kubejs/export/omega-electrical-restart.json', {
-      success: failure === '', checks: checks, failure: failure, cube_energy_joules: energy
+      success: failure === '', checks: checks, failure: failure,
+      cube_energy_joules: energy, expected_energy_joules: expected
     });
     console.info('[OMEGA RESTART] ' + (failure === '' ? 'PASS' : 'FAIL ' + failure));
   });
