@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "ATM Omega Edition",
+  "version": "0.1.0-alpha.1",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.264",
+  "java_major": 21,
+  "author": "Omega Edition Team",
+  "description": "First playable Primitive and Mechanical ages: Create automation, custom cores and a guided quest chapter.",
+  "distribution": "curseforge-manifest",
+  "overrides": "pack/overrides"
+}

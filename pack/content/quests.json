@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "chapter_id": "0100000000000001",
+  "chapter_title": {
+    "en_us": "01 • From Survival to Motion",
+    "de_de": "01 • Vom Überleben zur Mechanik"
+  },
+  "quests": [
+    {
+      "id": "1000000000000001",
+      "key": "welcome",
+      "age": "A01",
+      "dependencies": [],
+      "items": [],
+      "consume": false,
+      "title": {
+        "en_us": "Welcome to Omega",
+        "de_de": "Willkommen in Omega"
+      },
+      "description": {
+        "en_us": [
+          "This is the first playable alpha: Primitive and Mechanical ages.",
+          "Open the Quests button in your inventory. Follow the main path, then build your own factory.",
+          "Check this introduction to begin. Later ages are planned and are not included in this version."
+        ],
+        "de_de": [
+          "Dies ist die erste spielbare Alpha mit primitivem und mechanischem Zeitalter.",
+          "Öffne die Quests über dein Inventar. Folge dem Hauptpfad und baue deine eigene Fabrik.",
+          "Bestätige diese Einführung. Spätere Zeitalter sind in dieser Version noch nicht enthalten."
+        ]
+      },
+      "x": 0,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000002",
+      "key": "work_area",
+      "age": "A01",
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "items": [
+        {
+          "id": "minecraft:crafting_table",
+          "count": 1
+        },
+        {
+          "id": "minecraft:torch",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "A place to work",
+        "de_de": "Ein sicherer Arbeitsplatz"
+      },
+      "description": {
+        "en_us": [
+          "Prepare a crafting table and eight torches. Keep a spare tool and a safe route home.",
+          "These items are detected without being consumed."
+        ],
+        "de_de": [
+          "Halte eine Werkbank und acht Fackeln bereit. Plane Ersatzwerkzeug und einen sicheren Rückweg ein.",
+          "Diese Gegenstände werden erkannt und nicht verbraucht."
+        ]
+      },
+      "x": 2,
+      "y": 0,
+      "reward": [
+        "minecraft:cooked_beef",
+        4
+      ]
+    },
+    {
+      "id": "1000000000000003",
+      "key": "food_reserve",
+      "age": "A01",
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "items": [
+        {
+          "id": "minecraft:bread",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Food for the journey",
+        "de_de": "Proviant für die Reise"
+      },
+      "description": {
+        "en_us": [
+          "Optional side goal: make eight bread. Food variety is welcome; this quest never blocks the main path.",
+          "Wheat is also useful for Plant Fiber."
+        ],
+        "de_de": [
+          "Freiwilliges Nebenziel: Stelle acht Brote her. Andere Nahrung ist ebenfalls sinnvoll; diese Quest sperrt den Hauptpfad nicht.",
+          "Weizen wird auch für Pflanzenfasern verwendet."
+        ]
+      },
+      "x": 0,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000004",
+      "key": "first_sheet",
+      "age": "A01",
+      "dependencies": [
+        "1000000000000002"
+      ],
+      "items": [
+        {
+          "id": "create:copper_sheet",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "The first copper sheets",
+        "de_de": "Die ersten Kupferplatten"
+      },
+      "description": {
+        "en_us": [
+          "Craft each copper sheet with one copper ingot and one flint. The flint is consumed.",
+          "This deliberately simple hand route lets you build the first core before you own a press.",
+          "Later, a Mechanical Press processes copper ingots without the flint cost."
+        ],
+        "de_de": [
+          "Fertige jede Kupferplatte aus einem Kupferbarren und einem Feuerstein. Der Feuerstein wird verbraucht.",
+          "Dieser einfache Handweg ermöglicht den ersten Kern, bevor du eine Presse besitzt.",
+          "Später verarbeitet die mechanische Presse Kupferbarren ohne Feuersteinverbrauch."
+        ]
+      },
+      "x": 4,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000005",
+      "key": "primitive_core",
+      "age": "A01",
+      "dependencies": [
+        "1000000000000004"
+      ],
+      "items": [
+        {
+          "id": "omega:primitive_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Primitive Core",
+        "de_de": "Primitiver Kern"
+      },
+      "description": {
+        "en_us": [
+          "Make Plant Fiber from three wheat. Combine a log and flint for Tree Resin.",
+          "A Primitive Core combines four copper sheets, two fibers, two resin and charcoal.",
+          "You will need multiple cores: the water wheel, press and pressed-core chain each use one."
+        ],
+        "de_de": [
+          "Gewinne Pflanzenfasern aus drei Weizen. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
+          "Ein primitiver Kern verbindet vier Kupferplatten, zwei Fasern, zwei Harze und Holzkohle.",
+          "Du brauchst mehrere Kerne: Wasserrad, Presse und gepresster Kern verbrauchen jeweils einen."
+        ]
+      },
+      "x": 6,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000006",
+      "key": "water_power",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000005"
+      ],
+      "items": [
+        {
+          "id": "create:water_wheel",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Water becomes motion",
+        "de_de": "Wasser wird Bewegung"
+      },
+      "description": {
+        "en_us": [
+          "Build a Water Wheel using a Primitive Core, shafts and planks.",
+          "Place it in moving water. Create Ponder explains placement and rotation.",
+          "A Large Water Wheel is available through the normal upgrade recipe."
+        ],
+        "de_de": [
+          "Baue ein Wasserrad aus einem primitiven Kern, Wellen und Brettern.",
+          "Setze es in fließendes Wasser. Create Ponder erklärt Platzierung und Rotation.",
+          "Ein großes Wasserrad entsteht mit dem normalen Aufwertungsrezept."
+        ]
+      },
+      "x": 8,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000007",
+      "key": "gearing",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000006"
+      ],
+      "items": [
+        {
+          "id": "create:shaft",
+          "count": 8
+        },
+        {
+          "id": "create:cogwheel",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Move the rotation",
+        "de_de": "Rotation übertragen"
+      },
+      "description": {
+        "en_us": [
+          "Prepare eight shafts and four cogwheels. Connect your water wheel to a work area.",
+          "Use cogwheels to change direction and speed. Hold the Ponder key shown in the item tooltip."
+        ],
+        "de_de": [
+          "Halte acht Wellen und vier Zahnräder bereit. Verbinde das Wasserrad mit deinem Arbeitsbereich.",
+          "Zahnräder ändern Richtung und Drehzahl. Nutze die im Item-Tooltip angezeigte Ponder-Taste."
+        ]
+      },
+      "x": 10,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000008",
+      "key": "press",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000007"
+      ],
+      "items": [
+        {
+          "id": "create:mechanical_press",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Your first mechanical press",
+        "de_de": "Deine erste mechanische Presse"
+      },
+      "description": {
+        "en_us": [
+          "Craft the press with an iron block, two shafts, an andesite casing and another Primitive Core.",
+          "Connect rotation and place a depot below the press. Copper ingots become sheets on the depot.",
+          "Leave enough clearance and check the rotational speed if it does not move."
+        ],
+        "de_de": [
+          "Fertige die Presse aus einem Eisenblock, zwei Wellen, einem Andesitgehäuse und einem weiteren primitiven Kern.",
+          "Schließe Rotation an und platziere ein Depot unter der Presse. Kupferbarren werden darauf zu Platten.",
+          "Prüfe Abstand und Drehzahl, falls die Presse nicht arbeitet."
+        ]
+      },
+      "x": 12,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000009",
+      "key": "pressed_core",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000008"
+      ],
+      "items": [
+        {
+          "id": "omega:pressed_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "A core shaped by machinery",
+        "de_de": "Ein maschinell geformter Kern"
+      },
+      "description": {
+        "en_us": [
+          "Place a Primitive Core on a depot under the powered press.",
+          "Pressing produces a Pressed Core. This item has no hand-crafting shortcut.",
+          "It is the machine-made center of your Mechanical Core."
+        ],
+        "de_de": [
+          "Lege einen primitiven Kern auf ein Depot unter der angetriebenen Presse.",
+          "Durch Pressen entsteht ein gepresster Kern. Dafür gibt es kein Handrezept.",
+          "Er bildet das maschinell gefertigte Zentrum des mechanischen Kerns."
+        ]
+      },
+      "x": 14,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000000A",
+      "key": "copper_delivery",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000008"
+      ],
+      "items": [
+        {
+          "id": "create:copper_sheet",
+          "count": 120
+        }
+      ],
+      "consume": true,
+      "title": {
+        "en_us": "Supply contract: copper sheets",
+        "de_de": "Lieferauftrag: Kupferplatten"
+      },
+      "description": {
+        "en_us": [
+          "Submit 120 copper sheets through this quest. These sheets are consumed.",
+          "This is a delivery contract: it does not prove a production rate or newly produced items.",
+          "A hopper, depot and powered press can make the supply repeatable. Hand-made sheets are also valid."
+        ],
+        "de_de": [
+          "Gib über diese Quest 120 Kupferplatten ab. Die Platten werden verbraucht.",
+          "Dies ist ein Lieferauftrag. Er beweist weder eine Produktionsrate noch neu hergestellte Gegenstände.",
+          "Trichter, Depot und angetriebene Presse ermöglichen eine wiederholbare Versorgung. Handgefertigte Platten zählen ebenfalls."
+        ]
+      },
+      "x": 12,
+      "y": 2,
+      "reward": [
+        "minecraft:iron_ingot",
+        8
+      ]
+    },
+    {
+      "id": "100000000000000B",
+      "key": "mechanical_core",
+      "age": "A02",
+      "dependencies": [
+        "1000000000000009",
+        "100000000000000A"
+      ],
+      "items": [
+        {
+          "id": "omega:mechanical_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Mechanical Core",
+        "de_de": "Mechanischer Kern"
+      },
+      "description": {
+        "en_us": [
+          "Combine a Pressed Core with four andesite alloy, two copper sheets, one shaft and redstone.",
+          "Complete the copper delivery too. The finished quest records this milestone for your FTB team.",
+          "The core may then be stored or used later; the completed quest remains recorded."
+        ],
+        "de_de": [
+          "Verbinde einen gepressten Kern mit vier Andesitlegierungen, zwei Kupferplatten, einer Welle und Redstone.",
+          "Schließe auch den Kupfer-Lieferauftrag ab. Die fertige Quest speichert diesen Meilenstein für dein FTB-Team.",
+          "Danach darfst du den Kern lagern oder später verwenden; die abgeschlossene Quest bleibt erhalten."
+        ]
+      },
+      "x": 16,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000000C",
+      "key": "alpha_finish",
+      "age": "A02",
+      "dependencies": [
+        "100000000000000B"
+      ],
+      "items": [],
+      "consume": false,
+      "title": {
+        "en_us": "First factory, first milestone",
+        "de_de": "Erste Fabrik, erster Meilenstein"
+      },
+      "description": {
+        "en_us": [
+          "You have completed the v0.1 main path. Expand your plate line and make the setup easy to maintain.",
+          "The next release will develop the Electrical Age. This alpha contains no Omega Reactor, bosses or later stars.",
+          "Before updating, back up your complete world and quest/team data."
+        ],
+        "de_de": [
+          "Du hast den Hauptpfad von v0.1 abgeschlossen. Erweitere die Plattenlinie und mache deine Anlage wartungsfreundlich.",
+          "Als Nächstes folgt das elektrische Zeitalter. Diese Alpha enthält noch keine Omega-Reaktoren, Bosse oder späteren Sterne.",
+          "Sichere vor Updates die vollständige Welt einschließlich Quest- und Teamdaten."
+        ]
+      },
+      "x": 18,
+      "y": 0,
+      "reward": null
+    }
+  ]
+}

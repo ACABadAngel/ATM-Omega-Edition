@@ -223,7 +223,7 @@ def validate():
           f'{len(recipes)} star recipes, {len(work_graph)} work packages, {local_links} local links.')
     print(f'Budgets: {budgets["mod_target"]} mods / {budgets["quest_target"]} quests. '
           f'First Infinity Star: {omega_count} Omega Stars; {energy:,} FE in star recipes.')
-    print('Design consistency only. Minecraft runtime, ports and mod compatibility: NOT TESTED.')
+    print('Planning validation only. See STATUS.md for separately executed runtime checks.')
     return 0
 
 

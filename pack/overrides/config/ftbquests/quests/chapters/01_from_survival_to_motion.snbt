@@ -1,0 +1,287 @@
+{
+  "id": "0100000000000001",
+  "filename": "01_from_survival_to_motion",
+  "group": "",
+  "order_index": 0,
+  "default_quest_shape": "square",
+  "progression_mode": "linear",
+  "quests": [
+    {
+      "id": "1000000000000001",
+      "x": 0.0,
+      "y": 0.0,
+      "dependencies": [],
+      "tasks": [
+        {
+          "id": "2000000000000010",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000002",
+      "x": 2.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000020",
+          "type": "item",
+          "item": {
+            "id": "minecraft:crafting_table",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000021",
+          "type": "item",
+          "item": {
+            "id": "minecraft:torch",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "3000000000000002",
+          "type": "item",
+          "item": {
+            "id": "minecraft:cooked_beef",
+            "count": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "1000000000000003",
+      "x": 0.0,
+      "y": 2.0,
+      "dependencies": [
+        "1000000000000001"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000030",
+          "type": "item",
+          "item": {
+            "id": "minecraft:bread",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000004",
+      "x": 4.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000002"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000040",
+          "type": "item",
+          "item": {
+            "id": "create:copper_sheet",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000005",
+      "x": 6.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000004"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000050",
+          "type": "item",
+          "item": {
+            "id": "omega:primitive_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000006",
+      "x": 8.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000005"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000060",
+          "type": "item",
+          "item": {
+            "id": "create:water_wheel",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000007",
+      "x": 10.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000006"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000070",
+          "type": "item",
+          "item": {
+            "id": "create:shaft",
+            "count": 1
+          },
+          "count": 8,
+          "consume_items": false
+        },
+        {
+          "id": "2000000000000071",
+          "type": "item",
+          "item": {
+            "id": "create:cogwheel",
+            "count": 1
+          },
+          "count": 4,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000008",
+      "x": 12.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000007"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000080",
+          "type": "item",
+          "item": {
+            "id": "create:mechanical_press",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "1000000000000009",
+      "x": 14.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000008"
+      ],
+      "tasks": [
+        {
+          "id": "2000000000000090",
+          "type": "item",
+          "item": {
+            "id": "omega:pressed_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000000A",
+      "x": 12.0,
+      "y": 2.0,
+      "dependencies": [
+        "1000000000000008"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000A0",
+          "type": "item",
+          "item": {
+            "id": "create:copper_sheet",
+            "count": 1
+          },
+          "count": 120,
+          "consume_items": true
+        }
+      ],
+      "rewards": [
+        {
+          "id": "300000000000000A",
+          "type": "item",
+          "item": {
+            "id": "minecraft:iron_ingot",
+            "count": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "100000000000000B",
+      "x": 16.0,
+      "y": 0.0,
+      "dependencies": [
+        "1000000000000009",
+        "100000000000000A"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000B0",
+          "type": "item",
+          "item": {
+            "id": "omega:mechanical_core",
+            "count": 1
+          },
+          "count": 1,
+          "consume_items": false
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "100000000000000C",
+      "x": 18.0,
+      "y": 0.0,
+      "dependencies": [
+        "100000000000000B"
+      ],
+      "tasks": [
+        {
+          "id": "20000000000000C0",
+          "type": "checkmark"
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

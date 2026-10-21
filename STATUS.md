@@ -1,18 +1,21 @@
 # Projektstatus
 
-Stand: 2026-10-21.
+Stand: 2026-10-21 · **0.1.0-alpha.1**.
 
 | Lieferung | Status | Evidenz |
 | --- | --- | --- |
-| Originalplan übernommen | done | [Vorlage](docs/source/original-plan.txt) |
-| Ausgearbeitete Systemspezifikation | done | [Dokumentübersicht](README.md) |
-| Claude-Übergabe und priorisierter Backlog | done | [CLAUDE.md](CLAUDE.md), [Backlog](docs/backlog.md) |
-| Vollständige aktuell benannte Mod-Wunschliste | done | [MODLIST.md](MODLIST.md): 473 Projekte mit Quellen, Rollen, Alternativen und bedingten Abhängigkeiten |
-| Maschinenlesbare Planungsdaten und Prüfung | lokal geprüft | [Validator](tools/validate_plan.py): Summen, Graphen, Sternarithmetik und Links; Fehlerfälle zusätzlich geprüft |
-| Exakte Loader-/Modversionen | not_started | FND-01 / MOD-01 |
-| Installierbarer Client / Dedicated Server | not_started | FND-02 |
-| Spielbare Rezepte / FTB-Questbuch | not_started | MVP-01 bis MVP-04 |
-| Omega-Core-Mod / Ports | not_started | CORE-01 / LEG-01 |
-| Laufzeit-, Save- und Multiplayer-Tests | not_run | [Testplan](docs/quality.md) |
+| Ausgearbeiteter Plan und Claude-Übergabe | done | [CLAUDE.md](CLAUDE.md), [Masterplan](docs/masterplan.md) |
+| Mod-Wunschliste | done | [MODLIST.md](MODLIST.md): 473 Projekte; 13 Alpha-Projekte im Hash-Lock |
+| Exakte Loader-/Modversionen | resolved | [Packlock](pack/lock.json); NeoForge 21.1.264, 13 Client-/12 Serverdateien |
+| Clientexport und Server-Kit | built | [Exporter](tools/pack.py), [Installation](docs/installation.md) |
+| Dedicated Server / neue Welt | passed | [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md) |
+| Fünf Items / acht Rezepte | implemented; server_tested | Registry, sieben Crafting-Eingaben und nativer Create-Pressrezepttyp |
+| Zwölf bilinguale Quests | implemented; server_imported | Ein Kapitel, zwei Sprachtabellen; GUI-Abnahme offen |
+| 120-Platten-Lieferauftrag / Neustart | passed | Synthetisches FTB-Team: korrekter Verbrauch; Fortschritt und Itemstack nach Neustart erhalten |
+| Launcherimport / Client / echte Presse im Spiel | not_run | [Manuelle Abnahme](tests/evidence/v0.1.0-alpha.1/REPORT.md) |
+| Echter Zwei-Spieler-Durchlauf | not_run | Teamwechsel, GUI-Abgabe, Belohnungen und Disconnect offen |
+| Omega-Core-Mod / spätere Zeitalter / Ports | not_started | [Backlog](docs/backlog.md) |
 
-Es wurden in diesem Planungsstand keine Modkompatibilität, FPS, TPS oder Spielzeit gemessen. Die Kandidatenliste enthält keine als installiert oder freigegeben markierten Fremdmods. Die nächsten Arbeitspakete stehen in [CLAUDE.md](CLAUDE.md).
+Keine FPS-, TPS-, Langzeit- oder Spielzeitmessung liegt vor. Die 13 ausgewählten Projekte sind `resolved`, nicht vollständig `approved`. FND-02 und MVP-04 sind wegen offener Client-/Multiplayer-Abnahme noch nicht vollständig abgeschlossen. Die Alpha ersetzt nicht den langfristigen Plan.
+
+Nächster Schritt: Client importieren und gemeinsam den ersten Pfad testen. Danach folgt das elektrische Zeitalter. [Release-Notizen](docs/releases/0.1.0-alpha.1.md).

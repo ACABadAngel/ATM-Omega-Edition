@@ -2,16 +2,16 @@
 
 ## Aktueller Stand und spätere Laufzeit
 
-Aktuell existieren Dokumentation, `planning/`, ein Python-Validator und dessen CI. Es gibt noch keine Gradle-/Pack-Builds. Die folgende Struktur ist der **Zielaufbau**, kein Verzeichnis mit bereits funktionierenden Dateien.
+Aktuell existieren Dokumentation, Planung, `pack/pack.json`, `pack/lock.json`, KubeJS-Overrides und ein bilingualer FTB-Questgenerator. `tools/pack.py` erzeugt Client- und Server-Kit-ZIPs. `omega-core/`, Ports und weitere Inhaltsordner sind weiterhin Zielaufbau; es gibt keinen Gradle-Build.
 
 | Pfad | Zuständigkeit / Zeitpunkt |
 | --- | --- |
 | `CLAUDE.md`, `STATUS.md` | Arbeitsregeln und ehrlicher Lieferstand |
 | `docs/`, `planning/` | Designs, Entscheidungen, Kandidaten und Planungsprüfungen |
-| `pack/` | Reproduzierbarer Pack-Metastand, sobald ADR-02 entschieden ist |
+| `pack/` | Reproduzierbare Alpha-Metadaten und Hash-Lock |
 | `pack/overrides/config/` | Vom Pack gepflegte gemeinsame Modkonfigurationen |
 | `pack/overrides/defaultconfigs/` | Server-Defaults für neue Welten; Änderungen bestehender Welten separat migrieren |
-| `pack/overrides/config/ftbquests/quests/` | Späteres Questbuch; Format aus festgelegter Editorversion |
+| `pack/overrides/config/ftbquests/quests/` | Generiertes Alpha-Questbuch; FTB Quests 2101.1.36, Serverimport geprüft |
 | `pack/overrides/kubejs/startup_scripts/` | Einfache Registrierungen, nur mit geklärtem Registry-Eigentümer |
 | `pack/overrides/kubejs/server_scripts/` | Rezepte, Tags, Loot, Gates und Integrationen |
 | `pack/overrides/kubejs/client_scripts/` | Anzeige, Hinweise und Recipe-Viewer-Integration |
@@ -54,4 +54,4 @@ Jede persistente Änderung besitzt Schemaversion und Migration oder eine explizi
 
 ## Vorläufige Architekturentscheidungen
 
-Minecraft 1.21.1/NeoForge/Java 21 ist die geplante Baseline. Die Version wird nicht durch eine beliebige neueste Dokumentationsseite ersetzt. Noch offen: Packwerkzeug, genaue Modbuilds, primärer Rezeptviewer, Fortschrittsadapter und konkrete Magiemedien. Siehe [Entscheidungen](decisions.md).
+Minecraft 1.21.1/NeoForge/Java 21 ist die geplante Baseline. Die Version wird nicht durch eine beliebige neueste Dokumentationsseite ersetzt. Für Alpha festgelegt: Python-Standardbibliothek, CurseForge-Manifestexport, Hash-Lock und JEI; genaue Builds stehen im Lock. Offen bleiben der eigene Fortschrittsadapter und konkrete Magiemedien. Siehe [Entscheidungen](decisions.md).

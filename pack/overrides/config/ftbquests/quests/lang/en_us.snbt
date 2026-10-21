@@ -1,0 +1,73 @@
+{
+  "file.0000000000000001.title": "ATM Omega Edition · 0.1",
+  "chapter.0100000000000001.title": "01 • From Survival to Motion",
+  "quest.1000000000000001.title": "Welcome to Omega",
+  "quest.1000000000000001.quest_desc": [
+    "This is the first playable alpha: Primitive and Mechanical ages.",
+    "Open the Quests button in your inventory. Follow the main path, then build your own factory.",
+    "Check this introduction to begin. Later ages are planned and are not included in this version."
+  ],
+  "quest.1000000000000002.title": "A place to work",
+  "quest.1000000000000002.quest_desc": [
+    "Prepare a crafting table and eight torches. Keep a spare tool and a safe route home.",
+    "These items are detected without being consumed."
+  ],
+  "quest.1000000000000003.title": "Food for the journey",
+  "quest.1000000000000003.quest_desc": [
+    "Optional side goal: make eight bread. Food variety is welcome; this quest never blocks the main path.",
+    "Wheat is also useful for Plant Fiber."
+  ],
+  "quest.1000000000000004.title": "The first copper sheets",
+  "quest.1000000000000004.quest_desc": [
+    "Craft each copper sheet with one copper ingot and one flint. The flint is consumed.",
+    "This deliberately simple hand route lets you build the first core before you own a press.",
+    "Later, a Mechanical Press processes copper ingots without the flint cost."
+  ],
+  "quest.1000000000000005.title": "Primitive Core",
+  "quest.1000000000000005.quest_desc": [
+    "Make Plant Fiber from three wheat. Combine a log and flint for Tree Resin.",
+    "A Primitive Core combines four copper sheets, two fibers, two resin and charcoal.",
+    "You will need multiple cores: the water wheel, press and pressed-core chain each use one."
+  ],
+  "quest.1000000000000006.title": "Water becomes motion",
+  "quest.1000000000000006.quest_desc": [
+    "Build a Water Wheel using a Primitive Core, shafts and planks.",
+    "Place it in moving water. Create Ponder explains placement and rotation.",
+    "A Large Water Wheel is available through the normal upgrade recipe."
+  ],
+  "quest.1000000000000007.title": "Move the rotation",
+  "quest.1000000000000007.quest_desc": [
+    "Prepare eight shafts and four cogwheels. Connect your water wheel to a work area.",
+    "Use cogwheels to change direction and speed. Hold the Ponder key shown in the item tooltip."
+  ],
+  "quest.1000000000000008.title": "Your first mechanical press",
+  "quest.1000000000000008.quest_desc": [
+    "Craft the press with an iron block, two shafts, an andesite casing and another Primitive Core.",
+    "Connect rotation and place a depot below the press. Copper ingots become sheets on the depot.",
+    "Leave enough clearance and check the rotational speed if it does not move."
+  ],
+  "quest.1000000000000009.title": "A core shaped by machinery",
+  "quest.1000000000000009.quest_desc": [
+    "Place a Primitive Core on a depot under the powered press.",
+    "Pressing produces a Pressed Core. This item has no hand-crafting shortcut.",
+    "It is the machine-made center of your Mechanical Core."
+  ],
+  "quest.100000000000000A.title": "Supply contract: copper sheets",
+  "quest.100000000000000A.quest_desc": [
+    "Submit 120 copper sheets through this quest. These sheets are consumed.",
+    "This is a delivery contract: it does not prove a production rate or newly produced items.",
+    "A hopper, depot and powered press can make the supply repeatable. Hand-made sheets are also valid."
+  ],
+  "quest.100000000000000B.title": "Mechanical Core",
+  "quest.100000000000000B.quest_desc": [
+    "Combine a Pressed Core with four andesite alloy, two copper sheets, one shaft and redstone.",
+    "Complete the copper delivery too. The finished quest records this milestone for your FTB team.",
+    "The core may then be stored or used later; the completed quest remains recorded."
+  ],
+  "quest.100000000000000C.title": "First factory, first milestone",
+  "quest.100000000000000C.quest_desc": [
+    "You have completed the v0.1 main path. Expand your plate line and make the setup easy to maintain.",
+    "The next release will develop the Electrical Age. This alpha contains no Omega Reactor, bosses or later stars.",
+    "Before updating, back up your complete world and quest/team data."
+  ]
+}

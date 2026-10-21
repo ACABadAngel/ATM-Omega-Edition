@@ -4,7 +4,7 @@
 
 Du arbeitest im Repository `ACABadAngel/ATM-Omega-Edition` für Paul und seinen Kollegen. Entwickle ein sehr großes, extrem anspruchsvolles Expert-Modpack, in dem Technik, Magie, Erkundung, Bosse und Automation gemeinsam benötigt werden. Antworte und dokumentiere standardmäßig auf Deutsch; verwende stabile englische technische IDs.
 
-**Dieser Commit liefert Planung und Planungsprüfung. Es gibt noch kein startfähiges Pack.** Lies [STATUS.md](STATUS.md), bevor du Implementierung behauptest. Die Planung darf konkretisiert werden; ambitionierte Ziele dürfen nicht stillschweigend zu bereits erreichten Eigenschaften werden.
+**Aktuell: 0.1.0-alpha.1 mit Packlock, Exporter, fünf Items, acht Rezepten und zwölf bilingualen FTB-Quests.** Lies [STATUS.md](STATUS.md), [Installation](docs/installation.md) und den [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md). Serverprüfungen ersetzen keinen Client-/Multiplayer-Playtest. Langfristige Ziele bleiben Planung.
 
 Die vollständige Quelle steht unter `docs/source/original-plan.txt`. Die ausgearbeiteten Dokumente haben Vorrang bei Widersprüchen innerhalb der ursprünglichen Diskussion. Die ursprünglichen 10/12/13 Zeitalter wurden zu **12 Hauptzeitaltern plus optionalem Legacy-Epilog** vereinheitlicht. Namen, Mengen und Raten sind Designwerte, bis sie durch Playtests bestätigt sind.
 
@@ -21,23 +21,21 @@ Lies vor einem Port zusätzlich `docs/legacy-porting.md`. Ein nachträglich ange
 ## Verbindliche technische Ausgangsentscheidungen
 
 - Ziel ist Minecraft **1.21.1 / NeoForge / Java 21**. Ein Versionswechsel benötigt eine dokumentierte Entscheidung mit Migrationskosten. Keine stillen Wechsel auf Fabric oder ein anderes Minecraft.
-- Wähle genaue NeoForge-, Mod-, Gradle-Plugin- und Wrapper-Versionen anhand offizieller Quellen und eines echten Starts; derzeit ist keine Buildnummer freigegeben.
+- Wähle genaue NeoForge-, Mod-, Gradle-Plugin- und Wrapper-Versionen anhand offizieller Quellen und eines echten Starts; für diese Alpha ist NeoForge 21.1.264 serverseitig gestartet; alle Modbuilds stehen in `pack/lock.json`.
 - Baue ein eigenständiges Pack. Übernimm keine komplette ATM-Distribution oder fremde Assets ohne Prüfung der jeweiligen Rechte.
 - Verwende KubeJS für registrierbare einfache Inhalte, Rezepte und Integrationen innerhalb der nachgewiesenen API. Komplexe persistente Maschinen, Netzwerkprotokolle, Boss-KI und Vertragsmessung gehören in `omega-core/`.
-- Die Planungs-IDs `omega:*` sind zukünftige Registry-IDs, noch nicht registrierte Items. Jede ID bekommt genau einen Eigentümer. Vorzugsweise besitzt Omega Core langfristig die Gameplay-Registries; beim Prototyp keine späteren Registry-Umbenennungen ohne Migration einführen.
-- FTB Quests wird gegen eine festgelegte Version entwickelt. Erzeuge ein Musterkapitel im Editor und verwende dessen Format. Die Daten unter `planning/` dürfen nicht als fertiges SNBT kopiert werden.
+- Fünf `omega:*`-IDs sind in `pack/overrides/kubejs/startup_scripts/omega_items.js` registriert; die übrigen sind Planung. Jede ID bekommt genau einen Eigentümer. Vorzugsweise besitzt Omega Core langfristig die Gameplay-Registries; beim Prototyp keine späteren Registry-Umbenennungen ohne Migration einführen.
+- FTB Quests wird gegen eine festgelegte Version entwickelt. Die Alpha erzeugt SNBT aus `pack/content/quests.json`, geprüft gegen den gepinnten Upstream-Quellcode und durch echten Serverimport. Die Editor-/GUI-Abnahme steht aus. Die Daten unter `planning/` sind weiterhin kein fertiges SNBT.
 - `config/ftbquests/quests/` ist der vorgesehene Pack-Pfad, anhand der tatsächlich gewählten Version zu bestätigen. Ein lose angelegter Root-Ordner `ftbquests/` ist kein verifiziertes Format.
 - Kein `latest`, keine frei geratenen Downloadlinks, Maven-Versionen, Item-IDs, Rezepttypen oder Event-APIs. Keine JARs unbekannter Herkunft. Keine CI, die angeblich einen Server startet, aber nur Dateien prüft.
 
 ## Nächster konkreter Auftrag
 
-Bearbeite zuerst **FND-01**, danach **FND-02** und **MOD-01** aus `docs/backlog.md`:
-
-1. Prüfe die offiziellen 1.21.1-Projekte für NeoForge, KubeJS, FTB Quests und deren Pflichtabhängigkeiten. Dokumentiere Version, Quelle, Lizenz und Client-/Serverrolle im Modregister.
-2. Entscheide das reproduzierbare Pack-Werkzeug anhand von `ADR-02`; lege einen echten Lock-Stand an. Das Kandidatenregister bleibt vom installierten Manifest getrennt.
-3. Erzeuge eine minimale Client- und dedizierte Serverinstanz und starte beide. Speichere bereinigte Protokolle, genaue Befehle, Hardware und Versionsstand unter `tests/evidence/`.
-4. Implementiere **nur den ersten vertikalen Abschnitt**: Survival → mechanische Produktion → Primitive Core → Mechanical Core, mit mindestens 10 sinnvollen Quests und einem messbaren Automationsziel.
-5. Prüfe in frischer Welt, nach Neustart und mit zwei Spielern. Aktualisiere `STATUS.md`, Register und Abnahmestatus.
+1. Importiere den Alpha-Client, prüfe deutsche/englische Texte, JEI, Ponder und alle fünf Itemmodelle. Dokumentiere tatsächliche Ergebnisse unter `tests/evidence/`.
+2. Spiele in frischer Welt den Pfad bis Mechanical Core durch: mehrere Primitive Cores, Wasserrad, angetriebene Presse, Pressed Core und 120-Platten-Lieferung. Teste Platzierung und tatsächliche Maschinenverarbeitung; die automatischen Tests prüfen Rezeptmanager und Crafting, keine laufende physische Presse.
+3. Prüfe mit zwei echten Spielern: FTB-Teambeitritt/-austritt, Lieferfortschritt, Belohnungen, Disconnect und Serverneustart. Die vorhandene synthetische Teamprüfung ersetzt das nicht.
+4. Ergänze danach einen kleinen Abschnitt des elektrischen Zeitalters. Entscheide die neue Modgruppe und ihre Gates anhand des Backlogs. Noch keine gesamte 473er-Wunschliste installieren.
+5. Halte Lock, Modregister, generierte Quests und Dokumentation konsistent. Bewahre die veröffentlichten Registry-/Quest-IDs; vor Omega-Core-Übernahme die KubeJS-Registrierung derselben IDs gleichzeitig entfernen.
 
 Wenn Launcher, Grafikausgabe, Downloadrechte oder eine Java-Laufzeit fehlen, liefere die durchführbaren Änderungen und eine genaue reproduzierbare manuelle Prüfung. Benenne die fehlende Prüfung ausdrücklich. Eine Kompilierung allein ist keine Spielabnahme.
 

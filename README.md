@@ -2,7 +2,11 @@
 
 Ein eigenständiges Minecraft-Expert-Modpack: Technik, Magie, Erkundung, Kampf und Landwirtschaft bilden eine gemeinsame Progression bis zur Infinity Omega Star.
 
-**Stand: 21. Oktober 2026 · Planungsgrundlage, noch kein installierbares Modpack.** Dieses Repository enthält den ausgearbeiteten Entwurf und die Arbeitsgrundlage für die Umsetzung. Es enthält aktuell keine freigegebenen Mod-JARs, keinen Launcher-Export und keine getestete Omega-Core-Mod. Der Name ist ein Arbeitstitel; eine Zugehörigkeit zu All the Mods wird nicht behauptet.
+**Version 0.1.0-alpha.1 · 21. Oktober 2026.** Die erste Alpha implementiert Survival → Primitive Core → Create-Wasserkraft → Mechanical Core. Sie enthält 13 festgelegte Moddateien, 12 Quests auf Deutsch und Englisch, fünf eigene Items und acht Rezepte. Der Dedicated Server sowie Crafting, Lieferaufträge und Speichern/Laden werden geprüft; die konkrete Evidenz steht im [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md).
+
+**Starten:** [Installationsanleitung](docs/installation.md) lesen. Den Client-ZIP im CurseForge-Minecraft-Launcher importieren. Java 21 verwenden. Exporte gibt es als [GitHub-Actions-Artefakt](https://github.com/ACABadAngel/ATM-Omega-Edition/actions/workflows/build-alpha.yml) oder lokal mit `python3 tools/pack.py build`.
+
+Clientdarstellung, Questoberfläche und ein echter Zwei-Spieler-Durchlauf sind noch nicht geprüft. Dies ist ein früher Teststand. Der Name ist ein Arbeitstitel; eine Zugehörigkeit zu All the Mods wird nicht behauptet.
 
 ## Zielbild
 
@@ -16,13 +20,13 @@ Ein eigenständiges Minecraft-Expert-Modpack: Technik, Magie, Erkundung, Kampf u
 | Erkundung | 15+ eigenständige Dimensionen; Arenen zählen separat |
 | Kampf | 25+ integrierte Begegnungen und 5 eigene Bosskonzepte |
 | Spielzeit | 500–1.000+ Stunden als Hypothese für vollständige Meisterung |
-| Technische Basis | Minecraft 1.21.1, NeoForge, Java 21; konkrete Builds noch auszuwählen |
+| Technische Basis | Minecraft 1.21.1, NeoForge 21.1.264, Java 21 |
 
 Alle Zahlen beschreiben Ziele, keine getesteten Eigenschaften. Die Modanzahl wird nicht durch funktionslose Füllmods erreicht. Ältere Mods können über das [Omega Legacy Project](docs/legacy-porting.md) aufgenommen werden.
 
 ## Hier anfangen
 
-Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** lesen und mit Aufgabe `FND-01` aus dem [Backlog](docs/backlog.md) beginnen. Die erste spielbare Lieferung ist ein kurzer Survival→Mechanical-Abschnitt; danach folgt eine vollständige, zunächst komprimierte Kette bis zur ersten Omega Star.
+Für den Kollegen mit Claude: **[CLAUDE.md](CLAUDE.md)** und [STATUS.md](STATUS.md) lesen. Zuerst die offene Client-/Multiplayer-Abnahme der Alpha durchführen, danach das elektrische Zeitalter ergänzen. Der vollständige Entwurf bis zur Infinity Omega Star bleibt das langfristige Ziel.
 
 Die **[vollständige aktuelle Mod-Wunschliste](MODLIST.md)** enthält 473 benannte Projekte einschließlich Alternativen, bedingter Bibliotheken und der eigenen Omega-Core-Mod. Jedes Projekt hat einen Link, einen Zweck, eine Aufnahmephase und eine Auswahlkennzeichnung. Der Ausbau auf 1.000+ bleibt ein langfristiges Ziel; die Wunschliste behauptet keine bereits getestete Installation.
 
@@ -59,4 +63,13 @@ Unter Windows kann alternativ `py -3 tools/validate_plan.py` verwendet werden. D
 
 Die Modliste wird aus `planning/mod-candidates.csv` erzeugt: nach Änderungen `python3 tools/render_modlist.py` ausführen. Der Validator prüft auch Projektduplikate, Elternreferenzen und die Übereinstimmung zwischen CSV und sichtbarer Wunschliste.
 
-Die eigentlichen Pack-Ordner und das Java-Projekt werden erst mit verifizierten Toolchain- und Modversionen angelegt. Der aktuelle Implementierungsstand steht in [STATUS.md](STATUS.md).
+`pack/lock.json` definiert den installierten Alpha-Umfang; die 473 Wünsche bleiben ein separates Register. `pack/content/quests.json` erzeugt das echte Questbuch. Eine eigene Java-Mod existiert noch nicht.
+
+```sh
+python3 tools/pack.py validate
+python3 tools/generate_quests.py --check
+python3 -m unittest discover -s tests -v
+python3 tools/pack.py build
+```
+
+Siehe [Alpha-Änderungen](docs/releases/0.1.0-alpha.1.md), [Testbericht](tests/evidence/v0.1.0-alpha.1/REPORT.md) und [STATUS.md](STATUS.md).

@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "generated_date": "2026-10-21",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.264",
+  "mods": [
+    {
+      "id": "appleskin",
+      "name": "AppleSkin",
+      "version": "3.0.9+mc1.21",
+      "filename": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "provider": "modrinth",
+      "project_id": "EsAfCjCV",
+      "version_id": "uAKA6Laj",
+      "source": "https://modrinth.com/mod/appleskin",
+      "source_code": "https://github.com/squeek502/AppleSkin",
+      "license": "Unlicense",
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar",
+      "size": 75804,
+      "hashes": {
+        "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+        "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937"
+      },
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "curseforge": {
+        "project_id": 248787,
+        "file_id": 7854442
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/uAKA6Laj",
+      "mod_ids": [
+        "appleskin"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "architectury_api",
+      "name": "Architectury API",
+      "version": "13.0.11+neoforge",
+      "filename": "architectury-13.0.11-neoforge.jar",
+      "provider": "modrinth",
+      "project_id": "lhGA9TYQ",
+      "version_id": "1IiqEQGl",
+      "source": "https://modrinth.com/mod/architectury-api",
+      "source_code": "https://github.com/architectury/architectury",
+      "license": "LGPL-3.0-only",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "hashes": {
+        "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+        "sha512": "d9f7c3bb8162577dfb461ffdf04bd6a3563c7586934a0e2a744c14421beffb8286f0d88d4c758317003f20f99fe8072a39b9d675af061e036970d36db36027f0"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 419699,
+        "file_id": 8492726
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/1IiqEQGl",
+      "mod_ids": [
+        "architectury"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.10+mc1.21.1",
+      "filename": "create-1.21.1-6.0.10.jar",
+      "provider": "modrinth",
+      "project_id": "LNytGWDc",
+      "version_id": "UjX6dr61",
+      "source": "https://modrinth.com/mod/create",
+      "source_code": "https://github.com/Creators-of-Create/Create",
+      "license": "LicenseRef-Create-Mod-License",
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar",
+      "size": 19123767,
+      "hashes": {
+        "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+        "sha512": "11cc8fc049d2f67f6548c7abfada6b82a3adb5c7ca410a742de04bbca76e03862c518721b88d806f6e6d768a4d68531fdb903a85859b25d1484d550cc7bafd4b"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 328085,
+        "file_id": 7963363
+      },
+      "declared_required_mods": [
+        "flywheel",
+        "ponder"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/UjX6dr61",
+      "mod_ids": [
+        "create"
+      ],
+      "embedded_mod_ids": [
+        "flywheel",
+        "ponder"
+      ]
+    },
+    {
+      "id": "ferritecore",
+      "name": "FerriteCore",
+      "version": "7.0.3-neoforge",
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "provider": "modrinth",
+      "project_id": "uXXizFIs",
+      "version_id": "x7kQWVju",
+      "source": "https://modrinth.com/mod/ferrite-core",
+      "source_code": "https://github.com/malte0811/FerriteCore",
+      "license": "MIT",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "hashes": {
+        "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417",
+        "sha1": "9563692efb708b6b568df27a01ec52f6311928ef"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 429235,
+        "file_id": 7524151
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/x7kQWVju",
+      "mod_ids": [
+        "ferritecore"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "ftb_library",
+      "name": "FTB Library",
+      "version": "2101.1.37",
+      "filename": "ftb-library-neoforge-2101.1.37.jar",
+      "provider": "ftb-maven",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "source_code": "https://github.com/FTBTeam/FTB-Library",
+      "license": "All Rights Reserved",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.37/ftb-library-neoforge-2101.1.37.jar",
+      "size": 1439881,
+      "hashes": {
+        "sha1": "b6e503587afcd678ec257e4abdc6362ff18c2fef",
+        "sha512": "36f7e2fd41de638b044ad2b391f69f276ab28df3d86cf9d83638a2e0432ef151e1737ce60d671901d0a3b49424c9ba1a09c0293fc0c6637871020b46feae9159"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 404465,
+        "file_id": 9008089
+      },
+      "declared_required_mods": [
+        "architectury"
+      ],
+      "metadata_source": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge/files/all?version=1.21.1",
+      "mod_ids": [
+        "ftblibrary"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "ftb_quests",
+      "name": "FTB Quests",
+      "version": "2101.1.36",
+      "filename": "ftb-quests-neoforge-2101.1.36.jar",
+      "provider": "ftb-maven",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "source_code": "https://github.com/FTBTeam/FTB-Quests",
+      "license": "All Rights Reserved",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-quests-neoforge/2101.1.36/ftb-quests-neoforge-2101.1.36.jar",
+      "size": 1609984,
+      "hashes": {
+        "sha1": "b2ede29b98a3022c22065fbe9b1761e385a28683",
+        "sha512": "35298874f77fc15d1b66478092ec447db73ddaf699431e1529e41a5b4c421abf9cddc0d491385e45862eec816ade0bfbb92f267a035bfe2587b2b82683b61ad1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 289412,
+        "file_id": 8885017
+      },
+      "declared_required_mods": [
+        "architectury",
+        "ftblibrary",
+        "ftbteams"
+      ],
+      "metadata_source": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge/files/all?version=1.21.1",
+      "mod_ids": [
+        "ftbquests"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "ftb_teams",
+      "name": "FTB Teams",
+      "version": "2101.1.11",
+      "filename": "ftb-teams-neoforge-2101.1.11.jar",
+      "provider": "ftb-maven",
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "source_code": "https://github.com/FTBTeam/FTB-Teams",
+      "license": "All Rights Reserved",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.jar",
+      "size": 308236,
+      "hashes": {
+        "sha1": "62b65f752d0326edd13244e58d5f2aec035da4e9",
+        "sha512": "21c9350c6c7ec54ee54b74f2bdc0a44f91005bedda3caf27d673b2f2bcad1dbef5aec970201ec8e959db2a1743ceb2e24ae99a9e36744dce740a0ab1dad01c52"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 404468,
+        "file_id": 8724782
+      },
+      "declared_required_mods": [
+        "architectury",
+        "ftblibrary"
+      ],
+      "metadata_source": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge/files/all?version=1.21.1",
+      "mod_ids": [
+        "ftbteams"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "jade",
+      "name": "Jade 🔍",
+      "version": "15.10.6+neoforge",
+      "filename": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "provider": "modrinth",
+      "project_id": "nvQzSEkH",
+      "version_id": "eYz2YBGT",
+      "source": "https://modrinth.com/mod/jade",
+      "source_code": "https://github.com/Snownee/Jade",
+      "license": "CC-BY-NC-SA-4.0",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/eYz2YBGT/Jade-1.21.1-NeoForge-15.10.6.jar",
+      "size": 726853,
+      "hashes": {
+        "sha512": "dad9755dce8d85d914fc4df2baa0211f13e5839a71c1925fdd01f69081a95e30a2934e6273f8b01f0169adebe7a9dae57a8d904de0c4cb36dc17369bb474f0f2",
+        "sha1": "88ee316e68900080b017f60c12162e2731924cf8"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 324717,
+        "file_id": 8591319
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/eYz2YBGT",
+      "mod_ids": [
+        "jade"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "jei",
+      "name": "Just Enough Items (JEI)",
+      "version": "19.64.0.455",
+      "filename": "jei-1.21.1-neoforge-19.64.0.455.jar",
+      "provider": "modrinth",
+      "project_id": "u6dRKJwZ",
+      "version_id": "iv3KiVkE",
+      "source": "https://modrinth.com/mod/jei",
+      "source_code": "https://github.com/mezz/JustEnoughItems",
+      "license": "MIT",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/iv3KiVkE/jei-1.21.1-neoforge-19.64.0.455.jar",
+      "size": 2375741,
+      "hashes": {
+        "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a",
+        "sha512": "fdd02e57ce4dcf20b69860a5ace1b97d9a771486241179cf9edfe71e30c69bb4003b046d0cce8d8c4913b9689f1d8b04cf0542b0b04a6cf0b3b0465f3bb11702"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 238222,
+        "file_id": 9205121
+      },
+      "declared_required_mods": [
+        "mezz_config"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/iv3KiVkE",
+      "mod_ids": [
+        "jei"
+      ],
+      "embedded_mod_ids": [
+        "mezz_config"
+      ]
+    },
+    {
+      "id": "kubejs",
+      "name": "KubeJS",
+      "version": "2101.7.2-build.377",
+      "filename": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "provider": "modrinth",
+      "project_id": "umyGl7zF",
+      "version_id": "THIGFPwf",
+      "source": "https://modrinth.com/mod/kubejs",
+      "source_code": "https://github.com/KubeJS-Mods/KubeJS",
+      "license": "LGPL-3.0-only",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/THIGFPwf/kubejs-neoforge-2101.7.2-build.377.jar",
+      "size": 2294111,
+      "hashes": {
+        "sha1": "7313fcd99318834c642ee9f3a05ed7fd7bcb6ef4",
+        "sha512": "fcdbee8790f8f39c106ab4bf606808c9c5bf0f13a41e216207a6fe4d15bf4a5722ce57078781e3a1823e7fdd2928e8e042d104d8ae255a36db8f12a9f46d8089"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 238086,
+        "file_id": 8843626
+      },
+      "declared_required_mods": [
+        "rhino"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/THIGFPwf",
+      "mod_ids": [
+        "kubejs"
+      ],
+      "embedded_mod_ids": [
+        "betteradvancedtooltips"
+      ]
+    },
+    {
+      "id": "modernfix",
+      "name": "ModernFix",
+      "version": "5.27.26+mc1.21.1",
+      "filename": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
+      "provider": "modrinth",
+      "project_id": "nmDcB62a",
+      "version_id": "7Jy58lnT",
+      "source": "https://modrinth.com/mod/modernfix",
+      "source_code": "https://github.com/embeddedt/ModernFix",
+      "license": "LGPL-3.0-only",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/7Jy58lnT/modernfix-neoforge-5.27.26%2Bmc1.21.1.jar",
+      "size": 611043,
+      "hashes": {
+        "sha512": "37c76fc5bc72cfc1035260f891ffeb45b4f32651d2e490c5eb8c60f3b5686deca3145b32d4fab9036f65f5277b0ac66f4ad3855e52cd973e791b09e9c4b896d8",
+        "sha1": "69d468b70e53f6a014c778a81116a41a38fbab33"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 790626,
+        "file_id": 9101836
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/7Jy58lnT",
+      "mod_ids": [
+        "modernfix"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "rhino",
+      "name": "Rhino",
+      "version": "2101.2.7-build.85+Rhino-1.21",
+      "filename": "rhino-2101.2.7-build.85.jar",
+      "provider": "modrinth",
+      "project_id": "sk9knFPE",
+      "version_id": "cQ4POTah",
+      "source": "https://modrinth.com/mod/rhino",
+      "source_code": "https://github.com/KubeJS-Mods/Rhino",
+      "license": "MPL-2.0",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/cQ4POTah/rhino-2101.2.7-build.85.jar",
+      "size": 882075,
+      "hashes": {
+        "sha1": "3c8d34c7efe9e42fc90506acbf9fc842d36f9a42",
+        "sha512": "0a6c7f4410281aeb03b815ec03487a8e80a4d3dae013d81282e447bf9c08144ef57318af614ea6d40b7d9a8c25031c557890ec792a5895a82467c1643116f693"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 416294,
+        "file_id": 8218748
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/cQ4POTah",
+      "mod_ids": [
+        "rhino"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "simple_backups",
+      "name": "Simple Backups",
+      "version": "1.21-4.0.21",
+      "filename": "SimpleBackups-1.21-4.0.21.jar",
+      "provider": "modrinth",
+      "project_id": "fzSKSXVK",
+      "version_id": "6JQL4qSR",
+      "source": "https://modrinth.com/mod/simple-backups",
+      "source_code": "https://github.com/ChaoticTrials/SimpleBackups",
+      "license": "Apache-2.0",
+      "url": "https://cdn.modrinth.com/data/fzSKSXVK/versions/6JQL4qSR/SimpleBackups-1.21-4.0.21.jar",
+      "size": 48608,
+      "hashes": {
+        "sha512": "e31b437c9c2000f38d9d130fdde62276932081dbd3f62d1db9575a55a97164889efe5a40e7754c1e964483b1ca49327ce88c565879a59263b2523bd1dc0e64b1",
+        "sha1": "35bb3b98f330e0f6d08466860157a578a1ecfca2"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 583228,
+        "file_id": 7151913
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/6JQL4qSR",
+      "mod_ids": [
+        "simplebackups"
+      ],
+      "embedded_mod_ids": []
+    }
+  ],
+  "installer": {
+    "filename": "neoforge-21.1.264-installer.jar",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.264/neoforge-21.1.264-installer.jar",
+    "size": 6992411,
+    "hashes": {
+      "sha1": "f801601bafa7f5957295353930e2cb61dcfddc6c",
+      "sha512": "9641c85fae434524d5ebcf2b5eb7e950f1aa69622c34bf2ffc99bde8017f0a5016d23d0ccfd6f5c6a35d3fe14d6346feded7d362d60e7c94396f4f47b24115a3"
+    }
+  },
+  "bundled_dependency_notes": {
+    "create": [
+      "Flywheel 1.0.6 and Ponder 1.0.82 are bundled; do not install duplicate JARs."
+    ],
+    "kubejs": [
+      "Better Advanced Tooltips is bundled; the Modrinth required-project declaration is satisfied by this embedded dependency."
+    ],
+    "jei": [
+      "MezzConfig is bundled; do not install an additional standalone JAR."
+    ]
+  }
+}

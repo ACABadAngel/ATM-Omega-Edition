@@ -1,4 +1,6 @@
 __pycache__/
+.work/
+*.jar.log
 *.pyc
 .gradle/
 build/

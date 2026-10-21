@@ -1,0 +1,9 @@
+=== alpha-first.log ===
+[18:47:21] [main/INFO] [KubeJS Server/]: Added 8 recipes, removed 2 recipes, modified 0 recipes, with 0 failed recipes taking 250 ms in total
+=== alpha-restart.log ===
+[18:48:57] [main/INFO] [KubeJS Server/]: Added 8 recipes, removed 2 recipes, modified 0 recipes, with 0 failed recipes taking 290 ms in total
+[18:48:59] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.691s)! For help, type "help"
+[18:48:59] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[18:48:59] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 1 chapters, 12 quests, 0 reward tables
+[18:49:01] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 27 runtime checks
+[18:49:15] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

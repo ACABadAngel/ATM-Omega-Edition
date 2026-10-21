@@ -4,14 +4,14 @@
 
 | ID | Entscheidung | Status / nächste Handlung |
 | --- | --- | --- |
-| ADR-01 | Minecraft 1.21.1, NeoForge, Java 21 als Zielbasis | Geplant festgelegt; genaue Builds in FND-01 verifizieren |
-| ADR-02 | Ein kanonisches Packwerkzeug und Lockfile | Offen: Packwiz, vergleichbares Werkzeug oder etablierte manifestbasierte Pipeline prüfen; Auswahl nach Client/Serverexport, Hashes, Rechte-/Plattformunterstützung |
+| ADR-01 | Minecraft 1.21.1, NeoForge, Java 21 als Zielbasis | Alpha: NeoForge 21.1.264; exakte Artefakte in `pack/lock.json`, Java 21, Dedicated Server gestartet |
+| ADR-02 | Ein kanonisches Packwerkzeug und Lockfile | Alpha: `tools/pack.py` (Python 3.11+), `pack/lock.json`, CurseForge-Clientmanifest und Server-Kit; Details unten |
 | ADR-03 | Eigenständiges Pack; ATM ist Inspiration | Festgelegt; Name/Marke vor öffentlichem Release prüfen |
 | ADR-04 | 12 Hauptzeitalter plus optional A13 | Festgelegt; keine widersprüchliche 10/12/13er-Hauptfolge |
 | ADR-05 | Omega Core besitzt komplexe persistente Systeme | Festgelegt; genaue API-/Registry-Aufteilung in CORE-01 |
 | ADR-06 | KubeJS für bewiesene Rezept-/Datenintegration | Festgelegt; keine erfundenen APIs oder Gleichsetzung mit eigener Maschinenmod |
 | ADR-07 | Native Ausgabe zuerst, Legacy-Port als regulärer Weg | Festgelegt; Port pro Projekt getrennt qualifizieren |
-| ADR-08 | Ein primärer Rezeptviewer | Offen: JEI/EMI nach tatsächlichen Rezeptintegrationen wählen |
+| ADR-08 | Ein primärer Rezeptviewer | Alpha: JEI 19.64.0.455; Serverstart geprüft, Clientanzeige noch offen |
 | ADR-09 | Teamprogression als Hauptmodell | Festgelegt; FTB-/Core-Adapter und Join/Leave-Regeln in CORE-02 |
 | ADR-10 | Erst vollständige kleine Sternkette, dann Umfang | Festgelegt; 1.000+ bleibt langfristiges Ziel |
 | ADR-11 | Keine pauschale Creative-/Transmutationsabkürzung | Festgelegt; Aufnahme nur mit Sperrlisten und Audit |
@@ -41,3 +41,13 @@ Noch unbekannt sind tatsächliche Teamkapazität, konkrete bereits portierte Mod
 ## Änderungsentscheidung dokumentieren
 
 Jede große Abweichung nennt Problem, geprüfte Optionen, Entscheidung, Konsequenzen für Saves/Rezepte/Quests und nötige Nachtests. Eine Änderung der Modauswahl ist Routine, solange die Progressionsrolle erhalten bleibt; ein anderer Loader oder eine andere Hauptprogression benötigt einen neuen ADR-Eintrag.
+
+## Alpha-Entscheidungen vom 21.10.2026
+
+ADR-02: Ein kleiner Exporter mit Python-Standardbibliothek hält eine gemeinsame Quelle für Client und Server. Jede Moddatei besitzt Größe, SHA-1/SHA-512, Projektquelle, Lizenzlabel, Seitenrolle sowie exakte CurseForge-Projekt-/Datei-ID. Der Clientexport enthält Manifest und eigene Overrides. Das Server-Kit lädt die gepinnten Dateien von den Autoren-CDNs; fremde JARs werden nicht im Repository verteilt. FTB-Artefakte liegen auf deren Maven-Server. Deshalb wurde für diese Alpha ein CurseForge-Manifest statt eines Modrinth-Packs gewählt: dessen Format erlaubt diese Maven-Domain nicht als reguläre Mod-Downloadquelle.
+
+ADR-05/06: KubeJS besitzt in der Alpha `omega:plant_fiber`, `omega:tree_resin`, `omega:primitive_core`, `omega:pressed_core` und `omega:mechanical_core`. Texturen verwenden vorhandene Vanilla-Ressourcen mit Tint. Keine Fremdtexturen werden kopiert. Eine spätere Omega-Core-Mod übernimmt IDs nur mit gleichzeitig entfernter JS-Registrierung und Save-Test.
+
+Der 120-Kupferplatten-Auftrag ist ausdrücklich ein verbrauchender Lieferauftrag. Er misst weder eine Produktionsrate noch frisch produzierte Gegenstände; die geplante manipulationsgeschützte Produktionsmessung bleibt CORE-Arbeit. Die maschinelle Herstellung des Pressed Core verwendet den nativen Create-Rezepttyp.
+
+Eingebettete Bibliotheken werden nicht doppelt installiert: Create bringt Flywheel/Ponder mit, KubeJS Better Advanced Tooltips und JEI MezzConfig. Ihre IDs werden bei der Abhängigkeitsprüfung berücksichtigt. Das Kandidatenregister ist keine zweite installierte Modliste.

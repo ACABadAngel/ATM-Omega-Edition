@@ -1,0 +1,73 @@
+{
+  "file.0000000000000001.title": "ATM Omega Edition · 0.1",
+  "chapter.0100000000000001.title": "01 • Vom Überleben zur Mechanik",
+  "quest.1000000000000001.title": "Willkommen in Omega",
+  "quest.1000000000000001.quest_desc": [
+    "Dies ist die erste spielbare Alpha mit primitivem und mechanischem Zeitalter.",
+    "Öffne die Quests über dein Inventar. Folge dem Hauptpfad und baue deine eigene Fabrik.",
+    "Bestätige diese Einführung. Spätere Zeitalter sind in dieser Version noch nicht enthalten."
+  ],
+  "quest.1000000000000002.title": "Ein sicherer Arbeitsplatz",
+  "quest.1000000000000002.quest_desc": [
+    "Halte eine Werkbank und acht Fackeln bereit. Plane Ersatzwerkzeug und einen sicheren Rückweg ein.",
+    "Diese Gegenstände werden erkannt und nicht verbraucht."
+  ],
+  "quest.1000000000000003.title": "Proviant für die Reise",
+  "quest.1000000000000003.quest_desc": [
+    "Freiwilliges Nebenziel: Stelle acht Brote her. Andere Nahrung ist ebenfalls sinnvoll; diese Quest sperrt den Hauptpfad nicht.",
+    "Weizen wird auch für Pflanzenfasern verwendet."
+  ],
+  "quest.1000000000000004.title": "Die ersten Kupferplatten",
+  "quest.1000000000000004.quest_desc": [
+    "Fertige jede Kupferplatte aus einem Kupferbarren und einem Feuerstein. Der Feuerstein wird verbraucht.",
+    "Dieser einfache Handweg ermöglicht den ersten Kern, bevor du eine Presse besitzt.",
+    "Später verarbeitet die mechanische Presse Kupferbarren ohne Feuersteinverbrauch."
+  ],
+  "quest.1000000000000005.title": "Primitiver Kern",
+  "quest.1000000000000005.quest_desc": [
+    "Gewinne Pflanzenfasern aus drei Weizen. Kombiniere einen Stamm und Feuerstein zu Baumharz.",
+    "Ein primitiver Kern verbindet vier Kupferplatten, zwei Fasern, zwei Harze und Holzkohle.",
+    "Du brauchst mehrere Kerne: Wasserrad, Presse und gepresster Kern verbrauchen jeweils einen."
+  ],
+  "quest.1000000000000006.title": "Wasser wird Bewegung",
+  "quest.1000000000000006.quest_desc": [
+    "Baue ein Wasserrad aus einem primitiven Kern, Wellen und Brettern.",
+    "Setze es in fließendes Wasser. Create Ponder erklärt Platzierung und Rotation.",
+    "Ein großes Wasserrad entsteht mit dem normalen Aufwertungsrezept."
+  ],
+  "quest.1000000000000007.title": "Rotation übertragen",
+  "quest.1000000000000007.quest_desc": [
+    "Halte acht Wellen und vier Zahnräder bereit. Verbinde das Wasserrad mit deinem Arbeitsbereich.",
+    "Zahnräder ändern Richtung und Drehzahl. Nutze die im Item-Tooltip angezeigte Ponder-Taste."
+  ],
+  "quest.1000000000000008.title": "Deine erste mechanische Presse",
+  "quest.1000000000000008.quest_desc": [
+    "Fertige die Presse aus einem Eisenblock, zwei Wellen, einem Andesitgehäuse und einem weiteren primitiven Kern.",
+    "Schließe Rotation an und platziere ein Depot unter der Presse. Kupferbarren werden darauf zu Platten.",
+    "Prüfe Abstand und Drehzahl, falls die Presse nicht arbeitet."
+  ],
+  "quest.1000000000000009.title": "Ein maschinell geformter Kern",
+  "quest.1000000000000009.quest_desc": [
+    "Lege einen primitiven Kern auf ein Depot unter der angetriebenen Presse.",
+    "Durch Pressen entsteht ein gepresster Kern. Dafür gibt es kein Handrezept.",
+    "Er bildet das maschinell gefertigte Zentrum des mechanischen Kerns."
+  ],
+  "quest.100000000000000A.title": "Lieferauftrag: Kupferplatten",
+  "quest.100000000000000A.quest_desc": [
+    "Gib über diese Quest 120 Kupferplatten ab. Die Platten werden verbraucht.",
+    "Dies ist ein Lieferauftrag. Er beweist weder eine Produktionsrate noch neu hergestellte Gegenstände.",
+    "Trichter, Depot und angetriebene Presse ermöglichen eine wiederholbare Versorgung. Handgefertigte Platten zählen ebenfalls."
+  ],
+  "quest.100000000000000B.title": "Mechanischer Kern",
+  "quest.100000000000000B.quest_desc": [
+    "Verbinde einen gepressten Kern mit vier Andesitlegierungen, zwei Kupferplatten, einer Welle und Redstone.",
+    "Schließe auch den Kupfer-Lieferauftrag ab. Die fertige Quest speichert diesen Meilenstein für dein FTB-Team.",
+    "Danach darfst du den Kern lagern oder später verwenden; die abgeschlossene Quest bleibt erhalten."
+  ],
+  "quest.100000000000000C.title": "Erste Fabrik, erster Meilenstein",
+  "quest.100000000000000C.quest_desc": [
+    "Du hast den Hauptpfad von v0.1 abgeschlossen. Erweitere die Plattenlinie und mache deine Anlage wartungsfreundlich.",
+    "Als Nächstes folgt das elektrische Zeitalter. Diese Alpha enthält noch keine Omega-Reaktoren, Bosse oder späteren Sterne.",
+    "Sichere vor Updates die vollständige Welt einschließlich Quest- und Teamdaten."
+  ]
+}
