@@ -1,4 +1,4 @@
-# Omega 0.3.0-alpha.1 — Dedicated Server Kit
+# Omega 0.4.0-alpha.1 — Dedicated Server Kit
 
 Benötigt: **Python 3.11+ und Java 21**. Dieses Kit lädt die exakt gesperrten Moddateien von ihren Projektquellen und den NeoForge-Installer vom offiziellen Maven. Es enthält keine fremden JARs oder akzeptierte EULA.
 
@@ -12,7 +12,7 @@ Liegt Java 21 nicht auf PATH: `python3 tools/pack.py install-server --directory 
 
 Das Installationswerkzeug bearbeitet nur einen neuen Serverordner. Vor Updates eine vollständige Sicherung von Welt, Spieler-, Team-, Quest- und Konfigurationsdaten anlegen. Kein Installationsaufruf setzt vorhandene Welten zurück. Für Restore den gestoppten gesamten Serverordner sichern und als Kopie wiederherstellen.
 
-Inhalt dieser Alpha: Create, Mekanism/Generators, Ars Nouveau und Occultism; drei Questkapitel auf Deutsch/Englisch und Progression bis Omega Arcane Core. Die Wilden Chimera übernimmt vorläufig die Titan-Begegnungsrolle; eigene Omega-Bosse sind noch nicht implementiert. Der 120-Platten-Auftrag misst eine Abgabe; eine verifizierte Produktionsrate gehört erst in ein späteres Update.
+Inhalt dieser Alpha: Create, Mekanism/Generators, Ars Nouveau, Occultism, AE2, Industrial Foregoing und Applied Mekanistics; vier Questkapitel auf Deutsch/Englisch und Progression bis Industrial Core. Die Wilden Chimera übernimmt vorläufig die Titan-Begegnungsrolle; eigene Omega-Bosse sind noch nicht implementiert. Der 120-Platten-Auftrag misst eine Abgabe; eine verifizierte Produktionsrate gehört erst in ein späteres Update.
 
 ## Offline-Backup und Restore
 

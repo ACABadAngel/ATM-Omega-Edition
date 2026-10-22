@@ -1,6 +1,6 @@
 # Arkane Werkstatt – 0.3.0-alpha.1
 
-Kapitel 03 verbindet Ars Nouveaus Source-Verarbeitung mit Occultisms Geistermaterialien. Der Omega Arcane Core schließt diesen Alpha-Abschnitt ab. Voraussetzung ist der [Electrical Core](electrical-age.md). Alle 22 älteren Quest-/Task-/Reward-IDs bleiben erhalten.
+Kapitel 03 verbindet Ars Nouveaus Source-Verarbeitung mit Occultisms Geistermaterialien. Der Omega Arcane Core schließt diesen Abschnitt ab. Danach folgt die [industrielle Werkstatt](industrial-age.md). Voraussetzung ist der [Electrical Core](electrical-age.md). Alle 22 älteren Quest-/Task-/Reward-IDs bleiben erhalten.
 
 ## Einstieg ohne Zirkel
 

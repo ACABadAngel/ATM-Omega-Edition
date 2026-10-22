@@ -1,0 +1,186 @@
+{
+  "verified_files": [
+    {
+      "id": "ae2",
+      "filename": "appliedenergistics2-19.2.18.jar",
+      "size": 8236552,
+      "sha1": "bcd04bc7f181b2ffa314625f284c8eca6fee7fe4",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "appleskin",
+      "filename": "appleskin-neoforge-mc1.21-3.0.9.jar",
+      "size": 75804,
+      "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "applied_mekanistics",
+      "filename": "Applied-Mekanistics-1.6.3.jar",
+      "size": 149709,
+      "sha1": "bec4a47269ec23bca2329742e13409bfde69c5c3",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "architectury_api",
+      "filename": "architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "ars_nouveau",
+      "filename": "ars_nouveau-1.21.1-5.13.3.jar",
+      "size": 19841105,
+      "sha1": "541b3286d187deeb9a1297a509d0d3539d8af0f6",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "create",
+      "filename": "create-1.21.1-6.0.10.jar",
+      "size": 19123767,
+      "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "curios",
+      "filename": "curios-neoforge-9.5.1+1.21.1.jar",
+      "size": 410690,
+      "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "ferritecore",
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "ftb_library",
+      "filename": "ftb-library-neoforge-2101.1.37.jar",
+      "size": 1439881,
+      "sha1": "b6e503587afcd678ec257e4abdc6362ff18c2fef",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "ftb_quests",
+      "filename": "ftb-quests-neoforge-2101.1.36.jar",
+      "size": 1609984,
+      "sha1": "b2ede29b98a3022c22065fbe9b1761e385a28683",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "ftb_teams",
+      "filename": "ftb-teams-neoforge-2101.1.11.jar",
+      "size": 308236,
+      "sha1": "62b65f752d0326edd13244e58d5f2aec035da4e9",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "geckolib",
+      "filename": "geckolib-neoforge-1.21.1-4.9.3.jar",
+      "size": 634531,
+      "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "guideme",
+      "filename": "guideme-21.1.19.jar",
+      "size": 9311992,
+      "sha1": "e85cd4c266f974dd360c46e8dad7ecf4c7ee96c6",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "industrial_foregoing",
+      "filename": "industrialforegoing-1.21-3.6.27.jar",
+      "size": 4747295,
+      "sha1": "88ff21e4fa6e5c4cfb7cd5626cbcfdf424e704b5",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "jade",
+      "filename": "Jade-1.21.1-NeoForge-15.10.6.jar",
+      "size": 726853,
+      "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "jei",
+      "filename": "jei-1.21.1-neoforge-19.64.0.455.jar",
+      "size": 2375741,
+      "sha1": "f6d6fc08d54c40752926b570a2220471e8c45c1a",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "kubejs",
+      "filename": "kubejs-neoforge-2101.7.2-build.377.jar",
+      "size": 2294111,
+      "sha1": "7313fcd99318834c642ee9f3a05ed7fd7bcb6ef4",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "mekanism",
+      "filename": "Mekanism-1.21.1-10.7.19.85.jar",
+      "size": 11976009,
+      "sha1": "b78945c40cfe7640408f3fd1e44da385a8c8b805",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "mekanism_generators",
+      "filename": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "size": 1114598,
+      "sha1": "44c4d8006597580ff7e4101b5a22f7b426cdcaf6",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "modernfix",
+      "filename": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
+      "size": 611043,
+      "sha1": "69d468b70e53f6a014c778a81116a41a38fbab33",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "modonomicon",
+      "filename": "modonomicon-1.21.1-neoforge-1.120.7.jar",
+      "size": 2407448,
+      "sha1": "dc06fd2fa4d539f74fcb46be867b99b03a863962",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "occultism",
+      "filename": "occultism-1.21.1-neoforge-1.224.5.jar",
+      "size": 6951962,
+      "sha1": "23e856a9757540169179fbc27d7fecef2a31a07b",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "rhino",
+      "filename": "rhino-2101.2.7-build.85.jar",
+      "size": 882075,
+      "sha1": "3c8d34c7efe9e42fc90506acbf9fc842d36f9a42",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "simple_backups",
+      "filename": "SimpleBackups-1.21-4.0.21.jar",
+      "size": 48608,
+      "sha1": "35bb3b98f330e0f6d08466860157a578a1ecfca2",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "smartbrainlib",
+      "filename": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+      "size": 391053,
+      "sha1": "0310135a01eeceefbc7f1ab017498a65f3ad6836",
+      "verified_sha1_and_sha512": true
+    },
+    {
+      "id": "titanium",
+      "filename": "titanium-1.21-4.0.51.jar",
+      "size": 608070,
+      "sha1": "aeb581ba5bdaac3bf3d48bee78488151e9c3dfd1",
+      "verified_sha1_and_sha512": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"success": true,
+	"failure": "",
+	"checks": [
+		"Both naturally processed binders persist",
+		"Naturally imbued Runic Crystal persists",
+		"New Omega Arcane Core stack persists",
+		"Isolated runic jar retains exact source after full restart",
+		"Isolated apparatus jar retains exact source after full restart",
+		"All three chapters remain loaded",
+		"Synthetic native boss-kill progress persists",
+		"Original 120-sheet delivery still persists"
+	],
+	"runic_jar_source": 3399,
+	"apparatus_jar_source": 1999
+}

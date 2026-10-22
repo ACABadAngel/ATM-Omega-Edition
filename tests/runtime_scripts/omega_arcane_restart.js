@@ -19,7 +19,7 @@ ServerEvents.loaded(event => {
       check(runic>0 && runic === server.persistentData.getInt('omega_arcane_runic_jar'),'Isolated runic jar retains exact source after full restart');
       check(apparatus>0 && apparatus === server.persistentData.getInt('omega_arcane_apparatus_jar'),'Isolated apparatus jar retains exact source after full restart');
       var file=QuestFile.INSTANCE,chapters=file.getAllChapters();
-      check(chapters.size() === 3 && chapters.get(2).getQuests().size() === 16,'All three chapters remain loaded');
+      check(chapters.size() >= 3 && chapters.get(2).getQuests().size() === 16,'All three chapters remain loaded');
       var team=file.getOrCreateTeamData(UUID.fromString(server.persistentData.getString('omega_arcane_test_team')));
       check(team.getProgress(chapters.get(2).getQuests().get(14).getTasks().get(1)) === 1,'Synthetic native boss-kill progress persists');
       var original=file.getOrCreateTeamData(UUID.fromString('00000000-0000-0000-0000-000000000123'));

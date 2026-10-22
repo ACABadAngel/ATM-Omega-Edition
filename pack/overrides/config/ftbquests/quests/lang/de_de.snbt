@@ -1,8 +1,9 @@
 {
-  "file.0000000000000001.title": "ATM Omega Edition · 0.3.0-alpha.1",
+  "file.0000000000000001.title": "ATM Omega Edition · 0.4.0-alpha.1",
   "chapter.0100000000000001.title": "01 • Vom Überleben zur Mechanik",
   "chapter.0100000000000002.title": "02 • Von Bewegung zu Strom",
   "chapter.0100000000000003.title": "03 • Von Strom zu Magie",
+  "chapter.0100000000000004.title": "04 • Von Magie zur Industrie",
   "quest.1000000000000001.title": "Willkommen in Omega",
   "quest.1000000000000001.quest_desc": [
     "Diese Alpha enthält primitive, mechanische und elektrische Progression.",
@@ -201,6 +202,106 @@
   "quest.1000000000000026.title": "Arkaner Omega-Kern",
   "quest.1000000000000026.quest_desc": [
     "Verbinde vier Source Gems, zwei arkane Binder, einen Runenkristall, einen Spirit Attuned Gem und einen Wilden Tribute.",
-    "Der Craft verbindet Mechanik, Elektrizität, beide Magiematerialpfade und einen nativen Bossdrop. Industrielle Progression und eigene Omega-Bosse folgen später. Sichere vor dem nächsten Update deine Welt."
+    "Weiter geht es mit Latex, Prozessoren und digitalem Lager im Industriezeitalter. Eigene Omega-Bosse folgen später; sichere deine Welt vor Updates."
+  ],
+  "quest.1000000000000027.title": "Die Werkstatt verbinden",
+  "quest.1000000000000027.quest_desc": [
+    "Dieses Kapitel verbindet AE2-Lager, Industrial-Foregoing-Latexverarbeitung und Mekanism-Chemie. Erweitere die Fertigung mechanischer und elektrischer Kerne.",
+    "Mehrere Einstiegsrezepte verbrauchen arkane Kerne. Plane wiederholbare Wilden-Tribute-Beschaffung und Source-Erzeugung. Die Quests führen durch den Abschnitt; spätere native Inhalte benötigen noch einen vollständigen Gate-Audit."
+  ],
+  "quest.1000000000000028.title": "Certus-Quarz laden",
+  "quest.1000000000000028.quest_desc": [
+    "Finde einen AE2-Meteoriten und Certus-Quarz. Fertige einen Charger nach nativem Rezept und versorge ihn aus deiner elektrischen Werkstatt mit FE.",
+    "Nutze den AE2-GuideME-Leitfaden für Meteoriten, knospenden Quarz und Wachstum. Neue Meteoriten benötigen unerforschte Chunks."
+  ],
+  "quest.1000000000000029.title": "Fluix-Kristalle herstellen",
+  "quest.1000000000000029.quest_desc": [
+    "Lade Certus-Quarz. Wirf geladenen Certus, Netherquarz und Redstone gemeinsam in Wasser für die native Fluix-Reaktion.",
+    "Behalte zusätzlichen geladenen Quarz für weitere Chargen. Laden und Kristallumwandlung sind unterschiedliche Arbeitsschritte."
+  ],
+  "quest.100000000000002A.title": "Prozessorstation aufbauen",
+  "quest.100000000000002A.quest_desc": [
+    "Der Inscriber braucht jetzt fünf Eisenbarren, zwei Kolben, Kupfer und einen elektrischen Kern. Beschaffe native Pressformen über die Meteoritenprogression.",
+    "Native Prozessorrezepte behalten ihre Pressformen. Der Omega-Industrieschaltkreis ist ein eigenes PRESS-Rezept und verbraucht Kunststoff sowie verstärkte Legierung."
+  ],
+  "quest.100000000000002B.title": "Native Logik und Technik",
+  "quest.100000000000002B.quest_desc": [
+    "Nutze passende Formen für gedruckte Gold-/Diamantschaltungen und Silizium. Verbinde die gedruckten Teile mit Redstone im Inscriber.",
+    "JEI zeigt die genauen nativen Eingaben. Behalte die Formen. Der versorgte Inscriber muss tatsächlich arbeiten; sein bloßer Besitz reicht nicht."
+  ],
+  "quest.100000000000002C.title": "Ein ME-Netz versorgen",
+  "quest.100000000000002C.quest_desc": [
+    "Fertige einen Energy Acceptor mit vier Eisenbarren, vier Quartz Glass und einem arkanen Kern. Schließe eine FE-Quelle an.",
+    "Block- und Kabelteil-Variante lassen sich weiterhin ohne weiteren Kern ineinander umwandeln. Native alternative Stromquellen bleiben verfügbar."
+  ],
+  "quest.100000000000002D.title": "Ein Terminal für die Werkstatt",
+  "quest.100000000000002D.quest_desc": [
+    "Fertige Fluix Glass Cable und ME Terminal nach nativem Rezept. Verbinde Acceptor, Lager und Terminal durchgängig mit Strom.",
+    "Ein kleines Netz ohne Controller unterstützt bis zu acht Kanäle. Angeschlossene Geräte können einen Kanal benötigen; der industrielle Kern schaltet später den ME Controller frei."
+  ],
+  "quest.100000000000002E.title": "Mit kleinen Speicherzellen beginnen",
+  "quest.100000000000002E.quest_desc": [
+    "Fertige native 1k-Speicherkomponenten und eine Item-Speicherzelle. Behalte eine zusätzliche leere 1k-Komponente für den industriellen Kern.",
+    "Der Meilenstein verbraucht einzelne Bauteile und keine gefüllten Speicherzellen. Prüfe Strom und Zellzugriff, bevor du wertvolle Items einlagerst."
+  ],
+  "quest.100000000000002F.title": "Das Lager in Betrieb nehmen",
+  "quest.100000000000002F.quest_desc": [
+    "Der ME Drive braucht vier Eisenbarren, zwei Engineering Processors, zwei Fluix Glass Cables und einen arkanen Kern. Ergänze einen Energy-Cell-Puffer.",
+    "Setze die Itemzelle in den Drive und lagere einen Teststack über das Terminal ein und aus. Die Quest erkennt Items und misst nicht, ob das Netz online ist."
+  ],
+  "quest.1000000000000030.title": "Latex aus Stämmen gewinnen",
+  "quest.1000000000000030.quest_desc": [
+    "Das Fluid-Extractor-Rezept nutzt einen elektrischen Kern statt Pity Machine Frame. Richte die Arbeitsseite auf einen geeigneten Stamm aus.",
+    "Der Extractor kann langsam ohne FE arbeiten; versorgter Betrieb verbessert die Ausbeute. Akazie liefert nativ mehr Latex als Eiche. Stämme werden mit der Zeit verändert oder abgebaut."
+  ],
+  "quest.1000000000000031.title": "Latex mit Wasser verarbeiten",
+  "quest.1000000000000031.quest_desc": [
+    "Fertige die Latex Processing Unit aus vier Eisenbarren, Redstoneblock, zwei Eimern, Ofen und arkanem Kern. Versorge sie mit FE, Latex und Wasser.",
+    "Dieser festgelegte Build erzeugt direkt einen Dry Rubber aus 750 mB Latex und 500 mB Wasser. Die ältere Kleingummi-Craftingkette gilt hier nicht."
+  ],
+  "quest.1000000000000032.title": "Kunststoff in Chargen herstellen",
+  "quest.1000000000000032.quest_desc": [
+    "Schmelze Dry Rubber im Ofen zu Kunststoff. Lege Vorräte für Schaltkreise und den industriellen Kern an.",
+    "Führe Latex und Wasser in passende Eingänge. Versorge Wasser kontinuierlich und prüfe die Fluid-Seiteneinstellungen vor dem Anschluss von Rohren."
+  ],
+  "quest.1000000000000033.title": "Diamantinfusion",
+  "quest.1000000000000033.quest_desc": [
+    "Zerkleinere Diamanten zu Diamond Dust und infundiere Infused Alloy mit dem Diamanttyp. Zwei Staub liefern die 20 Infusionseinheiten für eine Reinforced Alloy; Enriched Diamond ist eine effizientere native Alternative.",
+    "Nutze einen getrennten Infuser oder entferne verbliebene Infusion vor dem Wechsel. Dieser Schritt erweitert die elektrische Werkstatt."
+  ],
+  "quest.1000000000000034.title": "Wasser in Gase aufteilen",
+  "quest.1000000000000034.quest_desc": [
+    "Versorge einen nativen Electrolytic Separator mit Wasser und FE. Er erzeugt Wasserstoff und Sauerstoff in getrennten Chemietanks.",
+    "Die Maschine stoppt, sobald ein Ausgang voll ist. Konfiguriere beide Ausgänge; native Überschuss-Einstellungen können die Erzeugung des benötigten Gases ermöglichen."
+  ],
+  "quest.1000000000000035.title": "Beide Chemieausgänge anschließen",
+  "quest.1000000000000035.quest_desc": [
+    "Nutze native Druckrohre und Chemietanks für Wasserstoff und Sauerstoff. Mechanische Rohre führen Flüssigkeiten, Druckrohre Chemikalien.",
+    "Die Item-Aufgabe erkennt nur Tanks, nicht ihren Inhalt. Prüfe die Anzeigen an Maschine und Tank für tatsächliche Produktion und Übertragung."
+  ],
+  "quest.1000000000000036.title": "Chemikalien im ME-Netz speichern",
+  "quest.1000000000000036.quest_desc": [
+    "Applied Mekanistics ergänzt Chemiezellen für den AE2-Drive. Fertige ein Chemiezellgehäuse und kombiniere es mit einer 1k-Komponente.",
+    "Nutze native Schnittstellen und Terminal-Unterstützung für Mekanism-Chemikalien. Behalte ein separates leeres Gehäuse für den industriellen Kern; zerlege keine gefüllte Zelle."
+  ],
+  "quest.1000000000000037.title": "Gemeinsamen Industrieschaltkreis pressen",
+  "quest.1000000000000037.quest_desc": [
+    "Lege im Inscriber Kunststoff oben, einen elektrischen Kern in die Mitte und Reinforced Alloy unten ein. Versorge ihn mit FE.",
+    "Dieses Rezept nutzt PRESS-Modus: Alle drei Zutaten werden für EINEN Industrieschaltkreis verbraucht. Fertige zwei Schaltkreise für den Meilenstein."
+  ],
+  "quest.1000000000000038.title": "Industrieller Kern",
+  "quest.1000000000000038.quest_desc": [
+    "Verbinde vier Kunststoff, zwei Industrieschaltkreise, ein leeres Chemiezellgehäuse, einen arkanen Kern und eine einzelne 1k-Speicherkomponente.",
+    "Das Rezept verbindet biologische Rohstoffe, native Diamantinfusion, AE2-Verarbeitung, Chemiespeicher-Bauteile und den Magiemeilenstein. Gefüllte Speicherzellen sind keine Zutaten."
+  ],
+  "quest.1000000000000039.title": "Über acht Kanäle hinaus erweitern",
+  "quest.1000000000000039.quest_desc": [
+    "Fertige einen Controller aus vier Smooth Sky Stone, vier Fluix-Kristallen und einem industriellen Kern. Der native Leitfaden erklärt Kanäle und Controller-Strukturregeln.",
+    "Das alte Controller-Rezept ist entfernt. Plane die Netzkapazität nach Bedarf und ergänze passende Erzeugung sowie Energiespeicher."
+  ],
+  "quest.100000000000003A.title": "Natives Autocrafting vorbereiten",
+  "quest.100000000000003A.quest_desc": [
+    "Fertige einen Molecular Assembler und Pattern Provider. Der native Leitfaden erklärt Crafting-CPUs, kodierte Muster und weitere Bauteile für ein funktionierendes System.",
+    "Prüfe ein kleines Rezept, bevor du die Fabrik erweiterst. Diese Quest erkennt zwei Bauteile und keinen abgeschlossenen Autocrafting-Auftrag. Dimensionszeitalter und spätere Omega-Systeme bleiben geplant."
   ]
 }

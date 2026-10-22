@@ -65,3 +65,11 @@ Sechs Projekte ergänzen den Lock: Ars Nouveau 5.13.3, Occultism 1.224.5 und die
 ADR-12 wird als Prototyp konkretisiert: Der native Wilden-Chimera-Kampf übernimmt vorläufig die Ancient-Titan-Begegnungsrolle. Der Recipe-Drop bleibt `ars_nouveau:wilden_tribute`; keine vermeintlich eigene Titan-KI behaupten. Die spätere eigene Boss-/Teamdatenintegration benötigt eine gesonderte Migration und Abnahme. `omega:arcane_core` bleibt stabil und ist vom Ars-Basisblock gleichen kurzen Namens getrennt.
 
 Imbuement verwendet zwei wiederverwendbare Geister-/Source-Katalysatoren. Der Apparatus verbraucht acht Sockelzutaten und den elektrischen Kern. Für das Bossziel wurde erstmals ein nativer FTB-KillTask ergänzt; alle früheren IDs bleiben eingefroren. Der Craft ist weiterhin ein materialbasiertes Gate, kein geschützter persönlicher Killnachweis.
+
+## Industrieller Durchstich 0.4.0-alpha.1
+
+AE2 ist das primäre digitale Lager; Refined Storage wird nicht parallel als Alternative installiert. Der Batch ergänzt AE2 19.2.18, GuideME 21.1.19, Industrial Foregoing 3.6.27, Titanium 4.0.51 und Applied Mekanistics 1.6.3. Required/REQUIRED-Abhängigkeitslabels werden gleichermaßen aus den JARs aufgelöst. Titanium nennt LGPL im JAR und auf CurseForge, MIT auf Modrinth; der Unterschied bleibt ausdrücklich dokumentiert.
+
+Leistungsfähige spätere native Inhalte bleiben zunächst vorhanden und benötigen noch ein umfassendes Gate-Audit. Die neue Integration sperrt zentrale Einstiegsrezepte, behauptet aber keine absolute Zugangssperre für alle AE2-/IF-Möglichkeiten. Kleine Netze ohne Controller bleiben erreichbar; der Controller braucht den neuen Industrial Core. Das Core-Rezept verbraucht keine lagerfähige Zelle und verhindert damit den versehentlichen Verlust gespeicherter Ressourcen. Acceptor-Umwandlungen bleiben in beiden Richtungen erhalten.
+
+Der Schaltkreis verbindet tatsächliche nativen Maschinenrollen: FE/Infusion, biologischen Kunststoff und AE2-Inscriber. Der native Modus `press` wird ausdrücklich gewählt, damit Kunststoff und Legierung verbraucht werden. Keine künstliche Schaltkreis-Werkbankabkürzung. Ein Datenoverride beseitigt die beiden ungültigen Curios-Referenzen aus IFs Entity-Datei ohne neue Slots zu erzeugen.

@@ -80,14 +80,14 @@ class PackTests(unittest.TestCase):
                                          name.endswith('eula.txt') or '/world/' in name for name in names))
             with zipfile.ZipFile(first[0]) as archive:
                 manifest = json.loads(archive.read('manifest.json'))
-                self.assertEqual(len(manifest['files']), 21)
+                self.assertEqual(len(manifest['files']), 26)
                 self.assertEqual(manifest['minecraft']['modLoaders'][0]['id'], 'neoforge-' + meta['neoforge'])
-            self.assertEqual(sum(m['env']['server'] != 'unsupported' for m in lock['mods']), 20)
+            self.assertEqual(sum(m['env']['server'] != 'unsupported' for m in lock['mods']), 25)
 
     def test_quest_graph_and_consuming_contract(self):
         content = json.loads((ROOT / 'pack/content/quests.json').read_text())
         quests = {q['id']: q for q in content['quests']}
-        self.assertEqual(len(quests), 38)
+        self.assertEqual(len(quests), 58)
         visited = set()
         def visit(key, active):
             self.assertNotIn(key, active, 'Quest dependency cycle')
@@ -111,7 +111,7 @@ class PackTests(unittest.TestCase):
         generator_spec.loader.exec_module(generator)
         generated = generator.generated_files()
         chapters = [json.loads(value) for name, value in generated.items() if name.startswith('chapters/')]
-        self.assertEqual(len(chapters), 3)
+        self.assertEqual(len(chapters), 4)
         golden = json.loads((ROOT / 'tests/fixtures/alpha1_quest_ids.json').read_text())
         chapter = next(chapter for chapter in chapters if chapter['id'] == golden['chapter_id'])
         self.assertEqual({quest['id']: {'tasks': [task['id'] for task in quest['tasks']],
@@ -119,6 +119,12 @@ class PackTests(unittest.TestCase):
                           for quest in chapter['quests']}, golden['quests'])
         alpha2 = json.loads((ROOT / 'tests/fixtures/alpha2_quest_ids.json').read_text())
         for chapter_id, expected in alpha2['chapters'].items():
+            current = next(c for c in chapters if c['id'] == chapter_id)
+            self.assertEqual({q['id']: {'tasks': [t['id'] for t in q['tasks']],
+                                      'rewards': [r['id'] for r in q['rewards']]}
+                              for q in current['quests']}, expected)
+        alpha3 = json.loads((ROOT / 'tests/fixtures/alpha3_quest_ids.json').read_text())
+        for chapter_id, expected in alpha3['chapters'].items():
             current = next(c for c in chapters if c['id'] == chapter_id)
             self.assertEqual({q['id']: {'tasks': [t['id'] for t in q['tasks']],
                                       'rewards': [r['id'] for r in q['rewards']]}

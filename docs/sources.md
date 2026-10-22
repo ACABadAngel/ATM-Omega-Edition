@@ -36,3 +36,15 @@ Genaue Downloads und SHA-1/SHA-512 stehen unter `pack/lock.json`. Die veröffent
 | SmartBrainLib | [1.16.11 NeoForge 1.21.1](https://www.curseforge.com/minecraft/mc-mods/smartbrainlib/files/7055149) |
 
 Ars nutzt im JAR `mandatory=true` für Curios/GeckoLib; die Modrinth-Dependencies alleine sind unvollständig. Der GPL-/ARR-Lizenzlabel-Unterschied ist im Lock dokumentiert. Für FTB-KillTask, ItemTask und TeamData gilt weiterhin der gepinnte [Quellstand 8c53f35a97d8897c861b097f1e39f4fc3beb3a15](https://github.com/FTBTeam/FTB-Quests/tree/8c53f35a97d8897c861b097f1e39f4fc3beb3a15).
+
+## Primärquellen des industriellen Batches
+
+| Projekt | Exakte Datei / offizielle Quelle |
+| --- | --- |
+| AE2 | [19.2.18](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2/files/8992605), [zugehöriger Source-Commit](https://github.com/AppliedEnergistics/Applied-Energistics-2/tree/db17504a86128fdf3dae31f5fb7a112a646e0b93) |
+| GuideME | [21.1.19](https://www.curseforge.com/minecraft/mc-mods/guideme/files/8897145) |
+| Industrial Foregoing | [3.6.27](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing/files/6471695) |
+| Titanium | [4.0.51](https://www.curseforge.com/minecraft/mc-mods/titanium/files/9129904) |
+| Applied Mekanistics | [1.6.3](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics/files/7096962) |
+
+Zusätzlich wurden die Rezepte und JAR-Metadaten der exakten Dateien geprüft. Bei IF waren öffentliche Branchquellen nicht exakt der Release zuzuordnen; deshalb wurden die relevanten Latex-/Tankmethoden gegen Bytecode des gepinnten JARs geprüft. Dasselbe gilt für Applied-Mekanistics-ChemicalKey und den festgelegten Mekanism-Separator. Diese Arbeitskopien und dekompilierten Dateien werden nicht verteilt. Bibliotheks- und Assetlizenzen bleiben den Autoren zugeordnet; insbesondere Titanium meldet unterschiedliche LGPL-/MIT-Labels.

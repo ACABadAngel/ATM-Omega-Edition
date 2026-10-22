@@ -8,26 +8,26 @@ Das langfristige Budget von **1.085 Mods / 1.000+** bleibt bestehen. Dafür sind
 
 **Leseschlüssel:** Kernwunsch = bevorzugte Grundlage; Ausbauwunsch = gewünschter zusätzlicher Inhalt; Alternative = nur nach Rollenentscheidung; Abhängigkeit = nur wenn ein gewählter Build sie benötigt; Legacy-Prüfung = offizielle Ausgabe/Fortsetzung zuerst suchen, andernfalls separaten erlaubten Port prüfen; Eigenentwicklung = im Projekt selbst bauen.
 
-Die Phase bezeichnet die geplante Aufnahme-/Spielrolle, kein zugesichertes Freischaltungsalter. Fundament bedeutet keine Anweisung, alle so markierten Projekte im ersten Batch zu installieren. Versionen, Loaderunterstützung, vollständige Abhängigkeiten, Lizenzen und Laufzeitkompatibilität bleiben bis zur echten Prüfung offen. Statusverteilung: **452 × `candidate`**, **21 × `resolved`**.
+Die Phase bezeichnet die geplante Aufnahme-/Spielrolle, kein zugesichertes Freischaltungsalter. Fundament bedeutet keine Anweisung, alle so markierten Projekte im ersten Batch zu installieren. Versionen, Loaderunterstützung, vollständige Abhängigkeiten, Lizenzen und Laufzeitkompatibilität bleiben bis zur echten Prüfung offen. Statusverteilung: **447 × `candidate`**, **26 × `resolved`**.
 
 ## Übersicht
 
 | Auswahl | Projekte |
 | --- | ---: |
 | Kernwunsch | 22 |
-| Ausbauwunsch | 354 |
+| Ausbauwunsch | 353 |
 | Alternative | 23 |
-| Abhängigkeit | 67 |
+| Abhängigkeit | 68 |
 | Legacy-Prüfung | 6 |
 | Eigenentwicklung | 1 |
 
 | Kategorie | Benannte Kandidaten | Langfristiges Budget |
 | --- | ---: | ---: |
 | Technik | 51 | 145 |
-| Bibliotheken | 67 | 135 |
+| Bibliotheken | 68 | 135 |
 | Exploration | 36 | 115 |
 | Magie | 28 | 105 |
-| Quality of Life | 67 | 95 |
+| Quality of Life | 66 | 95 |
 | Bauen | 47 | 95 |
 | Worldgen | 12 | 75 |
 | Kampf & RPG | 33 | 75 |
@@ -93,7 +93,7 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [Hostile Neural Networks](https://www.curseforge.com/minecraft/mc-mods/hostile-neural-networks) (`hostile_neural_networks`) | Erneuerbare Mobbeute nach legitimen Erstnachweisen | Ausbauwunsch / P2 | Mittlere Progression | Fortschritts-, Schadens- und Automationsabkürzungen vor Freigabe prüfen. |
 | [Hyperbox](https://www.curseforge.com/minecraft/mc-mods/hyperbox) (`hyperbox`) | Zusätzliche kompakte Fabrikräume als optionale Ausbaurolle | Ausbauwunsch / P2 | Mittlere Progression | Alternative kompakte Fabrikrolle neben Compact Machines; Chunk- und Save-Verhalten getrennt prüfen. |
 | [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) (`immersive_engineering`) | Multiblöcke, industrielle Produktion und Energie | Ausbauwunsch / P2 | Mittlere Progression | — |
-| [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) (`industrial_foregoing`) | Farm- und Mobautomation | Kernwunsch / P0 | Mittlere Progression | — |
+| [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) (`industrial_foregoing`) | Farm- und Mobautomation | Kernwunsch / P0 | Mittlere Progression | Alpha 0.4: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Team-Abnahme offen. |
 | [Industrial Foregoing Souls](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing-souls) (`industrial_foregoing_souls`) | Zusätzliche Industrial-Foregoing-/Seelenintegration | Ausbauwunsch / P2 | Mittlere Progression | — |
 | [Industrialization Overdrive](https://www.curseforge.com/minecraft/mc-mods/industrialization-overdrive) (`industrialization_overdrive`) | Ausbau der ausgewählten Industrialisierungskette | Ausbauwunsch / P2 | Späte Progression | — |
 | [Iron Furnaces](https://www.curseforge.com/minecraft/mc-mods/iron-furnaces) (`iron_furnaces`) | Gestufte Schmelzleistung | Ausbauwunsch / P2 | Mittlere Progression | — |
@@ -160,6 +160,7 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [Fzzy Config](https://www.curseforge.com/minecraft/mc-mods/fzzy-config) (`fzzy_config`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib) (`geckolib`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Alpha 0.3: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Multiplayer-Abnahme offen. |
 | [Glodium](https://www.curseforge.com/minecraft/mc-mods/glodium) (`glodium`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
+| [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) (`guideme`) | Pflicht-Handbuchbibliothek des gewählten AE2-Builds | Abhängigkeit / conditional | Mit benötigtem Elternmod | Alpha 0.4: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Team-Abnahme offen. Elternkandidaten: ae2 |
 | [JamLib](https://www.curseforge.com/minecraft/mc-mods/jamlib) (`jamlib`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [Konkrete](https://www.curseforge.com/minecraft/mc-mods/konkrete) (`konkrete`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [Kotlin for Forge](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge) (`kotlin_for_forge`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
@@ -190,7 +191,7 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) (`supermartijn642s_core_lib`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [TerraBlender (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge) (`terrablender_neoforge`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [Tesseract API (NeoForge)](https://www.curseforge.com/minecraft/mc-mods/tesseract-api-neoforge) (`tesseract_api_neoforge`) | Bibliotheksgrundlage für ausgewählte Energie-/Medienintegration | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die ausgewählten Versionen diese Bibliothek verlangen. |
-| [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) (`titanium`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
+| [Titanium](https://www.curseforge.com/minecraft/mc-mods/titanium) (`titanium`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Alpha 0.4: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Team-Abnahme offen. Elternkandidaten: industrial_foregoing |
 | [Uranus](https://www.curseforge.com/minecraft/mc-mods/uranus) (`uranus`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [Valhelsia Core](https://www.curseforge.com/minecraft/mc-mods/valhelsia-core) (`valhelsia_core`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
 | [YetAnotherConfigLib](https://www.curseforge.com/minecraft/mc-mods/yacl) (`yacl`) | Nur als aufgelöste Pflichtabhängigkeit eines gewählten Projekts aufnehmen | Abhängigkeit / conditional | Mit benötigtem Elternmod | Nur installieren, wenn die tatsächlich ausgewählten Versionen diese Bibliothek verlangen. |
@@ -303,7 +304,6 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [FTB Ranks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-forge) (`ftb_ranks_forge`) | Serverrollen und konfigurierbare Limits | Ausbauwunsch / P2 | Optionales Profil | — |
 | [FTB Ultimine (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge) (`ftb_ultimine_forge`) | Gestuftes Sammel-/Abbauwerkzeug | Ausbauwunsch / P2 | Optionales Profil | — |
 | [Fuel Goes Here](https://www.curseforge.com/minecraft/mc-mods/fuelgoeshere) (`fuelgoeshere`) | Brennstoffverwaltung verständlicher bedienen | Ausbauwunsch / P2 | Optionales Profil | — |
-| [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) (`guideme`) | Handbuch-/AE2-Dokumentation falls benötigt | Ausbauwunsch / P2 | Optionales Profil | — |
 | [Inventory Essentials](https://www.curseforge.com/minecraft/mc-mods/inventory-essentials) (`inventory_essentials`) | Inventaraktionen schneller bedienen | Alternative / P3 | Optionales Profil | Gruppe: inventory_sorting |
 | [Inventory Tweaks - ReFoxed](https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks-refoxed) (`inventory_tweaks_refoxed`) | Sortieren und Nachfüllen von Inventaren | Alternative / P3 | Optionales Profil | Gruppe: inventory_sorting |
 | [Jade 🔍](https://www.curseforge.com/minecraft/mc-mods/jade) (`jade`) | Blöcke, Maschinen und Ressourcen im Blick erklären | Kernwunsch / P0 | Fundament | Alpha 0.1: Hash-Lock; Client-/Multiplayer-Abnahme offen. |
@@ -492,10 +492,10 @@ Vorgehen: [Mod-Auswahl](docs/mod-selection.md), [Legacy-Ports](docs/legacy-porti
 | [AE2 Network Analyser](https://www.curseforge.com/minecraft/mc-mods/ae2-network-analyser) (`ae2_network_analyser`) | Netzwerkdiagnose im ME-System | Ausbauwunsch / P2 | Mittlere Progression | Elternkandidaten: ae2 |
 | [AEInfinityBooster](https://www.curseforge.com/minecraft/mc-mods/aeinfinitybooster) (`aeinfinitybooster`) | Späte Reichweitenerweiterung für drahtlose ME-Terminals | Ausbauwunsch / P2 | Späte Progression | Elternkandidaten: ae2 |
 | [AllTheCompressed](https://www.curseforge.com/minecraft/mc-mods/allthecompressed) (`allthecompressed`) | Kompakte Darstellung großer Rohstoffmengen | Ausbauwunsch / P2 | Mittlere Progression | — |
-| [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) (`ae2`) | Primäres Digitallager und Autocrafting | Kernwunsch / P0 | Mittlere Progression | Gruppe: primary_storage |
+| [Applied Energistics 2](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2) (`ae2`) | Primäres Digitallager und Autocrafting | Kernwunsch / P0 | Mittlere Progression | Alpha 0.4: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Team-Abnahme offen. Gruppe: primary_storage |
 | [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals) (`applied_energistics_2_wireless_terminals`) | Mobiler Zugriff auf das ME-Netz | Ausbauwunsch / P2 | Mittlere Progression | — |
 | [Applied Flux](https://www.curseforge.com/minecraft/mc-mods/applied-flux) (`applied_flux`) | Energieintegration in AE-Netzwerke | Ausbauwunsch / P2 | Mittlere Progression | Elternkandidaten: ae2 |
-| [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) (`applied_mekanistics`) | Mekanism-Medien im AE-Netz verwalten | Ausbauwunsch / P2 | Mittlere Progression | Elternkandidaten: ae2, mekanism |
+| [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) (`applied_mekanistics`) | Mekanism-Medien im AE-Netz verwalten | Ausbauwunsch / P2 | Mittlere Progression | Alpha 0.4: exakter Hash-Lock; Dedicated-Server-Prüfung; Client-/Team-Abnahme offen. Elternkandidaten: ae2, mekanism |
 | [Cable Tiers](https://www.curseforge.com/minecraft/mc-mods/cable-tiers) (`cable_tiers`) | Erweiterte Leitungsstufen im optionalen RS-Zweig | Alternative / P3 | Mittlere Progression | Nur bei Wahl des Refined-Storage-Zweigs; AE2 ist der bevorzugte Hauptpfad. Elternkandidaten: refined_storage |
 | [DimStorage](https://www.curseforge.com/minecraft/mc-mods/dimstorage) (`dimstorage`) | Dimensionsübergreifende Lagerrolle | Ausbauwunsch / P2 | Mittlere Progression | — |
 | [Ender Storage 1.8.+](https://www.curseforge.com/minecraft/mc-mods/ender-storage-1-8) (`ender_storage_1_8`) | Farbkodierter Item-/Fluidtransport | Ausbauwunsch / P2 | Mittlere Progression | — |

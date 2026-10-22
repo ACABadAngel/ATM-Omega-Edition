@@ -8,5 +8,7 @@
   "item.omega.electrical_core": "Elektrischer Kern",
   "item.omega.runic_crystal": "Runenkristall",
   "item.omega.arcane_binder": "Arkaner Binder",
-  "item.omega.arcane_core": "Arkaner Omega-Kern"
+  "item.omega.arcane_core": "Arkaner Omega-Kern",
+  "item.omega.industrial_circuit": "Industrieschaltkreis",
+  "item.omega.industrial_core": "Industrieller Kern"
 }

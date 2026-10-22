@@ -49,7 +49,8 @@
         "A04"
       ],
       "milestone": "omega:industrial_core",
-      "goal": "Chemie, Biology und digitale Lagerung"
+      "goal": "Chemie, Biology und digitale Lagerung",
+      "alpha_implementation": "0.4.0-alpha.1: AE2 + Industrial Foregoing + Applied Mekanistics; Industrieschaltkreis, Latex/Kunststoff, chemisches ME-Lager, Industrial Core und Controller-Einstieg; vollständige Client-/Teamabnahme offen"
     },
     {
       "id": "A06",

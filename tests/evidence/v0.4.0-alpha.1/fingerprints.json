@@ -1,0 +1,30 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pack/content/quests.json": "b3156be409dbd196b7f489a42d53e04f1c74dee9bd565429ccef5c1e32983e13",
+    "pack/lock.json": "002a7132d7060fb637dc1637a16cafe65d7a188e4e8a6114c8a4668879ad12dd",
+    "pack/overrides/config/ftbquests/quests/chapter_groups.snbt": "0fe735f6927c9d905e14b238f2cf44d5c08d735b460a603ad26a764b90096dca",
+    "pack/overrides/config/ftbquests/quests/chapters/01_from_survival_to_motion.snbt": "e1aa3e6d9048ff22efa3c35b09d16a85de97f12dd221e67dfe8ada5f7db1a109",
+    "pack/overrides/config/ftbquests/quests/chapters/02_from_motion_to_power.snbt": "bfe8d4193ffbe0f89b514af3a8541e5ac88d265bd7c444b9d929f957cb643808",
+    "pack/overrides/config/ftbquests/quests/chapters/03_from_power_to_source.snbt": "c95ba627bee183ee081883d511c0dbd83aee26472527d45d9246b04bdab5dbd8",
+    "pack/overrides/config/ftbquests/quests/chapters/04_from_source_to_industry.snbt": "e0ad53671cafcdc677c89430f47543431f257303d66b59c2c6f3581ac3462561",
+    "pack/overrides/config/ftbquests/quests/data.snbt": "a137a7aebc23150340063f01cef2e13abbd611c041c3b32f44133242626a0591",
+    "pack/overrides/config/ftbquests/quests/lang/de_de.snbt": "52bcf99915e79d5926bbf12e0dac8691fb7280c5e2aa5d9a051f0130e82c8176",
+    "pack/overrides/config/ftbquests/quests/lang/en_us.snbt": "d4f6f062346a748bd7a6132f4fe1bf28bedb19583b00a2ac0b1bd1f70a151fb3",
+    "pack/overrides/kubejs/assets/omega/lang/de_de.json": "39a8ac683180a92ae1c91dc5619b10c56fff983f63f40ab02d43d15ac7a3846c",
+    "pack/overrides/kubejs/assets/omega/lang/en_us.json": "9f1fff05c6a09eaf7479df985c1d023c0e436de26048a9e26bb55462b8dd1a72",
+    "pack/overrides/kubejs/data/industrialforegoing/curios/entities/entities.json": "9cd8bff7d7265fdd2f8fcf530c88f5ecf5e2477cf872e8edc776ad4022a67fb2",
+    "pack/overrides/kubejs/server_scripts/omega_arcane.js": "283548832cb278275ff462953c748a9f3bb2d41b01f1e0377d62c52857284b0a",
+    "pack/overrides/kubejs/server_scripts/omega_electrical.js": "baa52dfd2852a2e42c1cc1797530e976c181362182251f039cf91dfb5cb0c786",
+    "pack/overrides/kubejs/server_scripts/omega_industrial.js": "9bdaa8941fedb2f5b78886931c1315560553e97177918cdaed82815960ed5b01",
+    "pack/overrides/kubejs/server_scripts/omega_progression.js": "8fa490824b0c4fc5895c280ff64919923be72c5b94fb7c13f51d07c4ba36c74f",
+    "pack/overrides/kubejs/startup_scripts/omega_items.js": "24434e0dcc88862f8d844bd8e2a118be112b26486445af336b8eee347e269292",
+    "pack/pack.json": "5ff5872bdeab8e014f0d97db042ea69091691af639dcf3fe6e87f1bb6945316f",
+    "tests/fixtures/alpha3_quest_ids.json": "2c4a8ee7d562b9ab3280196f1c36867c70634ef1e3c7f46324d36cb52fb624a3",
+    "tests/runtime_scripts/omega_industrial_restart.js": "9c29c83a0a0e8a3281a5fddcd4d1fd0db938012d2bfce8c31ae543b23c821e0a",
+    "tests/runtime_scripts/omega_industrial_smoke.js": "2b1d46e75c8282b5e77a3b1e7302957f4a1c515db9bb283de8c8dd73dca29898",
+    "tests/test_pack.py": "c4a11f350e39c86449f0fa01d05dd037c223b807f99f323bfa3e27d5fb65f50d",
+    "tools/generate_quests.py": "2fef67b508ed8491623647549bb18bb7d04ede6edbc22aa0d36e8230d01a62ba",
+    "tools/validate_plan.py": "1f7c65fc98cc5ce8e4ceec314b6e03cfa186da365d22bfaac9ba0493319d965b"
+  }
+}

@@ -204,6 +204,8 @@ def validate():
 
     local_links = 0
     for path in ROOT.rglob('*.md'):
+        if any(part in {'.work', 'dist', '.git', '__pycache__'} for part in path.relative_to(ROOT).parts):
+            continue
         content = path.read_text(encoding='utf-8')
         for match in re.finditer(r'!?\[[^\]\n]*\]\(([^)\n]+)\)', content):
             target = match.group(1).split(' "', 1)[0].strip('<>')

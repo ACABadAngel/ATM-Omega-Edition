@@ -1296,14 +1296,725 @@
       "description": {
         "en_us": [
           "Combine four Source Gems, two Arcane Binder, one Runic Crystal, one Spirit Attuned Gem and one Wilden Tribute.",
-          "The craft connects mechanical infrastructure, electricity, both magic material paths and a native boss drop. Industrial progression and custom Omega bosses remain future work. Back up before the next update."
+          "Continue into Industrial Age with latex, processors and digital storage. Custom Omega bosses remain future work; back up before updating."
         ],
         "de_de": [
           "Verbinde vier Source Gems, zwei arkane Binder, einen Runenkristall, einen Spirit Attuned Gem und einen Wilden Tribute.",
-          "Der Craft verbindet Mechanik, Elektrizität, beide Magiematerialpfade und einen nativen Bossdrop. Industrielle Progression und eigene Omega-Bosse folgen später. Sichere vor dem nächsten Update deine Welt."
+          "Weiter geht es mit Latex, Prozessoren und digitalem Lager im Industriezeitalter. Eigene Omega-Bosse folgen später; sichere deine Welt vor Updates."
         ]
       },
       "x": 16,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000027",
+      "chapter_id": "0100000000000004",
+      "key": "industrial_entry",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000026"
+      ],
+      "items": [
+        {
+          "id": "omega:arcane_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Connect the workshop",
+        "de_de": "Die Werkstatt verbinden"
+      },
+      "description": {
+        "en_us": [
+          "This chapter joins AE2 storage, Industrial Foregoing latex processing and Mekanism chemistry. Keep expanding Mechanical and Electrical Core production.",
+          "Several entry crafts consume Arcane Cores. Plan repeatable Wilden Tribute collection and source generation. Quests guide the order; native later content still needs a complete gate audit."
+        ],
+        "de_de": [
+          "Dieses Kapitel verbindet AE2-Lager, Industrial-Foregoing-Latexverarbeitung und Mekanism-Chemie. Erweitere die Fertigung mechanischer und elektrischer Kerne.",
+          "Mehrere Einstiegsrezepte verbrauchen arkane Kerne. Plane wiederholbare Wilden-Tribute-Beschaffung und Source-Erzeugung. Die Quests führen durch den Abschnitt; spätere native Inhalte benötigen noch einen vollständigen Gate-Audit."
+        ]
+      },
+      "x": 0,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000028",
+      "chapter_id": "0100000000000004",
+      "key": "certus_charger",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000027"
+      ],
+      "items": [
+        {
+          "id": "ae2:charger",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Charge Certus Quartz",
+        "de_de": "Certus-Quarz laden"
+      },
+      "description": {
+        "en_us": [
+          "Find an AE2 meteorite and Certus Quartz. Craft a Charger with its native recipe and supply FE from your existing electrical workshop.",
+          "Open the AE2 GuideME guide for meteorites, budding quartz and growth. Newly added meteorites require unexplored chunks."
+        ],
+        "de_de": [
+          "Finde einen AE2-Meteoriten und Certus-Quarz. Fertige einen Charger nach nativem Rezept und versorge ihn aus deiner elektrischen Werkstatt mit FE.",
+          "Nutze den AE2-GuideME-Leitfaden für Meteoriten, knospenden Quarz und Wachstum. Neue Meteoriten benötigen unerforschte Chunks."
+        ]
+      },
+      "x": 2,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000029",
+      "chapter_id": "0100000000000004",
+      "key": "fluix",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000028"
+      ],
+      "items": [
+        {
+          "id": "ae2:charged_certus_quartz_crystal",
+          "count": 1
+        },
+        {
+          "id": "ae2:fluix_crystal",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Fluix crystal bootstrap",
+        "de_de": "Fluix-Kristalle herstellen"
+      },
+      "description": {
+        "en_us": [
+          "Charge Certus Quartz. Drop Charged Certus, Nether Quartz and Redstone together into water for the native Fluix reaction.",
+          "Keep additional charged quartz for future batches. Charging and crystal conversion are different operations."
+        ],
+        "de_de": [
+          "Lade Certus-Quarz. Wirf geladenen Certus, Netherquarz und Redstone gemeinsam in Wasser für die native Fluix-Reaktion.",
+          "Behalte zusätzlichen geladenen Quarz für weitere Chargen. Laden und Kristallumwandlung sind unterschiedliche Arbeitsschritte."
+        ]
+      },
+      "x": 4,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000002A",
+      "chapter_id": "0100000000000004",
+      "key": "processor_inscriber",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000029"
+      ],
+      "items": [
+        {
+          "id": "ae2:inscriber",
+          "count": 1
+        },
+        {
+          "id": "ae2:logic_processor_press",
+          "count": 1
+        },
+        {
+          "id": "ae2:engineering_processor_press",
+          "count": 1
+        },
+        {
+          "id": "ae2:silicon_press",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Build the processor station",
+        "de_de": "Prozessorstation aufbauen"
+      },
+      "description": {
+        "en_us": [
+          "The Inscriber now needs five iron ingots, two pistons, copper and an Electrical Core. Obtain native presses through meteorite progression.",
+          "The native processor recipes retain their presses. The Omega Industrial Circuit is a separate PRESS recipe that consumes its plastic and reinforced alloy."
+        ],
+        "de_de": [
+          "Der Inscriber braucht jetzt fünf Eisenbarren, zwei Kolben, Kupfer und einen elektrischen Kern. Beschaffe native Pressformen über die Meteoritenprogression.",
+          "Native Prozessorrezepte behalten ihre Pressformen. Der Omega-Industrieschaltkreis ist ein eigenes PRESS-Rezept und verbraucht Kunststoff sowie verstärkte Legierung."
+        ]
+      },
+      "x": 6,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000002B",
+      "chapter_id": "0100000000000004",
+      "key": "logic_processors",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002A"
+      ],
+      "items": [
+        {
+          "id": "ae2:logic_processor",
+          "count": 2
+        },
+        {
+          "id": "ae2:engineering_processor",
+          "count": 2
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Native logic and engineering",
+        "de_de": "Native Logik und Technik"
+      },
+      "description": {
+        "en_us": [
+          "Use the appropriate presses for printed gold/diamond circuits and silicon. Combine the printed pieces with redstone in the Inscriber.",
+          "Read JEI for the exact native inputs and keep the presses. A powered Inscriber performs the actual processing; owning it alone is insufficient."
+        ],
+        "de_de": [
+          "Nutze passende Formen für gedruckte Gold-/Diamantschaltungen und Silizium. Verbinde die gedruckten Teile mit Redstone im Inscriber.",
+          "JEI zeigt die genauen nativen Eingaben. Behalte die Formen. Der versorgte Inscriber muss tatsächlich arbeiten; sein bloßer Besitz reicht nicht."
+        ]
+      },
+      "x": 8,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000002C",
+      "chapter_id": "0100000000000004",
+      "key": "me_acceptor",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000029"
+      ],
+      "items": [
+        {
+          "id": "ae2:energy_acceptor",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Supply an ME network",
+        "de_de": "Ein ME-Netz versorgen"
+      },
+      "description": {
+        "en_us": [
+          "Craft an Energy Acceptor with four iron ingots, four Quartz Glass and an Arcane Core. Connect an FE source.",
+          "Block and cable-part acceptors can still convert in both directions without another core. Native alternative power sources remain available."
+        ],
+        "de_de": [
+          "Fertige einen Energy Acceptor mit vier Eisenbarren, vier Quartz Glass und einem arkanen Kern. Schließe eine FE-Quelle an.",
+          "Block- und Kabelteil-Variante lassen sich weiterhin ohne weiteren Kern ineinander umwandeln. Native alternative Stromquellen bleiben verfügbar."
+        ]
+      },
+      "x": 6,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "100000000000002D",
+      "chapter_id": "0100000000000004",
+      "key": "me_terminal",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002B",
+        "100000000000002C"
+      ],
+      "items": [
+        {
+          "id": "ae2:fluix_glass_cable",
+          "count": 8
+        },
+        {
+          "id": "ae2:terminal",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "A terminal for your workshop",
+        "de_de": "Ein Terminal für die Werkstatt"
+      },
+      "description": {
+        "en_us": [
+          "Build Fluix Glass Cable and an ME Terminal using native recipes. Join the acceptor, storage and terminal into a continuous powered network.",
+          "A small controller-free network supports up to eight channels. Each connected device may consume a channel; an Industrial Core later unlocks the ME Controller."
+        ],
+        "de_de": [
+          "Fertige Fluix Glass Cable und ME Terminal nach nativem Rezept. Verbinde Acceptor, Lager und Terminal durchgängig mit Strom.",
+          "Ein kleines Netz ohne Controller unterstützt bis zu acht Kanäle. Angeschlossene Geräte können einen Kanal benötigen; der industrielle Kern schaltet später den ME Controller frei."
+        ]
+      },
+      "x": 10,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "100000000000002E",
+      "chapter_id": "0100000000000004",
+      "key": "me_cells",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002B"
+      ],
+      "items": [
+        {
+          "id": "ae2:cell_component_1k",
+          "count": 2
+        },
+        {
+          "id": "ae2:item_storage_cell_1k",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Start with small storage cells",
+        "de_de": "Mit kleinen Speicherzellen beginnen"
+      },
+      "description": {
+        "en_us": [
+          "Craft native 1k storage components and an item storage cell. Keep a separate empty 1k component for the Industrial Core recipe.",
+          "The milestone consumes bare components, not filled storage cells. Store valuable items only after checking that your network is powered and the cell is accessible."
+        ],
+        "de_de": [
+          "Fertige native 1k-Speicherkomponenten und eine Item-Speicherzelle. Behalte eine zusätzliche leere 1k-Komponente für den industriellen Kern.",
+          "Der Meilenstein verbraucht einzelne Bauteile und keine gefüllten Speicherzellen. Prüfe Strom und Zellzugriff, bevor du wertvolle Items einlagerst."
+        ]
+      },
+      "x": 10,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000002F",
+      "chapter_id": "0100000000000004",
+      "key": "me_drive",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002D",
+        "100000000000002E"
+      ],
+      "items": [
+        {
+          "id": "ae2:drive",
+          "count": 1
+        },
+        {
+          "id": "ae2:energy_cell",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Put the storage online",
+        "de_de": "Das Lager in Betrieb nehmen"
+      },
+      "description": {
+        "en_us": [
+          "The ME Drive uses four iron ingots, two Engineering Processors, two Fluix Glass Cables and an Arcane Core. Add an Energy Cell buffer.",
+          "Insert the item cell in the drive and use the terminal to store and retrieve a test stack. The quest detects items; it does not measure whether the network is online."
+        ],
+        "de_de": [
+          "Der ME Drive braucht vier Eisenbarren, zwei Engineering Processors, zwei Fluix Glass Cables und einen arkanen Kern. Ergänze einen Energy-Cell-Puffer.",
+          "Setze die Itemzelle in den Drive und lagere einen Teststack über das Terminal ein und aus. Die Quest erkennt Items und misst nicht, ob das Netz online ist."
+        ]
+      },
+      "x": 12,
+      "y": 2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000030",
+      "chapter_id": "0100000000000004",
+      "key": "latex_extractor",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000027"
+      ],
+      "items": [
+        {
+          "id": "industrialforegoing:fluid_extractor",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Extract latex from logs",
+        "de_de": "Latex aus Stämmen gewinnen"
+      },
+      "description": {
+        "en_us": [
+          "The Fluid Extractor recipe uses an Electrical Core instead of the Pity Machine Frame. Point its working side at a suitable log.",
+          "It can work slowly without FE; powered operation improves yield. Acacia logs have a better native latex yield than oak. Logs eventually change or break."
+        ],
+        "de_de": [
+          "Das Fluid-Extractor-Rezept nutzt einen elektrischen Kern statt Pity Machine Frame. Richte die Arbeitsseite auf einen geeigneten Stamm aus.",
+          "Der Extractor kann langsam ohne FE arbeiten; versorgter Betrieb verbessert die Ausbeute. Akazie liefert nativ mehr Latex als Eiche. Stämme werden mit der Zeit verändert oder abgebaut."
+        ]
+      },
+      "x": 2,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000031",
+      "chapter_id": "0100000000000004",
+      "key": "latex_processor",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000030"
+      ],
+      "items": [
+        {
+          "id": "industrialforegoing:latex_processing_unit",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Process latex with water",
+        "de_de": "Latex mit Wasser verarbeiten"
+      },
+      "description": {
+        "en_us": [
+          "Craft the Latex Processing Unit with four iron ingots, redstone block, two buckets, a furnace and an Arcane Core. Supply FE, latex and water.",
+          "In this pinned build, 750 mB latex and 500 mB water produce one Dry Rubber directly. It does not use the older tiny-rubber crafting chain."
+        ],
+        "de_de": [
+          "Fertige die Latex Processing Unit aus vier Eisenbarren, Redstoneblock, zwei Eimern, Ofen und arkanem Kern. Versorge sie mit FE, Latex und Wasser.",
+          "Dieser festgelegte Build erzeugt direkt einen Dry Rubber aus 750 mB Latex und 500 mB Wasser. Die ältere Kleingummi-Craftingkette gilt hier nicht."
+        ]
+      },
+      "x": 4,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000032",
+      "chapter_id": "0100000000000004",
+      "key": "plastic",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000031"
+      ],
+      "items": [
+        {
+          "id": "industrialforegoing:plastic",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Make plastic in batches",
+        "de_de": "Kunststoff in Chargen herstellen"
+      },
+      "description": {
+        "en_us": [
+          "Smelt Dry Rubber in a furnace to obtain plastic. Stockpile it for circuits and the Industrial Core.",
+          "Route latex and water into the appropriate inputs. Keep water generation continuous and check fluid-side configuration before connecting pipes."
+        ],
+        "de_de": [
+          "Schmelze Dry Rubber im Ofen zu Kunststoff. Lege Vorräte für Schaltkreise und den industriellen Kern an.",
+          "Führe Latex und Wasser in passende Eingänge. Versorge Wasser kontinuierlich und prüfe die Fluid-Seiteneinstellungen vor dem Anschluss von Rohren."
+        ]
+      },
+      "x": 6,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000033",
+      "chapter_id": "0100000000000004",
+      "key": "reinforced_alloy",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000027"
+      ],
+      "items": [
+        {
+          "id": "mekanism:alloy_reinforced",
+          "count": 4
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Diamond infusion",
+        "de_de": "Diamantinfusion"
+      },
+      "description": {
+        "en_us": [
+          "Crush diamonds into Diamond Dust, then infuse Infused Alloy using the diamond type. Two dust supply the 20 infusion units needed for one Reinforced Alloy; Enriched Diamond is a more efficient native alternative.",
+          "Keep a separate infuser or clear its remaining infusion before switching types. This step reuses the electrical production workshop."
+        ],
+        "de_de": [
+          "Zerkleinere Diamanten zu Diamond Dust und infundiere Infused Alloy mit dem Diamanttyp. Zwei Staub liefern die 20 Infusionseinheiten für eine Reinforced Alloy; Enriched Diamond ist eine effizientere native Alternative.",
+          "Nutze einen getrennten Infuser oder entferne verbliebene Infusion vor dem Wechsel. Dieser Schritt erweitert die elektrische Werkstatt."
+        ]
+      },
+      "x": 4,
+      "y": -4,
+      "reward": null
+    },
+    {
+      "id": "1000000000000034",
+      "chapter_id": "0100000000000004",
+      "key": "water_separation",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000033"
+      ],
+      "items": [
+        {
+          "id": "mekanism:electrolytic_separator",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Split water into gases",
+        "de_de": "Wasser in Gase aufteilen"
+      },
+      "description": {
+        "en_us": [
+          "Supply water and FE to a native Electrolytic Separator. It produces hydrogen and oxygen in separate chemical tanks.",
+          "The machine stops when either output is full. Configure both outputs; native excess-dump settings can keep one useful output running."
+        ],
+        "de_de": [
+          "Versorge einen nativen Electrolytic Separator mit Wasser und FE. Er erzeugt Wasserstoff und Sauerstoff in getrennten Chemietanks.",
+          "Die Maschine stoppt, sobald ein Ausgang voll ist. Konfiguriere beide Ausgänge; native Überschuss-Einstellungen können die Erzeugung des benötigten Gases ermöglichen."
+        ]
+      },
+      "x": 6,
+      "y": -4,
+      "reward": null
+    },
+    {
+      "id": "1000000000000035",
+      "chapter_id": "0100000000000004",
+      "key": "chemical_tanks",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000034"
+      ],
+      "items": [
+        {
+          "id": "mekanism:basic_chemical_tank",
+          "count": 2
+        },
+        {
+          "id": "mekanism:basic_pressurized_tube",
+          "count": 8
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Route both chemical outputs",
+        "de_de": "Beide Chemieausgänge anschließen"
+      },
+      "description": {
+        "en_us": [
+          "Use native pressurized tubes and chemical tanks for hydrogen and oxygen. Mechanical pipes carry liquids; pressurized tubes carry chemicals.",
+          "An item task only detects the tanks, not their contents. Check the machine and tank displays to confirm actual production and transfer."
+        ],
+        "de_de": [
+          "Nutze native Druckrohre und Chemietanks für Wasserstoff und Sauerstoff. Mechanische Rohre führen Flüssigkeiten, Druckrohre Chemikalien.",
+          "Die Item-Aufgabe erkennt nur Tanks, nicht ihren Inhalt. Prüfe die Anzeigen an Maschine und Tank für tatsächliche Produktion und Übertragung."
+        ]
+      },
+      "x": 8,
+      "y": -4,
+      "reward": null
+    },
+    {
+      "id": "1000000000000036",
+      "chapter_id": "0100000000000004",
+      "key": "chemical_cell",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002E",
+        "1000000000000035"
+      ],
+      "items": [
+        {
+          "id": "appmek:chemical_cell_housing",
+          "count": 1
+        },
+        {
+          "id": "appmek:chemical_storage_cell_1k",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Store chemicals in ME",
+        "de_de": "Chemikalien im ME-Netz speichern"
+      },
+      "description": {
+        "en_us": [
+          "Applied Mekanistics adds chemical cells for your AE2 drive. Craft a chemical cell housing and combine it with a 1k component.",
+          "Use the native interfaces and terminal support for Mekanism chemical keys. Keep a separate bare housing for the Industrial Core; do not dismantle a filled cell."
+        ],
+        "de_de": [
+          "Applied Mekanistics ergänzt Chemiezellen für den AE2-Drive. Fertige ein Chemiezellgehäuse und kombiniere es mit einer 1k-Komponente.",
+          "Nutze native Schnittstellen und Terminal-Unterstützung für Mekanism-Chemikalien. Behalte ein separates leeres Gehäuse für den industriellen Kern; zerlege keine gefüllte Zelle."
+        ]
+      },
+      "x": 12,
+      "y": -4,
+      "reward": null
+    },
+    {
+      "id": "1000000000000037",
+      "chapter_id": "0100000000000004",
+      "key": "industrial_circuit",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002A",
+        "1000000000000032",
+        "1000000000000033"
+      ],
+      "items": [
+        {
+          "id": "omega:industrial_circuit",
+          "count": 2
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Press the shared industrial circuit",
+        "de_de": "Gemeinsamen Industrieschaltkreis pressen"
+      },
+      "description": {
+        "en_us": [
+          "In the Inscriber place plastic in the top slot, an Electrical Core in the middle, and Reinforced Alloy in the bottom. Supply FE.",
+          "This is PRESS mode: all three materials are consumed for ONE Industrial Circuit. Make two circuits for the milestone."
+        ],
+        "de_de": [
+          "Lege im Inscriber Kunststoff oben, einen elektrischen Kern in die Mitte und Reinforced Alloy unten ein. Versorge ihn mit FE.",
+          "Dieses Rezept nutzt PRESS-Modus: Alle drei Zutaten werden für EINEN Industrieschaltkreis verbraucht. Fertige zwei Schaltkreise für den Meilenstein."
+        ]
+      },
+      "x": 10,
+      "y": -2,
+      "reward": null
+    },
+    {
+      "id": "1000000000000038",
+      "chapter_id": "0100000000000004",
+      "key": "industrial_core",
+      "age": "A05",
+      "dependencies": [
+        "100000000000002F",
+        "1000000000000036",
+        "1000000000000037"
+      ],
+      "items": [
+        {
+          "id": "omega:industrial_core",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Industrial Core",
+        "de_de": "Industrieller Kern"
+      },
+      "description": {
+        "en_us": [
+          "Combine four plastic, two Industrial Circuits, an empty chemical cell housing, an Arcane Core and a bare 1k storage component.",
+          "The recipe combines biological feedstock, native diamond infusion, AE2 processing, chemical-storage components and the earlier magic milestone. Filled storage cells are not ingredients."
+        ],
+        "de_de": [
+          "Verbinde vier Kunststoff, zwei Industrieschaltkreise, ein leeres Chemiezellgehäuse, einen arkanen Kern und eine einzelne 1k-Speicherkomponente.",
+          "Das Rezept verbindet biologische Rohstoffe, native Diamantinfusion, AE2-Verarbeitung, Chemiespeicher-Bauteile und den Magiemeilenstein. Gefüllte Speicherzellen sind keine Zutaten."
+        ]
+      },
+      "x": 14,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "1000000000000039",
+      "chapter_id": "0100000000000004",
+      "key": "me_controller",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000038"
+      ],
+      "items": [
+        {
+          "id": "ae2:controller",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Expand beyond eight channels",
+        "de_de": "Über acht Kanäle hinaus erweitern"
+      },
+      "description": {
+        "en_us": [
+          "Craft a controller from four Smooth Sky Stone, four Fluix Crystals and an Industrial Core. Read the native guide for channel routing and controller structure rules.",
+          "The old controller recipe is removed. Build your network capacity around real demand and provide enough generation and buffering."
+        ],
+        "de_de": [
+          "Fertige einen Controller aus vier Smooth Sky Stone, vier Fluix-Kristallen und einem industriellen Kern. Der native Leitfaden erklärt Kanäle und Controller-Strukturregeln.",
+          "Das alte Controller-Rezept ist entfernt. Plane die Netzkapazität nach Bedarf und ergänze passende Erzeugung sowie Energiespeicher."
+        ]
+      },
+      "x": 16,
+      "y": 0,
+      "reward": null
+    },
+    {
+      "id": "100000000000003A",
+      "chapter_id": "0100000000000004",
+      "key": "automation_handoff",
+      "age": "A05",
+      "dependencies": [
+        "1000000000000039"
+      ],
+      "items": [
+        {
+          "id": "ae2:molecular_assembler",
+          "count": 1
+        },
+        {
+          "id": "ae2:pattern_provider",
+          "count": 1
+        }
+      ],
+      "consume": false,
+      "title": {
+        "en_us": "Prepare native autocrafting",
+        "de_de": "Natives Autocrafting vorbereiten"
+      },
+      "description": {
+        "en_us": [
+          "Build a Molecular Assembler and Pattern Provider. The native guide explains crafting CPUs, encoded patterns and the additional parts needed for a working system.",
+          "Test a small recipe before expanding the factory. This quest detects two parts, not a completed autocrafting job. Dimensional Age and later Omega systems remain planned."
+        ],
+        "de_de": [
+          "Fertige einen Molecular Assembler und Pattern Provider. Der native Leitfaden erklärt Crafting-CPUs, kodierte Muster und weitere Bauteile für ein funktionierendes System.",
+          "Prüfe ein kleines Rezept, bevor du die Fabrik erweiterst. Diese Quest erkennt zwei Bauteile und keinen abgeschlossenen Autocrafting-Auftrag. Dimensionszeitalter und spätere Omega-Systeme bleiben geplant."
+        ]
+      },
+      "x": 18,
       "y": 0,
       "reward": null
     }
@@ -1323,6 +2034,14 @@
       "title": {
         "en_us": "03 • From Power to Source",
         "de_de": "03 • Von Strom zu Magie"
+      }
+    },
+    {
+      "id": "0100000000000004",
+      "filename": "04_from_source_to_industry",
+      "title": {
+        "en_us": "04 • From Source to Industry",
+        "de_de": "04 • Von Magie zur Industrie"
       }
     }
   ]

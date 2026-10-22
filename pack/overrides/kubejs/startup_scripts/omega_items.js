@@ -30,4 +30,8 @@ StartupEvents.registry('item', event => {
     .texture('minecraft:item/slime_ball').color(0, 0xB978DF);
   event.create('omega:arcane_core')
     .texture('minecraft:item/heart_of_the_sea').color(0, 0xB37DF1).maxStackSize(16);
+  event.create('omega:industrial_circuit')
+    .texture('minecraft:item/netherite_scrap').color(0, 0x78C9C0);
+  event.create('omega:industrial_core')
+    .texture('minecraft:item/heart_of_the_sea').color(0, 0xA5BCD2).maxStackSize(16);
 });

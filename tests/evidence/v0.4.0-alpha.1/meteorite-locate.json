@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "seed": 4202103,
+  "command": "locate structure ae2:meteorite",
+  "x": -736,
+  "z": -400,
+  "distance_blocks": 622,
+  "scope": "native structure locator in newly generated world; no manual placement; not a physical chest or loot survey"
+}

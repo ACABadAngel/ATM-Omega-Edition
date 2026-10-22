@@ -8,5 +8,7 @@
   "item.omega.electrical_core": "Electrical Core",
   "item.omega.runic_crystal": "Runic Crystal",
   "item.omega.arcane_binder": "Arcane Binder",
-  "item.omega.arcane_core": "Omega Arcane Core"
+  "item.omega.arcane_core": "Omega Arcane Core",
+  "item.omega.industrial_circuit": "Industrial Circuit",
+  "item.omega.industrial_core": "Industrial Core"
 }

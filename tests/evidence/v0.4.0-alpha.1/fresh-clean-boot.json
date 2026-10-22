@@ -1,0 +1,20 @@
+{
+  "success": true,
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.264",
+  "seed": 4202103,
+  "world": "new disposable world",
+  "test_fixtures_installed": false,
+  "server_scripts_loaded": 4,
+  "recipe_additions": 25,
+  "recipe_removals": 12,
+  "recipe_failures": 0,
+  "chapters": 4,
+  "quests": 58,
+  "locales": 2,
+  "kubejs_script_errors": 0,
+  "invalid_curios_slots": false,
+  "mekanism_reflection_warning": false,
+  "client_playtest": "not_run",
+  "five_seed_resource_survey": "not_run"
+}

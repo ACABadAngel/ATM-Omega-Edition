@@ -32,7 +32,7 @@ ServerEvents.loaded(event => {
         var result = found.get().value().assemble(input, server.registryAccess());
         check(itemId(result) === expected && result.getCount() === count, 'Crafting returns ' + count + ' ' + expected);
       }
-      for (var id of ['plant_fiber', 'tree_resin', 'primitive_core', 'pressed_core', 'mechanical_core', 'infernal_essence', 'electrical_core', 'runic_crystal', 'arcane_binder', 'arcane_core']) {
+      for (var id of ['plant_fiber', 'tree_resin', 'primitive_core', 'pressed_core', 'mechanical_core', 'infernal_essence', 'electrical_core', 'runic_crystal', 'arcane_binder', 'arcane_core', 'industrial_circuit', 'industrial_core']) {
         check(Item.exists('omega:' + id), 'Registered omega:' + id);
       }
       craft(['minecraft:wheat'], 'omega:plant_fiber', 1);
@@ -55,7 +55,7 @@ ServerEvents.loaded(event => {
         'Pressed Core uses the native Create pressing recipe type');
 
       var file = OmegaQuestFile.INSTANCE;
-      check(file !== null && file.getAllChapters().size() === 3, 'Three real FTB chapters loaded');
+      check(file !== null && file.getAllChapters().size() >= 3, 'Three real FTB chapters loaded');
       var chapter = file.getAllChapters().get(0);
       check(chapter.getQuests().size() === 12, 'Twelve real FTB quests loaded');
       check(String(chapter.getRawTitle()).indexOf('Survival') >= 0, 'English quest translation resolves');

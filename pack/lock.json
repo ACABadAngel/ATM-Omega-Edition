@@ -1,9 +1,43 @@
 {
   "schema_version": 1,
-  "generated_date": "2026-10-21",
+  "generated_date": "2026-10-22",
   "minecraft": "1.21.1",
   "neoforge": "21.1.264",
   "mods": [
+    {
+      "id": "ae2",
+      "name": "Applied Energistics 2",
+      "version": "19.2.18",
+      "filename": "appliedenergistics2-19.2.18.jar",
+      "provider": "modrinth",
+      "project_id": "XxWD5pD3",
+      "version_id": "KDnFUmMm",
+      "source": "https://modrinth.com/mod/ae2",
+      "source_code": "https://github.com/AppliedEnergistics/Applied-Energistics-2",
+      "license": "LicenseRef-Multiple",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/KDnFUmMm/appliedenergistics2-19.2.18.jar",
+      "size": 8236552,
+      "hashes": {
+        "sha1": "bcd04bc7f181b2ffa314625f284c8eca6fee7fe4",
+        "sha512": "39bc4cf733a4321631e2637a1a6dfd3527135fdac1b572534e6fd1f9eab7a6dd92d56c5fa066263c95149c9b20cabdd1fd3dff80bea515381b1d2d754cad26c3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 223794,
+        "file_id": 8992605
+      },
+      "declared_required_mods": [
+        "guideme"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/KDnFUmMm",
+      "mod_ids": [
+        "ae2"
+      ],
+      "embedded_mod_ids": []
+    },
     {
       "id": "appleskin",
       "name": "AppleSkin",
@@ -33,6 +67,41 @@
       "metadata_source": "https://api.modrinth.com/v2/version/uAKA6Laj",
       "mod_ids": [
         "appleskin"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "applied_mekanistics",
+      "name": "Applied Mekanistics",
+      "version": "1.6.3",
+      "filename": "Applied-Mekanistics-1.6.3.jar",
+      "provider": "modrinth",
+      "project_id": "IiATswDj",
+      "version_id": "TpUCzFaW",
+      "source": "https://modrinth.com/mod/applied-mekanistics",
+      "source_code": "https://github.com/AppliedEnergistics/Applied-Mekanistics",
+      "license": "LGPL-3.0-only",
+      "url": "https://cdn.modrinth.com/data/IiATswDj/versions/TpUCzFaW/Applied-Mekanistics-1.6.3.jar",
+      "size": 149709,
+      "hashes": {
+        "sha512": "1a693c3c05862805bd88cf1265fd4b9b98b2da4efe986c9ff26efa0e675df14373983ffdf7ededb26f07864b6702fabc299ac1a06fb8fa35de0b341b596dbf9b",
+        "sha1": "bec4a47269ec23bca2329742e13409bfde69c5c3"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 574300,
+        "file_id": 7096962
+      },
+      "declared_required_mods": [
+        "ae2",
+        "mekanism"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/TpUCzFaW",
+      "mod_ids": [
+        "appmek"
       ],
       "embedded_mod_ids": []
     },
@@ -334,6 +403,72 @@
       "metadata_source": "https://api.modrinth.com/v2/version/Grwn5rUB",
       "mod_ids": [
         "geckolib"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "guideme",
+      "name": "GuideME",
+      "version": "21.1.19",
+      "filename": "guideme-21.1.19.jar",
+      "provider": "modrinth",
+      "project_id": "Ck4E7v7R",
+      "version_id": "hFpGwC6q",
+      "source": "https://modrinth.com/mod/guideme",
+      "source_code": "https://github.com/AppliedEnergistics/GuideME/",
+      "license": "LicenseRef-Multiple-OSS-Licenses",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/hFpGwC6q/guideme-21.1.19.jar",
+      "size": 9311992,
+      "hashes": {
+        "sha512": "4dfa132e5cfd69a86c958867067f1c5ab39bb69ae35b2a62c24bb9924e9c688f1a4930ab75d335b22378d9f98cd7fceae8d030812b8f90c9aa282de8ea129f5a",
+        "sha1": "e85cd4c266f974dd360c46e8dad7ecf4c7ee96c6"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 1173950,
+        "file_id": 8897145
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/hFpGwC6q",
+      "mod_ids": [
+        "guideme"
+      ],
+      "embedded_mod_ids": []
+    },
+    {
+      "id": "industrial_foregoing",
+      "name": "Industrial Foregoing",
+      "version": "1.21-3.6.27",
+      "filename": "industrialforegoing-1.21-3.6.27.jar",
+      "provider": "modrinth",
+      "project_id": "lWxpUd04",
+      "version_id": "erRsRPki",
+      "source": "https://modrinth.com/mod/industrial-foregoing",
+      "source_code": "https://github.com/Buuz135/Industrial-Foregoing",
+      "license": "MIT",
+      "url": "https://cdn.modrinth.com/data/lWxpUd04/versions/erRsRPki/industrialforegoing-1.21-3.6.27.jar",
+      "size": 4747295,
+      "hashes": {
+        "sha512": "2bbf101c323a71623ec48e745a2b798d83baf1b5d0c146a1816e6d1ecf4dd4299791d2a54a60a70ee8c0293c14029b7c5f1c40bf36e2838f38ff8bffa3326f04",
+        "sha1": "88ff21e4fa6e5c4cfb7cd5626cbcfdf424e704b5"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 266515,
+        "file_id": 6471695
+      },
+      "declared_required_mods": [
+        "titanium"
+      ],
+      "metadata_source": "https://api.modrinth.com/v2/version/erRsRPki",
+      "mod_ids": [
+        "industrialforegoing"
       ],
       "embedded_mod_ids": []
     },
@@ -705,6 +840,39 @@
         "smartbrainlib"
       ],
       "embedded_mod_ids": []
+    },
+    {
+      "id": "titanium",
+      "name": "Titanium",
+      "version": "1.21-4.0.51",
+      "filename": "titanium-1.21-4.0.51.jar",
+      "provider": "modrinth",
+      "project_id": "1Ro7m06l",
+      "version_id": "vbCgpf68",
+      "source": "https://modrinth.com/mod/titanium",
+      "source_code": "https://github.com/InnovativeOnlineIndustries/Titanium",
+      "license": "LGPL (JAR and CurseForge); MIT (Modrinth metadata)",
+      "url": "https://cdn.modrinth.com/data/1Ro7m06l/versions/vbCgpf68/titanium-1.21-4.0.51.jar",
+      "size": 608070,
+      "hashes": {
+        "sha512": "59a1470b5b3e103f52fa9c0f2f334bb3b28cdbaba74c95234528a40a558596d598227968e5812502a41a9ee24993b00c748cee913abae8fbb4ab7df79d04ab29",
+        "sha1": "aeb581ba5bdaac3bf3d48bee78488151e9c3dfd1"
+      },
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "curseforge": {
+        "project_id": 287342,
+        "file_id": 9129904
+      },
+      "declared_required_mods": [],
+      "metadata_source": "https://api.modrinth.com/v2/version/vbCgpf68",
+      "mod_ids": [
+        "titanium"
+      ],
+      "embedded_mod_ids": [],
+      "notes": "License metadata differs; preserve upstream notices and distribute only manifest/own overrides, no third-party JARs."
     }
   ],
   "installer": {

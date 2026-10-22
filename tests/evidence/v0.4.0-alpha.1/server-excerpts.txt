@@ -1,0 +1,109 @@
+SOURCE industrial-clean.log
+[07:48:34] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.219 s with 0 errors and 0 warnings
+[07:48:36] [main/INFO] [KubeJS Server/]: Loaded 4/4 KubeJS server scripts in 0.029 s with 0 errors and 0 warnings
+[07:48:38] [main/INFO] [KubeJS Server/]: Added 25 recipes, removed 12 recipes, modified 0 recipes, with 0 failed recipes taking 593 ms in total
+[07:48:47] [Server thread/INFO] [minecraft/DedicatedServer]: Done (7.604s)! For help, type "help"
+[07:48:47] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[07:48:47] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 4 chapters, 58 quests, 0 reward tables
+[07:49:51] [Server thread/INFO] [minecraft/MinecraftServer]: The nearest ae2:meteorite is at [-736, ~, -400] (622 blocks away)
+SOURCE industrial-chain-final.log
+[07:44:58] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.228 s with 0 errors and 0 warnings
+[07:45:00] [main/INFO] [KubeJS Server/]: Loaded 9/9 KubeJS server scripts in 0.058 s with 0 errors and 0 warnings
+[07:45:03] [main/INFO] [KubeJS Server/]: Added 25 recipes, removed 12 recipes, modified 0 recipes, with 0 failed recipes taking 857 ms in total
+[07:45:04] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.717s)! For help, type "help"
+[07:45:04] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[07:45:04] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 4 chapters, 58 quests, 0 reward tables
+[07:45:06] [Server thread/INFO] [KubeJS Server/]: [OMEGA RESTART] PASS
+[07:45:06] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 34 runtime checks
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA ARCANE RESTART] PASS
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Four FTB chapters import all 58 quests
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves omega:arcane_core
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:charger
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:charged_certus_quartz_crystal
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:fluix_crystal
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:inscriber
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:logic_processor_press
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:engineering_processor_press
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:silicon_press
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:logic_processor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:engineering_processor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:fluix_glass_cable
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:terminal
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:cell_component_1k
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:item_storage_cell_1k
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:drive
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:energy_cell
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves industrialforegoing:fluid_extractor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves industrialforegoing:latex_processing_unit
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves industrialforegoing:plastic
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves mekanism:alloy_reinforced
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves mekanism:electrolytic_separator
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves mekanism:basic_chemical_tank
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves mekanism:basic_pressurized_tube
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves appmek:chemical_cell_housing
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves appmek:chemical_storage_cell_1k
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves omega:industrial_circuit
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves omega:industrial_core
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:controller
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:molecular_assembler
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Quest item resolves ae2:pattern_provider
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Registered omega:industrial_circuit
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Registered omega:industrial_core
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for industrialforegoing:fluid_extractor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result industrialforegoing:fluid_extractor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for industrialforegoing:latex_processing_unit
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result industrialforegoing:latex_processing_unit
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:inscriber
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:inscriber
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:cable_energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:cable_energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:drive
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:drive
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for ae2:controller
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result ae2:controller
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] One crafting match for omega:industrial_core
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Correct craft result omega:industrial_core
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Industrial Core cannot consume a chemical storage cell
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Removed native base recipe ae2:network/blocks/energy_energy_acceptor
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Removed native base recipe ae2:network/blocks/inscribers
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Removed native base recipe ae2:network/blocks/storage_drive
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Removed native base recipe ae2:network/blocks/controller
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Industrial Circuit uses native AE2 inscriber recipe type
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Disposable test chunks forced loaded
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Test platform cleared
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native AE2 and Mekanism blocks placed
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native extractors face actual Acacia logs
+[07:45:08] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Coal generators placed and fueled
+[07:45:10] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] ME simulation accepts 128 copper
+[07:45:10] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] ME simulation does not write items
+[07:45:10] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Online native ME drive stores 128 copper
+[07:45:10] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native ME storage extracts 32 and retains 96 copper
+[07:45:14] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Coal-powered native Charger produces Charged Certus
+[07:45:15] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native INSCRIBE preserves reusable Logic Press
+[07:45:18] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Real water reaction makes two Fluix Crystals
+[07:45:22] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native silicon print preserves reusable Silicon Press
+[07:45:29] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Real diamond infusion produces two Reinforced Alloy
+[07:45:29] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native powered Inscriber assembles Logic Processor
+[07:45:32] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Real powered water electrolysis produces both native chemical outputs
+[07:45:32] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Applied Mekanistics stores 128 naturally produced chemical units
+[07:45:32] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Chemical cell returns 32 units and retains 96
+[07:46:05] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native PRESS consumes plastic, alloy and Electrical Core
+[07:46:35] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Native PRESS consumes plastic, alloy and Electrical Core
+[07:46:35] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] Real extractor to latex processor to furnace chain supplies both circuit plastics
+[07:46:35] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL] PASS
+SOURCE industrial-restart-final.log
+[07:47:19] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 0.227 s with 0 errors and 0 warnings
+[07:47:22] [main/INFO] [KubeJS Server/]: Loaded 8/8 KubeJS server scripts in 0.056 s with 0 errors and 0 warnings
+[07:47:24] [main/INFO] [KubeJS Server/]: Added 25 recipes, removed 12 recipes, modified 0 recipes, with 0 failed recipes taking 692 ms in total
+[07:47:26] [Server thread/INFO] [minecraft/DedicatedServer]: Done (0.917s)! For help, type "help"
+[07:47:26] [Server thread/INFO] [FTB Quests/]: loaded translation tables for 2 language(s)
+[07:47:26] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 4 chapters, 58 quests, 0 reward tables
+[07:47:29] [Server thread/INFO] [KubeJS Server/]: [OMEGA RESTART] PASS
+[07:47:29] [Server thread/INFO] [KubeJS Server/]: [OMEGA SMOKE] PASS 34 runtime checks
+[07:47:30] [Server thread/INFO] [KubeJS Server/]: [OMEGA ARCANE RESTART] PASS
+[07:47:31] [Server thread/INFO] [KubeJS Server/]: [OMEGA INDUSTRIAL RESTART] PASS

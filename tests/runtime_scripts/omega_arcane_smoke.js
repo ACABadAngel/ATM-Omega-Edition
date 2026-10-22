@@ -54,7 +54,7 @@ const omegaArcaneTest = server => {
     };
     try {
       var chapters=QuestFile.INSTANCE.getAllChapters();
-      check(chapters.size() === 3 && chapters.get(2).getQuests().size() === 16, 'Third real FTB chapter imports all 16 arcane quests');
+      check(chapters.size() >= 3 && chapters.get(2).getQuests().size() === 16, 'Third real FTB chapter imports all 16 arcane quests');
       for (var item of ['omega:runic_crystal','omega:arcane_binder','omega:arcane_core']) check(Item.exists(item),'Registered '+item);
       // Every quest item must exist, including third-party item names in the guide.
       for (var quest of chapters.get(2).getQuests()) for (var task of quest.getTasks()) {

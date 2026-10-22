@@ -66,7 +66,7 @@ ServerEvents.loaded(event => {
         'mekanism:ingot_steel', 'omega:infernal_essence', 'mekanism:ingot_steel',
         'mekanism:alloy_infused', 'omega:mechanical_core', 'mekanism:alloy_infused'], 'omega:electrical_core', 1);
       var chapters = QuestFile.INSTANCE.getAllChapters();
-      check(chapters.size() === 2 && chapters.get(0).getQuests().size() === 12 && chapters.get(1).getQuests().size() === 10,
+      check(chapters.size() >= 2 && chapters.get(0).getQuests().size() === 12 && chapters.get(1).getQuests().size() === 10,
         'Both bilingual quest chapters load: 12 preserved plus 10 electrical quests');
 
       server.runCommandSilent('forceload add 16 0 31 15');

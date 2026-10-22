@@ -1,0 +1,18 @@
+{
+	"success": true,
+	"failure": "",
+	"checks": [
+		"Two natively processed Industrial Circuits persist",
+		"Both test Industrial Core stacks persist",
+		"Native Logic Processor persists",
+		"Native water-reaction Fluix output persists",
+		"Saved ME drive comes online after full JVM restart",
+		"Item cell retains exactly 96 copper after restart",
+		"Chemical cell retains exactly 96 naturally produced units after restart",
+		"All four chapters and 20 industrial quests remain loaded",
+		"Original 120-sheet delivery is unchanged",
+		"Existing native boss-kill progress is unchanged"
+	],
+	"stored_copper": 96,
+	"stored_chemical": 96
+}

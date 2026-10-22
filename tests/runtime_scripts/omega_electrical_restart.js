@@ -31,7 +31,7 @@ ServerEvents.loaded(event => {
       var team = file.getOrCreateTeamData(UUID.fromString('00000000-0000-0000-0000-000000000123'));
       var delivery = file.getAllChapters().get(0).getQuests().get(9).getTasks().get(0);
       check(team.getProgress(delivery) === 120, 'Original alpha delivery progress remains 120');
-      check(file.getAllChapters().size() === 3 && file.getAllChapters().get(1).getQuests().size() === 10,
+      check(file.getAllChapters().size() >= 3 && file.getAllChapters().get(1).getQuests().size() === 10,
         'The new electrical chapter loads after restart');
     } catch (error) { failure = String(error); }
     JsonIO.write('kubejs/export/omega-electrical-restart.json', {

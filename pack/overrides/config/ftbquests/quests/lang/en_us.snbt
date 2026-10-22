@@ -1,8 +1,9 @@
 {
-  "file.0000000000000001.title": "ATM Omega Edition · 0.3.0-alpha.1",
+  "file.0000000000000001.title": "ATM Omega Edition · 0.4.0-alpha.1",
   "chapter.0100000000000001.title": "01 • From Survival to Motion",
   "chapter.0100000000000002.title": "02 • From Motion to Power",
   "chapter.0100000000000003.title": "03 • From Power to Source",
+  "chapter.0100000000000004.title": "04 • From Source to Industry",
   "quest.1000000000000001.title": "Welcome to Omega",
   "quest.1000000000000001.quest_desc": [
     "This alpha includes Primitive, Mechanical and Electrical progression.",
@@ -201,6 +202,106 @@
   "quest.1000000000000026.title": "Omega Arcane Core",
   "quest.1000000000000026.quest_desc": [
     "Combine four Source Gems, two Arcane Binder, one Runic Crystal, one Spirit Attuned Gem and one Wilden Tribute.",
-    "The craft connects mechanical infrastructure, electricity, both magic material paths and a native boss drop. Industrial progression and custom Omega bosses remain future work. Back up before the next update."
+    "Continue into Industrial Age with latex, processors and digital storage. Custom Omega bosses remain future work; back up before updating."
+  ],
+  "quest.1000000000000027.title": "Connect the workshop",
+  "quest.1000000000000027.quest_desc": [
+    "This chapter joins AE2 storage, Industrial Foregoing latex processing and Mekanism chemistry. Keep expanding Mechanical and Electrical Core production.",
+    "Several entry crafts consume Arcane Cores. Plan repeatable Wilden Tribute collection and source generation. Quests guide the order; native later content still needs a complete gate audit."
+  ],
+  "quest.1000000000000028.title": "Charge Certus Quartz",
+  "quest.1000000000000028.quest_desc": [
+    "Find an AE2 meteorite and Certus Quartz. Craft a Charger with its native recipe and supply FE from your existing electrical workshop.",
+    "Open the AE2 GuideME guide for meteorites, budding quartz and growth. Newly added meteorites require unexplored chunks."
+  ],
+  "quest.1000000000000029.title": "Fluix crystal bootstrap",
+  "quest.1000000000000029.quest_desc": [
+    "Charge Certus Quartz. Drop Charged Certus, Nether Quartz and Redstone together into water for the native Fluix reaction.",
+    "Keep additional charged quartz for future batches. Charging and crystal conversion are different operations."
+  ],
+  "quest.100000000000002A.title": "Build the processor station",
+  "quest.100000000000002A.quest_desc": [
+    "The Inscriber now needs five iron ingots, two pistons, copper and an Electrical Core. Obtain native presses through meteorite progression.",
+    "The native processor recipes retain their presses. The Omega Industrial Circuit is a separate PRESS recipe that consumes its plastic and reinforced alloy."
+  ],
+  "quest.100000000000002B.title": "Native logic and engineering",
+  "quest.100000000000002B.quest_desc": [
+    "Use the appropriate presses for printed gold/diamond circuits and silicon. Combine the printed pieces with redstone in the Inscriber.",
+    "Read JEI for the exact native inputs and keep the presses. A powered Inscriber performs the actual processing; owning it alone is insufficient."
+  ],
+  "quest.100000000000002C.title": "Supply an ME network",
+  "quest.100000000000002C.quest_desc": [
+    "Craft an Energy Acceptor with four iron ingots, four Quartz Glass and an Arcane Core. Connect an FE source.",
+    "Block and cable-part acceptors can still convert in both directions without another core. Native alternative power sources remain available."
+  ],
+  "quest.100000000000002D.title": "A terminal for your workshop",
+  "quest.100000000000002D.quest_desc": [
+    "Build Fluix Glass Cable and an ME Terminal using native recipes. Join the acceptor, storage and terminal into a continuous powered network.",
+    "A small controller-free network supports up to eight channels. Each connected device may consume a channel; an Industrial Core later unlocks the ME Controller."
+  ],
+  "quest.100000000000002E.title": "Start with small storage cells",
+  "quest.100000000000002E.quest_desc": [
+    "Craft native 1k storage components and an item storage cell. Keep a separate empty 1k component for the Industrial Core recipe.",
+    "The milestone consumes bare components, not filled storage cells. Store valuable items only after checking that your network is powered and the cell is accessible."
+  ],
+  "quest.100000000000002F.title": "Put the storage online",
+  "quest.100000000000002F.quest_desc": [
+    "The ME Drive uses four iron ingots, two Engineering Processors, two Fluix Glass Cables and an Arcane Core. Add an Energy Cell buffer.",
+    "Insert the item cell in the drive and use the terminal to store and retrieve a test stack. The quest detects items; it does not measure whether the network is online."
+  ],
+  "quest.1000000000000030.title": "Extract latex from logs",
+  "quest.1000000000000030.quest_desc": [
+    "The Fluid Extractor recipe uses an Electrical Core instead of the Pity Machine Frame. Point its working side at a suitable log.",
+    "It can work slowly without FE; powered operation improves yield. Acacia logs have a better native latex yield than oak. Logs eventually change or break."
+  ],
+  "quest.1000000000000031.title": "Process latex with water",
+  "quest.1000000000000031.quest_desc": [
+    "Craft the Latex Processing Unit with four iron ingots, redstone block, two buckets, a furnace and an Arcane Core. Supply FE, latex and water.",
+    "In this pinned build, 750 mB latex and 500 mB water produce one Dry Rubber directly. It does not use the older tiny-rubber crafting chain."
+  ],
+  "quest.1000000000000032.title": "Make plastic in batches",
+  "quest.1000000000000032.quest_desc": [
+    "Smelt Dry Rubber in a furnace to obtain plastic. Stockpile it for circuits and the Industrial Core.",
+    "Route latex and water into the appropriate inputs. Keep water generation continuous and check fluid-side configuration before connecting pipes."
+  ],
+  "quest.1000000000000033.title": "Diamond infusion",
+  "quest.1000000000000033.quest_desc": [
+    "Crush diamonds into Diamond Dust, then infuse Infused Alloy using the diamond type. Two dust supply the 20 infusion units needed for one Reinforced Alloy; Enriched Diamond is a more efficient native alternative.",
+    "Keep a separate infuser or clear its remaining infusion before switching types. This step reuses the electrical production workshop."
+  ],
+  "quest.1000000000000034.title": "Split water into gases",
+  "quest.1000000000000034.quest_desc": [
+    "Supply water and FE to a native Electrolytic Separator. It produces hydrogen and oxygen in separate chemical tanks.",
+    "The machine stops when either output is full. Configure both outputs; native excess-dump settings can keep one useful output running."
+  ],
+  "quest.1000000000000035.title": "Route both chemical outputs",
+  "quest.1000000000000035.quest_desc": [
+    "Use native pressurized tubes and chemical tanks for hydrogen and oxygen. Mechanical pipes carry liquids; pressurized tubes carry chemicals.",
+    "An item task only detects the tanks, not their contents. Check the machine and tank displays to confirm actual production and transfer."
+  ],
+  "quest.1000000000000036.title": "Store chemicals in ME",
+  "quest.1000000000000036.quest_desc": [
+    "Applied Mekanistics adds chemical cells for your AE2 drive. Craft a chemical cell housing and combine it with a 1k component.",
+    "Use the native interfaces and terminal support for Mekanism chemical keys. Keep a separate bare housing for the Industrial Core; do not dismantle a filled cell."
+  ],
+  "quest.1000000000000037.title": "Press the shared industrial circuit",
+  "quest.1000000000000037.quest_desc": [
+    "In the Inscriber place plastic in the top slot, an Electrical Core in the middle, and Reinforced Alloy in the bottom. Supply FE.",
+    "This is PRESS mode: all three materials are consumed for ONE Industrial Circuit. Make two circuits for the milestone."
+  ],
+  "quest.1000000000000038.title": "Industrial Core",
+  "quest.1000000000000038.quest_desc": [
+    "Combine four plastic, two Industrial Circuits, an empty chemical cell housing, an Arcane Core and a bare 1k storage component.",
+    "The recipe combines biological feedstock, native diamond infusion, AE2 processing, chemical-storage components and the earlier magic milestone. Filled storage cells are not ingredients."
+  ],
+  "quest.1000000000000039.title": "Expand beyond eight channels",
+  "quest.1000000000000039.quest_desc": [
+    "Craft a controller from four Smooth Sky Stone, four Fluix Crystals and an Industrial Core. Read the native guide for channel routing and controller structure rules.",
+    "The old controller recipe is removed. Build your network capacity around real demand and provide enough generation and buffering."
+  ],
+  "quest.100000000000003A.title": "Prepare native autocrafting",
+  "quest.100000000000003A.quest_desc": [
+    "Build a Molecular Assembler and Pattern Provider. The native guide explains crafting CPUs, encoded patterns and the additional parts needed for a working system.",
+    "Test a small recipe before expanding the factory. This quest detects two parts, not a completed autocrafting job. Dimensional Age and later Omega systems remain planned."
   ]
 }
